@@ -1,0 +1,13 @@
+{
+	"name": "swe-learning-plans",
+	"version": "0.2.0",
+	"description": "SWE Learning Plans",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [
+		"learning plan",
+		"multiverse",
+		"swe"
+	],
+	"author": "Matthew Gibbons <matthew.gibbons@multiverse.io>"
+}
