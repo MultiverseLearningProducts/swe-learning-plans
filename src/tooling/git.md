@@ -1,6 +1,6 @@
 # Git
 
-This learning plan is designed to help you learn how to use Git, which is a popular version control system used by software developers all over the world. Git was created by Linus Torvalds, the creator of the Linux operating system, in 2005, and it quickly became a popular tool for managing code.
+Git is a popular version control system used by software developers all over the world. Git was created by Linus Torvalds, the creator of the Linux operating system, in 2005, and it quickly became a popular tool for managing code.
 
 Git is a distributed version control system, which means that every developer has a complete copy of the repository on their local machine. This makes it easy for developers to work on code independently and collaborate effectively with each other.
 
@@ -28,38 +28,38 @@ By completing these tasks you should have a basic understanding of Git and be ab
    - [ ] Download and install Git on your system. You can find installation instructions for different operating systems on the Git website.
    - [ ] Set up your user name and email by running the following commands in your terminal:
 
-```sh
-$ git config --global user.name "Your Name"
-$ git config --global user.email "youremail@example.com"
-```
+      ```sh
+      $ git config --global user.name "Your Name"
+      $ git config --global user.email "youremail@example.com"
+      ```
 
-Configure your editor by running the following command and selecting your preferred editor:
+   - [ ] Configure your editor by running the following command and selecting your preferred editor:
 
-```sh
-$ git config --global core.editor <your-editor>
-```
+      ```sh
+      $ git config --global core.editor <your-editor>
+      ```
 
-Create your first repository by navigating to a folder where you want to store your project and running the following command:
+   - [ ] Create your first repository by navigating to a folder where you want to store your project and running the following command:
 
-```sh
-$ git init
-```
+      ```sh
+      $ git init
+      ```
 
 3. Basic Git Commands:
 
    - [ ] Learn basic Git commands like `git init`, `git add`, `git commit`, `git status`, and `git log`. These commands are essential to using Git effectively.
    - [ ] Practice using these commands by creating a small project, making some changes to it, and committing your changes. Here are some example commands you can run:
 
-```sh
-$ touch README.md                     # create a new file
-$ git add README.md                   # stage the file for commit
-$ git commit -m "Add README file"     # commit the changes
-$ echo "Hello, Git!" >> README.md     # make some changes to the file
-$ git status                          # see the status of your changes
-$ git diff                            # see the changes you made
-$ git commit -am "Update README file" # commit the changes
-$ git log                             # see the commit history
-```
+      ```sh
+      $ touch README.md                     # create a new file
+      $ git add README.md                   # stage the file for commit
+      $ git commit -m "Add README file"     # commit the changes
+      $ echo "Hello, Git!" >> README.md     # make some changes to the file
+      $ git status                          # see the status of your changes
+      $ git diff                            # see the changes you made
+      $ git commit -am "Update README file" # commit the changes
+      $ git log                             # see the commit history
+      ```
 
 ## 2. Branching and Collaboration
 
