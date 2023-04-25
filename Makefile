@@ -12,14 +12,14 @@ $(OUT_DIR)/%.html: $(SRC_DIR)/%.md
 	bin/pandoc $< -o $@
 
 # Convert each markdown file to PDF using pandoc, and output to corresponding directory in out/
-HTML_FILES := $(patsubst $(SRC_DIR)/%.md,$(OUT_DIR)/%.pdf,$(MARKDOWN_FILES))
+PDF_FILES := $(patsubst $(SRC_DIR)/%.md,$(OUT_DIR)/%.pdf,$(MARKDOWN_FILES))
 
 $(OUT_DIR)/%.pdf: $(SRC_DIR)/%.md
 	@mkdir -p $(@D)
 	bin/pandoc $< -o $@
 
 # Default target is to build all HTML files
-all: $(HTML_FILES)
+all: $(HTML_FILES) $(PDF_FILES)
 
 # Clean up output directory
 clean:
