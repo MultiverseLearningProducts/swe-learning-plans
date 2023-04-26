@@ -90,6 +90,7 @@ thing is to pace yourself and not try to rush through the material too quickly.
          child component.
 
 3. Practice creating components
+
    - [ ] Create simple components like buttons, forms, and other UI elements to
          gain proficiency in creating components.
    - [ ] Learn about component composition, where you can combine multiple
