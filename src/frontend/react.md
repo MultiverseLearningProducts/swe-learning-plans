@@ -32,7 +32,7 @@ testing frameworks like Jest and Enzyme.
 Overall, React is a powerful frontend framework that has gained popularity
 thanks to its performance, flexibility, and community support.
 
-## Day 1: Getting started with React
+## 1. Getting started with React
 
 - Start by understanding the basics of React and its core concepts.
 - Read the official React documentation and try to understand the concepts like
@@ -65,7 +65,7 @@ You may find that you want to spend more time on certain topics or skip over
 others based on your personal preferences and learning style. The important
 thing is to pace yourself and not try to rush through the material too quickly.
 
-## Day 2: Understanding Components
+## 2. Understanding Components
 
 - Learn how to create React components and the different types of components.
 - Understand the component lifecycle and the different methods involved in it.
@@ -103,7 +103,7 @@ Feel free to adjust the pace or order of topics based on your personal
 preferences and learning style. By the end of Day 2, you should have a good
 understanding of the fundamentals of the React library.
 
-## Day 3: Working with State and Props
+## 3. Working with State and Props
 
 - Learn how to work with state and props in React.
 - Understand how to pass data between components using props.
@@ -138,7 +138,7 @@ certain topics, or that you want to adjust the order based on your personal
 preferences and learning style. The important thing is to keep practising and
 building your skills as you go.
 
-## Day 4: Routing and API Integration
+## 4. Routing and API Integration
 
 - Learn how to handle routing in React using popular routing libraries like
   React Router.
@@ -178,7 +178,7 @@ want to adjust the order based on your personal preferences and learning style.
 The most important thing is to keep practising and building your skills as you
 go.
 
-## Day 5: Advanced React Concepts
+## 5. Advanced React Concepts
 
 - Learn advanced concepts like Redux, Higher-Order Components, and React Hooks.
 - Understand the importance of testing in React applications and learn how to
