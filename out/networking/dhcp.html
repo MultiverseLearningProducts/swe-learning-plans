@@ -1,0 +1,402 @@
+<h1 id="networking-dhcp">Networking: DHCP</h1>
+<p>This learning plan is designed to help you understand Dynamic Host
+Configuration Protocol (DHCP) and related protocols, which are
+fundamental to network administration and connectivity. DHCP is a
+protocol used to automatically assign IP addresses, as well as other
+network configuration settings, to devices on a network. By using DHCP,
+network administrators can simplify network management and reduce errors
+caused by manual IP address configuration.</p>
+<p>DHCP was first defined in 1993 by the Internet Engineering Task Force
+(IETF) in RFC 1531. Since then, DHCP has become a widely used protocol,
+with DHCPv4 being used for IPv4 networks and DHCPv6 being used for IPv6
+networks. Over time, DHCP has evolved to include more advanced features,
+such as relay agents, failover, and dynamic DNS updates.</p>
+<p>In this learning plan, you will start by learning the basics of DHCP,
+including how it works, the benefits of using DHCP, and the different
+types of DHCP messages. You will then move on to configuring a DHCP
+server, understanding the different DHCP configuration options
+available, and exploring the process of DHCP lease allocation and
+renewal. Next, you will learn about DHCPv6, which is used for IPv6
+networks, including its differences from DHCPv4 and the different types
+of DHCPv6 messages.</p>
+<p>After that, you will learn about the relationship between DHCP and
+DNS, including how DHCP can be used to automatically assign DNS server
+information to devices on a network, and explore the different DHCP
+options related to DNS configuration. Finally, you will learn about DHCP
+security threats and how to mitigate them, including the different types
+of DHCP attacks, such as rogue DHCP servers and DHCP spoofing, and best
+practices for securing DHCP servers and clients on a network.</p>
+<p>By completing this learning plan, you will have a comprehensive
+understanding of DHCP and related protocols, which will enable you to
+configure, manage, and troubleshoot networks more effectively.</p>
+<h2 id="introduction-to-dhcp">1. Introduction to DHCP</h2>
+<ul>
+<li>Learn what DHCP (Dynamic Host Configuration Protocol) is and how it
+works</li>
+<li>Understand the benefits of using DHCP to automatically assign IP
+addresses to devices on a network</li>
+<li>Explore the different types of DHCP messages and their purposes</li>
+</ul>
+<p>By completing these tasks, you should have a good understanding of
+what DHCP is, how it works, and the benefits and limitations of using
+DHCP in a network environment.</p>
+<h3 id="tasks">Tasks</h3>
+<ol type="1">
+<li><p>Learn what DHCP is and how it works:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Read introductory materials or watch videos
+to understand the basics of DHCP.</li>
+<li><input type="checkbox" />Understand the role of DHCP in assigning IP
+addresses to devices on a network.</li>
+<li><input type="checkbox" />Learn how DHCP can be used to manage IP
+address allocation on a network.</li>
+<li><input type="checkbox" />Explore how DHCP simplifies the IP address
+management process for network administrators.</li>
+</ul></li>
+<li><p>Understand the benefits of using DHCP to automatically assign IP
+addresses to devices on a network:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Identify the advantages of using DHCP, such
+as saving time and reducing errors in IP address assignment.</li>
+<li><input type="checkbox" />Learn how DHCP can help with network
+scalability and flexibility.</li>
+<li><input type="checkbox" />Understand how DHCP can be used to manage
+IP address conflicts.</li>
+</ul></li>
+<li><p>Explore the different types of DHCP messages and their
+purposes:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn about the four main DHCP message
+types: DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, and DHCPACK.</li>
+<li><input type="checkbox" />Understand the purpose of each message type
+in the DHCP process.</li>
+<li><input type="checkbox" />Learn how DHCP messages are used to
+allocate IP addresses and other configuration information to network
+devices.</li>
+</ul></li>
+<li><p>Additional tasks:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Try setting up a simple DHCP server and
+client on a virtual network to see DHCP in action.</li>
+<li><input type="checkbox" />Familiarize yourself with DHCP terminology,
+such as DHCP server, DHCP client, DHCP lease, and DHCP scope.</li>
+<li><input type="checkbox" />Read about the limitations and
+disadvantages of using DHCP, such as the need for additional security
+measures.</li>
+</ul></li>
+</ol>
+<h2 id="dhcp-configuration">2. DHCP Configuration</h2>
+<ul>
+<li>Learn how to configure a DHCP server on a network</li>
+<li>Understand the different configuration options available in
+DHCP</li>
+<li>Explore the process of DHCP lease allocation and renewal</li>
+</ul>
+<p>By completing these tasks, you should have a good understanding of
+how to configure a DHCP server, the different configuration options
+available, and the DHCP lease process. You will also have experience
+setting up a DHCP server in a test network environment and
+troubleshooting common DHCP configuration issues.</p>
+<h3 id="tasks-1">Tasks</h3>
+<ol type="1">
+<li><p>Learn how to configure a DHCP server on a network:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Research different DHCP server software
+options, such as ISC DHCP or Microsoft DHCP server, and choose one to
+work with.</li>
+<li><input type="checkbox" />Install and configure the DHCP server
+software on a test network environment.</li>
+<li><input type="checkbox" />Set up a DHCP scope with IP address ranges
+and other configuration settings.</li>
+<li><input type="checkbox" />Configure DHCP server options such as DNS
+servers, gateway IP addresses, and subnet masks.</li>
+</ul></li>
+<li><p>Understand the different configuration options available in
+DHCP:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn about the different types of DHCP
+options, such as subnet mask, default gateway, and DNS server
+settings.</li>
+<li><input type="checkbox" />Understand the role of DHCP options in
+configuring network devices automatically.</li>
+<li><input type="checkbox" />Familiarize yourself with DHCP option codes
+and how to configure them on a DHCP server.</li>
+</ul></li>
+<li><p>Explore the process of DHCP lease allocation and renewal:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how DHCP assigns IP addresses to
+clients through the DHCP lease process.</li>
+<li><input type="checkbox" />Understand the different DHCP lease
+durations and how they affect IP address allocation.</li>
+<li><input type="checkbox" />Explore the process of DHCP lease renewal
+and how it can impact network performance.</li>
+</ul></li>
+<li><p>Additional tasks:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Configure DHCP relay agents to enable DHCP
+requests to traverse multiple subnets.</li>
+<li><input type="checkbox" />Set up DHCP failover and redundancy to
+ensure high availability of DHCP services.</li>
+<li><input type="checkbox" />Troubleshoot DHCP configuration issues,
+such as IP address conflicts and misconfigured DHCP options.</li>
+</ul></li>
+</ol>
+<h2 id="dhcpv6">3. DHCPv6</h2>
+<ul>
+<li>Learn about DHCPv6, the DHCP protocol for IPv6 networks</li>
+<li>Understand the differences between DHCPv6 and DHCPv4</li>
+<li>Explore the different DHCPv6 messages and their purposes</li>
+</ul>
+<p>By completing these tasks, you should have a good understanding of
+DHCPv6, its differences from DHCPv4, and the different DHCPv6 message
+types and their purposes. You will also have hands-on experience
+configuring a DHCPv6 server and client and analyzing DHCPv6 message
+traffic.</p>
+<h3 id="tasks-2">Tasks</h3>
+<ol type="1">
+<li><p>Learn about DHCPv6, the DHCP protocol for IPv6 networks:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Understand why DHCPv6 was developed and
+what it aims to accomplish.</li>
+<li><input type="checkbox" />Learn about the role of DHCPv6 in IPv6
+address allocation and configuration.</li>
+<li><input type="checkbox" />Familiarize yourself with the key
+components of a DHCPv6 message.</li>
+</ul></li>
+<li><p>Understand the differences between DHCPv6 and DHCPv4:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Compare and contrast DHCPv6 and DHCPv4 in
+terms of their features and functionality.</li>
+<li><input type="checkbox" />Understand the differences in how DHCPv6
+and DHCPv4 handle IPv6 address assignment and configuration.</li>
+<li><input type="checkbox" />Learn about the different options available
+in DHCPv6 that are not present in DHCPv4.</li>
+</ul></li>
+<li><p>Explore the different DHCPv6 messages and their purposes:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn about the different DHCPv6 message
+types, including SOLICIT, ADVERTISE, REQUEST, REPLY, CONFIRM, RENEW,
+REBIND, RELEASE, DECLINE, and INFORMATION-REQUEST.</li>
+<li><input type="checkbox" />Understand the purpose of each DHCPv6
+message type and how they fit into the overall DHCPv6 message exchange
+process.</li>
+<li><input type="checkbox" />Familiarize yourself with the format and
+structure of DHCPv6 messages.</li>
+</ul></li>
+<li><p>Additional tasks:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Set up a test network environment and
+configure a DHCPv6 server and client.</li>
+<li><input type="checkbox" />Observe the DHCPv6 message exchange process
+and analyze the DHCPv6 message traffic using packet capture tools.</li>
+<li><input type="checkbox" />Configure DHCPv6 options such as DNS server
+addresses and other network parameters.</li>
+</ul></li>
+</ol>
+<h2 id="dns-and-dhcp">4. DNS and DHCP</h2>
+<ul>
+<li>Learn about the relationship between DNS (Domain Name System) and
+DHCP</li>
+<li>Understand how DHCP can be used to automatically assign DNS server
+information to devices on a network</li>
+<li>Explore the different DHCP options related to DNS configuration</li>
+</ul>
+<p>By completing these tasks, you should have a good understanding of
+the relationship between DNS and DHCP, how DHCP can be used to
+automatically assign DNS server information to clients, and the
+different DHCP options related to DNS configuration. You will also have
+hands-on experience configuring DNS server information through DHCP and
+troubleshooting common DNS configuration issues.</p>
+<h3 id="tasks-3">Tasks</h3>
+<ol type="1">
+<li><p>Learn about the relationship between DNS (Domain Name System) and
+DHCP:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Understand the role of DNS in resolving
+domain names to IP addresses on a network.</li>
+<li><input type="checkbox" />Learn about the relationship between DNS
+and DHCP in terms of automatic configuration of network devices.</li>
+<li><input type="checkbox" />Familiarize yourself with the different
+types of DNS records and their purposes.</li>
+</ul></li>
+<li><p>Understand how DHCP can be used to automatically assign DNS
+server information to devices on a network:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn about the process of DNS server
+assignment through DHCP.</li>
+<li><input type="checkbox" />Understand the advantages of using DHCP to
+automatically assign DNS server information.</li>
+<li><input type="checkbox" />Familiarize yourself with the different
+types of DHCP options related to DNS server assignment.</li>
+</ul></li>
+<li><p>Explore the different DHCP options related to DNS
+configuration:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn about DHCP option 6 (DNS server
+option) and its use in assigning DNS server information to clients.</li>
+<li><input type="checkbox" />Understand how DHCP option 15 (DNS domain
+name option) can be used to assign a DNS suffix to clients.</li>
+<li><input type="checkbox" />Familiarize yourself with other DHCP
+options related to DNS configuration, such as option 81 (Fully Qualified
+Domain Name) and option 119 (Domain Search List).</li>
+</ul></li>
+<li><p>Additional tasks:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Configure a test network environment with a
+DHCP server and client and configure DNS server information through
+DHCP.</li>
+<li><input type="checkbox" />Observe the DHCP message exchange process
+and analyze the DNS configuration options included in DHCP
+messages.</li>
+<li><input type="checkbox" />Troubleshoot DNS configuration issues, such
+as incorrect DNS server information or misconfigured DNS suffixes.</li>
+</ul></li>
+</ol>
+<h2 id="dhcp-security">5. DHCP Security</h2>
+<ul>
+<li>Learn about DHCP security threats and how to mitigate them</li>
+<li>Understand the different types of DHCP attacks, such as rogue DHCP
+servers and DHCP spoofing</li>
+<li>Explore best practices for securing DHCP servers and clients on a
+network</li>
+</ul>
+<p>By completing these tasks, you should have a good understanding of
+DHCP security threats and mitigation strategies, the different types of
+DHCP attacks, and best practices for securing DHCP servers and clients
+on a network. You will also have hands-on experience configuring DHCP
+security measures and analyzing DHCP server logs for potential security
+breaches.</p>
+<h3 id="tasks-4">Tasks</h3>
+<ol type="1">
+<li><p>Learn about DHCP security threats and how to mitigate them:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Understand the different types of DHCP
+security threats, including rogue DHCP servers, DHCP spoofing, and
+denial-of-service attacks.</li>
+<li><input type="checkbox" />Learn about the potential risks and
+consequences of DHCP security breaches.</li>
+<li><input type="checkbox" />Familiarize yourself with common DHCP
+security mitigation strategies, such as DHCP snooping and DHCPv6
+guard.</li>
+</ul></li>
+<li><p>Understand the different types of DHCP attacks, such as rogue
+DHCP servers and DHCP spoofing:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn about rogue DHCP servers and how they
+can be used to provide false or malicious configuration information to
+network clients.</li>
+<li><input type="checkbox" />Understand the concept of DHCP spoofing and
+how attackers can use it to intercept and modify DHCP messages.</li>
+<li><input type="checkbox" />Familiarize yourself with other types of
+DHCP attacks, such as DHCP starvation and DHCP exhaustion.</li>
+</ul></li>
+<li><p>Explore best practices for securing DHCP servers and clients on a
+network:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn about the importance of secure DHCP
+server configuration, such as disabling unnecessary services and
+limiting access to DHCP server interfaces.</li>
+<li><input type="checkbox" />Understand how to secure DHCP client
+devices, such as implementing MAC address filtering and disabling
+automatic network configuration.</li>
+<li><input type="checkbox" />Familiarize yourself with other best
+practices for securing DHCP servers and clients, such as using IPsec to
+encrypt DHCP traffic and regularly monitoring DHCP server logs.</li>
+</ul></li>
+<li><p>Additional tasks:</p>
+<ul class="task-list">
+<li><input type="checkbox" />Configure a test network environment with a
+DHCP server and client and simulate various DHCP attacks.</li>
+<li><input type="checkbox" />Implement DHCP security mitigation
+strategies, such as DHCP snooping and DHCPv6 guard, and observe their
+effects on DHCP traffic.</li>
+<li><input type="checkbox" />Analyze DHCP server logs for suspicious
+activity and identify potential security threats.</li>
+</ul></li>
+</ol>
+<h2 id="resources">Resources</h2>
+<p>Here are some free online resources that can help you learn about
+DHCP and related protocols:</p>
+<p><strong>Microsoft Docs: DHCP</strong>: Microsoft Docs provides a
+comprehensive guide to DHCP, including concepts, configuration, and
+troubleshooting. The guide covers both DHCPv4 and DHCPv6 and provides
+step-by-step instructions for configuring DHCP servers and clients.</p>
+<p><strong>Cisco Networking Academy: Dynamic Host Configuration Protocol
+(DHCP)</strong>: Cisco Networking Academy offers a free online course on
+DHCP, covering the fundamentals of DHCP, DHCPv6, and DNS integration.
+The course includes interactive activities, quizzes, and hands-on
+labs.</p>
+<p><strong>ISC: DHCP</strong>: The Internet Systems Consortium (ISC)
+provides a comprehensive guide to DHCP, including an overview of the
+DHCP protocol, installation and configuration guides for DHCP servers,
+and best practices for securing DHCP.</p>
+<p><strong>DHCP Handbook: A Guide to Dynamic TCP/IP Network
+Configuration</strong>: This online book provides a comprehensive guide
+to DHCP, covering both DHCPv4 and DHCPv6, and including configuration
+examples and troubleshooting tips.</p>
+<p><strong>DHCP Wikipedia Page</strong>: The Wikipedia page on DHCP
+provides a high-level overview of the DHCP protocol, including its
+purpose, operation, and history. It also includes links to related
+topics and resources.</p>
+<p>By using these free online resources, you can learn about DHCP and
+related protocols at your own pace and in your preferred format, whether
+it be through reading articles, watching videos, or completing
+interactive activities.</p>
+<h2 id="projects">Projects</h2>
+<p>Here are some project ideas you can consider to reinforce your
+understanding of DHCP and related protocols:</p>
+<p><strong>Set up a DHCP server on a virtual machine or Raspberry
+Pi</strong>: Put your DHCP knowledge into practice by setting up a DHCP
+server on a virtual machine or Raspberry Pi. You can configure different
+DHCP options and experiment with lease allocation and renewal.</p>
+<p><strong>Build a DHCP client application</strong>: Develop a custom
+DHCP client application that can request an IP address and other
+configuration information from a DHCP server. You can use a programming
+language of your choice and incorporate error handling and exception
+handling.</p>
+<p><strong>Implement DHCPv6 in a test network</strong>: Configure a test
+network with IPv6 addressing and implement DHCPv6 to automatically
+assign IP addresses and other configuration information to devices. You
+can experiment with different DHCPv6 options and observe their effects
+on network traffic.</p>
+<p><strong>Analyze DHCP logs for security threats</strong>: Collect DHCP
+server logs and use a log analysis tool to identify potential security
+threats, such as rogue DHCP servers or DHCP spoofing. You can create
+custom alerts and notifications for specific DHCP events.</p>
+<p><strong>Implement DHCP security measures</strong>: Configure DHCP
+snooping and DHCPv6 guard on a test network to prevent DHCP security
+threats, such as rogue DHCP servers and DHCP spoofing. You can simulate
+different types of DHCP attacks and observe how these security measures
+respond.</p>
+<p><strong>Integrate DHCP with DNS</strong>: Configure a DHCP server to
+automatically assign DNS server information to network clients. You can
+experiment with different DNS server options and observe how these
+affect network performance.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>Once you have completed your learning plan on DHCP and related
+protocols, here are some related topics you might consider
+exploring:</p>
+<p><strong>Network Addressing</strong>: Learn about IP addressing,
+subnetting, and routing. Understanding network addressing is essential
+for configuring DHCP servers and clients. Network protocols: Explore
+other network protocols, such as DNS, FTP, and HTTP, and learn how they
+interact with DHCP.</p>
+<p><strong>Network Security</strong>: Learn about network security
+principles, such as firewalls, encryption, and intrusion detection
+systems, and understand how DHCP security fits into an overall network
+security strategy.</p>
+<p><strong>Network Automation</strong>: Explore network automation
+tools, such as Ansible and Puppet, and learn how they can be used to
+automate network configuration tasks, including DHCP configuration.</p>
+<p><strong>Cloud Networking</strong>: Learn about networking in cloud
+environments, such as AWS, Azure, and Google Cloud, and understand how
+DHCP can be used to configure IP addresses and other network
+settings.</p>
+<p><strong>Network Performance</strong>: Explore network performance
+monitoring and optimization tools, such as Wireshark and Nagios, and
+learn how to troubleshoot network performance issues related to DHCP and
+other protocols.</p>
+<p>By expanding your knowledge beyond DHCP and related protocols, you
+can develop a more comprehensive understanding of networking principles
+and technologies, and gain practical skills that can help you in your
+career as a network administrator or engineer.</p>
