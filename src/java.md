@@ -208,7 +208,7 @@ Here are some project ideas that you could consider working on after completing 
 
 These are just a few project ideas that you could consider working on after completing your Java learning plan. They range from beginner to intermediate level, and they will help you test your understanding of Java programming concepts and build your portfolio.
 
-##Next Steps
+## Next Steps
 
 After completing your Java learning plan, here are some next steps you could consider:
 
