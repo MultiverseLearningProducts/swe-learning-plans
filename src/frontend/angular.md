@@ -45,18 +45,17 @@ framework is continuously improving and evolving.
    - [ ] Introduction to the TypeScript language and its benefits
    - [ ] Overview of TypeScript features, such as static typing, interfaces, and
          classes
-   - [ ] Installing TypeScript and setting up a development environment
-   - [ ] Writing and compiling a basic TypeScript program
+   - [ ] Install TypeScript and set up a development environment
    - [ ] Write a basic TypeScript program and compile it using the TypeScript
          compiler.
 
 2. TypeScript Fundamentals
 
-   - [ ] Understanding TypeScript types, including `number`, `string`,
-         `boolean`, `any`, and `void`
+   - [ ] Understand TypeScript types, including `number`, `string`, `boolean`,
+         `any`, and `void`
    - [ ] Declaring variables and using type annotations
    - [ ] Using interfaces to define object shapes and class contracts
-   - [ ] Understanding functions in TypeScript, including function types,
+   - [ ] Understand functions in TypeScript, including function types,
          parameters, and return types
    - [ ] Write a TypeScript program that uses types, variables, interfaces, and
          functions.
@@ -64,40 +63,39 @@ framework is continuously improving and evolving.
 3. Introduction to Angular
 
    - [ ] Overview of the Angular framework and its benefits
-   - [ ] Understanding Angular architecture, including modules, components, and
+   - [ ] Understand Angular architecture, including modules, components, and
          services
-   - [ ] Installing Angular and setting up a development environment
-   - [ ] Creating an Angular project using the Angular CLI
+   - [ ] Install Angular and setting up a development environment
    - [ ] Create an Angular project using the Angular CLI and explore the project
          structure.
 
 4. Angular Components
 
-   - [ ] Understanding Angular components and their role in the application
-   - [ ] Creating a basic Angular component
+   - [ ] Understand Angular components and their role in the application
+   - [ ] Create a basic Angular component
    - [ ] Using templates to display data in a component
-   - [ ] Understanding data binding and event binding in Angular
-   - [ ] Hands-on exercise: Create an Angular component and use data binding to
-         display data in the template.
+   - [ ] Understand data binding and event binding in Angular
+   - [ ] Create an Angular component and use data binding to display data in the
+         template.
 
 5. Angular Templates
 
    - [ ] Creating templates using Angular's built-in syntax
-   - [ ] Understanding template expressions, statements, and directives
+   - [ ] Understand template expressions, statements, and directives
    - [ ] Using structural directives like `ngIf `and `ngFor`
-   - [ ] Hands-on exercise: Create an Angular component with a template that
-         uses `ngIf `and `ngFor`.
+   - [ ] Create an Angular component with a template that uses `ngIf `and
+         `ngFor`.
 
 6. Angular Directives
-   - [ ] Understanding directives in Angular
+   - [ ] Understand directives in Angular
    - [ ] Creating custom directives
    - [ ] Using built-in directives like `ngStyle `and `ngClass`
-   - [ ] Hands-on exercise: Create a custom directive and use built-in
-         directives to manipulate the appearance of an Angular template.
+   - [ ] Create a custom directive and use built-in directives to manipulate the
+         appearance of an Angular template.
 
 ## 2. Components, Templates, and Directives
 
-- Understanding components and how they work in Angular
+- Understand components and how they work in Angular
 - Creating and using templates to display data
 - Using directives to manipulate the DOM and add logic to templates
 - Working with built-in directives like `ngIf`, `ngFor`, and `ngSwitch`
@@ -107,47 +105,45 @@ framework is continuously improving and evolving.
 1. Angular Components
 
    - [ ] Review of Angular components and how they work in the application
-   - [ ] Understanding component lifecycle hooks
+   - [ ] Understand component lifecycle hooks
    - [ ] Creating nested components in Angular
-   - [ ] Hands-on exercise: Create a nested Angular component and use lifecycle
-         hooks.
+   - [ ] Create a nested Angular component and use lifecycle hooks.
 
 2. Angular Templates
 
-   - [ ] Understanding template syntax in Angular
+   - [ ] Understand template syntax in Angular
    - [ ] Using interpolation and property binding to display data
    - [ ] Using event binding to handle user interactions
-   - [ ] Hands-on exercise: Create an Angular template with interpolation and
-         event binding.
+   - [ ] Create an Angular template with interpolation and event binding.
 
 3. Structural Directives
 
-   - [ ] Understanding structural directives like ngIf and ngFor
+   - [ ] Understand structural directives like ngIf and ngFor
    - [ ] Using ngSwitch to conditionally display content
-   - [ ] Hands-on exercise: Use ngIf, ngFor, and ngSwitch to conditionally
-         display content in an Angular template.
+   - [ ] Use ngIf, ngFor, and ngSwitch to conditionally display content in an
+         Angular template.
 
 4. Attribute Directives
 
-   - [ ] Understanding attribute directives in Angular
+   - [ ] Understand attribute directives in Angular
    - [ ] Creating custom attribute directives
-   - [ ] Hands-on exercise: Create a custom attribute directive in Angular.
+   - [ ] Create a custom attribute directive in Angular.
 
 5. Services and Dependency Injection
 
-   - [ ] Understanding services and how they work in Angular
+   - [ ] Understand services and how they work in Angular
    - [ ] Using dependency injection to provide services to components
    - [ ] Creating a basic service in Angular
-   - [ ] Hands-on exercise: Create a service in Angular and use dependency
-         injection to provide it to a component.
+   - [ ] Create a service in Angular and use dependency injection to provide it
+         to a component.
 
 6. Routing in Angular
 
-   - [ ] Understanding routing in Angular
+   - [ ] Understand routing in Angular
    - [ ] Creating routes in an Angular application
    - [ ] Using the Angular router to navigate between routes
-   - [ ] Hands-on exercise: Create routes in an Angular application and use the
-         Angular router to navigate between them.
+   - [ ] Create routes in an Angular application and use the Angular router to
+         navigate between them.
 
 ## 3. Forms and HTTP
 
@@ -160,51 +156,49 @@ framework is continuously improving and evolving.
 
 1. Reactive Forms
 
-   - [ ] Understanding reactive forms in Angular
+   - [ ] Understand reactive forms in Angular
    - [ ] Creating a basic reactive form in Angular
    - [ ] Using validators to validate form input
-   - [ ] Hands-on exercise: Create a reactive form in Angular and add validators
-         to it.
+   - [ ] Create a reactive form in Angular and add validators to it.
 
 2. Template-driven Forms
 
-   - [ ] Understanding template-driven forms in Angular
+   - [ ] Understand template-driven forms in Angular
    - [ ] Creating a basic template-driven form in Angular
    - [ ] Using built-in directives to validate form input
-   - [ ] Hands-on exercise: Create a template-driven form in Angular and use
-         built-in directives to validate form input.
+   - [ ] Create a template-driven form in Angular and use built-in directives to
+         validate form input.
 
 3. Observables and RxJS
 
-   - [ ] Understanding observables and how they work in Angular
+   - [ ] Understand observables and how they work in Angular
    - [ ] Using RxJS operators to manipulate observables
-   - [ ] Hands-on exercise: Create an observable in Angular and use RxJS
-         operators to manipulate it.
+   - [ ] Create an observable in Angular and use RxJS operators to manipulate
+         it.
 
 4. HTTP Requests in Angular
 
-   - [ ] Understanding how to make HTTP requests in Angular
+   - [ ] Understand how to make HTTP requests in Angular
    - [ ] Using Angular's built-in HttpClient module to make requests
    - [ ] Handling errors and using RxJS operators to manipulate responses
-   - [ ] Hands-on exercise: Make HTTP requests in an Angular application using
-         the HttpClient module.
+   - [ ] Make HTTP requests in an Angular application using the HttpClient
+         module.
 
 5. Authentication and Authorization
 
-   - [ ] Understanding authentication and authorization in Angular
+   - [ ] Understand authentication and authorization in Angular
    - [ ] Using JSON Web Tokens (JWT) for authentication and authorization
    - [ ] Implementing a basic authentication and authorization system in an
          Angular application
-   - [ ] Hands-on exercise: Implement a basic authentication and authorization
-         system in an Angular application using JWT.
+   - [ ] Implement a basic authentication and authorization system in an Angular
+         application using JWT.
 
 6. Deployment and Best Practices
 
-   - [ ] Understanding deployment options for Angular applications
+   - [ ] Understand deployment options for Angular applications
    - [ ] Best practices for building and deploying Angular applications
-   - [ ] Hands-on exercise: Deploy an Angular application using a popular
-         hosting service, and review best practices for building and deploying
-         Angular applications.
+   - [ ] Deploy an Angular application using a popular hosting service, and
+         review best practices for building and deploying Angular applications.
 
 ## 4. Advanced Angular Concepts
 
@@ -218,48 +212,46 @@ framework is continuously improving and evolving.
 
 1. NgRx
 
-   - [ ] Understanding the NgRx library for managing application state in
-         Angular
+   - [ ] Understand the NgRx library for managing application state in Angular
    - [ ] Creating a basic store in NgRx
    - [ ] Using NgRx effects to manage side effects in the application
-   - [ ] Hands-on exercise: Use NgRx to manage state in an Angular application.
+   - [ ] Use NgRx to manage state in an Angular application.
 
 2. Lazy Loading
 
-   - [ ] Understanding lazy loading in Angular and how it can improve
-         application performance
+   - [ ] Understand lazy loading in Angular and how it can improve application
+         performance
    - [ ] Configuring lazy loading in an Angular application
-   - [ ] Hands-on exercise: Implement lazy loading in an Angular application.
+   - [ ] Implement lazy loading in an Angular application.
 
 3. Angular Material
 
-   - [ ] Understanding the Angular Material library for UI components in Angular
+   - [ ] Understand the Angular Material library for UI components in Angular
    - [ ] Using Angular Material components in an Angular application
-   - [ ] Hands-on exercise: Use Angular Material components to create a UI in an
-         Angular application.
+   - [ ] Use Angular Material components to create a UI in an Angular
+         application.
 
 4. Animations in Angular
 
-   - [ ] Understanding how to add animations to an Angular application
+   - [ ] Understand how to add animations to an Angular application
    - [ ] Using Angular's built-in animation library to create animations
-   - [ ] Hands-on exercise: Add animations to an Angular application using
-         Angular's built-in animation library.
+   - [ ] Add animations to an Angular application using Angular's built-in
+         animation library.
 
 5. Internationalisation (i18n)
 
-   - [ ] Understanding internationalisation (i18n) in Angular and how to support
+   - [ ] Understand internationalisation (i18n) in Angular and how to support
    - [ ] multiple languages in an application
    - [ ] Using Angular's i18n tools to create translations for an application
-   - [ ] Hands-on exercise: Add support for multiple languages to an Angular
-         application using Angular's i18n tools.
+   - [ ] Add support for multiple languages to an Angular application using
+         Angular's i18n tools.
 
 6. Testing in Angular
-   - [ ] Understanding testing in Angular and the different types of tests
+   - [ ] Understand testing in Angular and the different types of tests
          available
    - [ ] Writing unit tests for Angular components, services, and pipes
    - [ ] Using end-to-end testing with Protractor
-   - [ ] Hands-on exercise: Write unit tests and end-to-end tests for an Angular
-         application.
+   - [ ] Write unit tests and end-to-end tests for an Angular application.
 
 ## 5. Advanced Topics and Best Practices
 
@@ -271,39 +263,38 @@ framework is continuously improving and evolving.
 
 1. Server-side Rendering (SSR)
 
-   - [ ] Understanding server-side rendering (SSR) in Angular and how it can
+   - [ ] Understand server-side rendering (SSR) in Angular and how it can
          improve performance and SEO
    - [ ] Setting up an Angular application for SSR
-   - [ ] Hands-on exercise: Implement server-side rendering in an Angular
-         application.
+   - [ ] Implement server-side rendering in an Angular application.
 
 2. Progressive Web Apps (PWA)
 
-   - [ ] Understanding progressive web apps (PWA) and how to build them with
+   - [ ] Understand progressive web apps (PWA) and how to build them with
          Angular
    - [ ] Configuring an Angular application to be a PWA
-   - [ ] Hands-on exercise: Create a progressive web app using Angular.
+   - [ ] Create a progressive web app using Angular.
 
 3. Angular Performance Optimization
 
-   - [ ] Understanding performance optimization in Angular
+   - [ ] Understand performance optimization in Angular
    - [ ] Using Angular's built-in tools to improve performance
-   - [ ] Hands-on exercise: Optimise the performance of an Angular application
-         using Angular's built-in tools.
+   - [ ] Optimise the performance of an Angular application using Angular's
+         built-in tools.
 
 4. Debugging and Troubleshooting
 
-   - [ ] Understanding how to debug and troubleshoot Angular applications
+   - [ ] Understand how to debug and troubleshoot Angular applications
    - [ ] Using the Angular CLI to generate debugging information
-   - [ ] Hands-on exercise: Debug and troubleshoot an Angular application.
+   - [ ] Debug and troubleshoot an Angular application.
 
 5. Advanced Techniques
 
-   - [ ] Understanding advanced techniques for working with Angular
+   - [ ] Understand advanced techniques for working with Angular
    - [ ] Using dynamic component loading to improve performance and user
          experience
-   - [ ] Hands-on exercise: Use dynamic component loading to improve the
-         performance and user experience of an Angular application.
+   - [ ] Use dynamic component loading to improve the performance and user
+         experience of an Angular application.
 
 6. Wrap-Up and Next Steps
    - [ ] Review of key concepts learned during the week
