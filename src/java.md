@@ -45,7 +45,7 @@ By completing these tasks you should have a good understanding of what Java is, 
       - Oracle's Java Website
       - Java Tutorial for Beginners
       - Java Documentation.
-   - [ ] **Watch Online tutorials**: You can also find many online video tutorials on Java that can help you understand the basics of Java programming.
+   - [ ] **Watch Online Tutorials**: You can also find many online video tutorials on Java that can help you understand the basics of Java programming.
 
 2. Installing Java
 
@@ -236,6 +236,11 @@ By completing these tasks you should have a good understanding of how to organiz
    - [ ] **Learn about Java Programming Tips and Tricks**: Learn some useful tips and tricks to improve your Java programming skills and efficiency, such as keyboard shortcuts and code snippets.
    - [ ] **Understand Code Optimization**: Learn about common code optimization techniques, such as using StringBuilder instead of String concatenation, to improve the performance of your code.
    - [ ] **Practice Java Programming Tips and Tricks**: Apply some of the tips and tricks you learned to optimize and improve the efficiency of your existing Java code.
+
+5. Build Something 🔨
+   - Update one of the projects you have built so far so that it:
+      - Follows code organization and style principles you researched.
+      - Incorporates unit testing using JUnit
 
 ## Build Something Using Java! 🔨
 
