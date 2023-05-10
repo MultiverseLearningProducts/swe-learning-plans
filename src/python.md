@@ -28,7 +28,7 @@ applications.
 
    - [ ] Understand function definition and calling
    - [ ] Learn about Python modules and libraries
-   - [ ] Understand `__init__` and `__main__`
+   - [ ] Understand `__init__.py` and `__main__`
    - [ ] Do an exercise involving writing and using a custom function
 
 ## 2. Intermediate Python
