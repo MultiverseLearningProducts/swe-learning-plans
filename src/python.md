@@ -97,7 +97,7 @@ With the above steps completed, you'll be able to create more sophisticated prog
 3. Unit Testing in Python
 
    - [ ] Install the [pytests](https://docs.pytest.org/en/7.3.x/) unit testing library
-   - [ ] Go back to the mini-project you made for the last section and create some tests for functions you you wrote.
+   - [ ] Go back to the mini-project you made from the last section and create some tests for functions you you wrote.
    - [ ] Use a TDD approach to create some functions by writing the tests ***before*** creating the functions.
       - E.g. Write tests for a function to return the largest element of an array before writing the function itself.
 
@@ -200,7 +200,7 @@ This section covers the following topics:
 
 ## Build Something Using Python! 🔨
 
-After completing your Python Learning Plan, here are some next steps you could consider:
+After completing your Python Learning Plan, pick one of the projects below and build it using your newly learned skills:
 - **Calculator** Build a simple command-line calculator that can perform basic
 arithmetic operations like addition, subtraction, multiplication, and division.
 - **File Organizer** Build a script that can organize files in a directory based
