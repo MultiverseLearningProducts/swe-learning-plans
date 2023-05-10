@@ -60,7 +60,7 @@ By completing these steps, you should get a good foundation in the basics of Pyt
    - [ ] Do an exercise involving writing and using a custom function
    - [ ] Learn About Python modules and libraries
    - [ ] Find at least one Python module and/or library and write a function that utilizes it
-   - [ ] Understand `__init__` and `__main__`
+   - [ ] Understand `__init__.py` and `__main__`
 
 4. Build Something 🔨
    - **Option #1 - Rock, Paper, Scissors**: You now know enough to rebuild your Rock, Paper, Scissors project! Your project should include the following:
