@@ -148,7 +148,7 @@ By completing these tasks you should have a good understanding of how to use mod
    - [ ] Learn about using dot notation to access functions and variables within a namespace.
    - [ ] Experiment with nesting namespaces to create deeper hierarchies of related code.
 
-3. Build Something 🔨! Here's a few ideas:
+3. Build something 🔨! Here's a few ideas:
    - **Idea #1 - Task Management System**: Create a task management system where users can add, update, and delete tasks. Build the project using TypeScript modules and namespaces to organize the codebase effectively. You can have modules for tasks, users, and authentication, and use namespaces to encapsulate related functionalities within those modules.
    - **Idea #2 - Online Store**: Develop an online store application that allows users to browse products, add them to a cart, and complete the purchase. Utilize TypeScript modules and namespaces to organize different aspects of the store, such as product management, user authentication, and cart functionality. Use modules to separate the code related to different functionalities, and leverage namespaces to group related classes, interfaces, and functions within those modules.
    - Come up with your own idea!
@@ -177,7 +177,7 @@ By completing these tasks you will have a good understanding of how to use gener
    - [ ] Learn about using type aliases to create shorthand names for complex types.
    - [ ] Experiment with using type guards to narrow down the type of a variable based on its current value.
 
-3. Build Something 🔨! Here's a few ideas:
+3. Build something 🔨! Here's a few ideas:
    - **Idea #1 Data Structure Library**: Create a library that implements common data structures like linked lists, stacks, queues, and binary trees. Use TypeScript generics to make the data structures more flexible and reusable. You can explore advanced types such as union types, intersection types, conditional types, and mapped types to enhance the functionality of your data structures. 
    - **Idea #2 - Form Validation Library**: Develop a form validation library that provides utilities for validating user input in forms. Use TypeScript generics to create reusable validation functions and types that can be applied to different form fields. Explore advanced types like `keyof`, `infer`, and conditional types to create type-safe validations and error messages.
    - Come up with your own idea!
