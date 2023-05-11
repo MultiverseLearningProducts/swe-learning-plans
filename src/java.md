@@ -22,7 +22,7 @@ Learning Java can be a great way to expand your programming skills and open up n
 - **Oracle**: [The Java Tutorials](https://docs.oracle.com/javase/tutorial/)
 - **Oracle**: [Installing Java](https://www.oracle.com/java/technologies/downloads/#jdk20-linux)
 - **Udamy**: [Java Tutorial](https://www.udemy.com/course/java-tutorial/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-UfB4ehpx3sT93US_xK8IFg)
-- **Baeldung**: [https://www.baeldung.com/java-tutorial](Java Tutorial)
+- **Baeldung**: [Java Tutorial](https://www.baeldung.com/java-tutorial)
 - **CodeAcademy**: [Java Courses](https://www.codecademy.com/catalog/language/java?g_network=g&g_productchannel=&g_adid=624951457600&g_locinterest=&g_keyword=codecademy%20java&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-327295696446&g_ifcreative=&g_campaign=account&g_locphysical=9004160&g_adgroupid=128133970028&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=1955172604&g_ifproduct=&utm_id=t_kwd-327295696446:ag_128133970028:cp_1955172604:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy%20java&utm_campaign=US_Brand_Exact&utm_content=624951457600&g_adtype=search&g_acctid=243-039-7011&gclid=CjwKCAjwxr2iBhBJEiwAdXECw47-8ebGBIdVUCw2glzl-vsK5llvocBrWD3jRaW5tonkHC_Huj3a8hoCKIgQAvD_BwE)
 - **[Java Code Geeks](https://www.javacodegeeks.com/)**
 
@@ -67,7 +67,7 @@ By completing these tasks you should have a good understanding of what Java is, 
    - [ ] **Control Structures**: Understand what control structures are in Java, and how to use them to control the flow of your code. Learn about if-else statements, loops, and switch statements.
 
 5. Build Something 🔨
-   - [ ] **Rock, Paper, Scissors**: You now know enough to rebuild you Rock, Paper, Scissors project! Your project should include the following:
+   - [ ] **Rock, Paper, Scissors**: You now know enough to rebuild your Rock, Paper, Scissors project! Your project should include the following:
       - Randomly selects rock, paper, or scissors for each player in the game. You should explore how to use `Math.random()` and `Math.round()` to achieve this.
       - Determines the winner of the game based on the random values that were selected.
       - **BONUS**: Explore how to accept user input with a [`Scanner` class](https://www.w3schools.com/java/java_user_input.asp) and use this to play the computer.
