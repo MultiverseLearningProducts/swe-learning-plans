@@ -13,5 +13,23 @@ This repository contains all of the Learning Plans you can use throughout Bootca
     - If you you learning an object oriented language like Java or C#, then try rebuilding the Scooter project but in the language you are learning.
     - If you are learning about an ORM, try rebuilding the Card Game Project with this ORM.
 
-
 ## Learning Plans
+
+| Languages |
+| --------- |
+| [C#](./Languages/csharp.md) |
+| [Java](./Languages/java.md) |
+| [Python](./Languages/python.md) |
+| [TypeScript](./Languages/typescript.md) |
+
+| Libraries & Frameworks |
+| --------- |
+| |
+
+| Databases |
+| --------- |
+| |
+
+| Cloud, Deployment, and Tooling |
+| --------- |
+| |
