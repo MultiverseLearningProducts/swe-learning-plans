@@ -24,7 +24,7 @@ This repository contains all of the Learning Plans you can use throughout Bootca
 
 | Libraries & Frameworks |
 | --------- |
-| |
+| [Angular](./Libraries-and-Frameworks/angular.md) |
 
 | Databases |
 | --------- |
