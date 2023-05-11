@@ -88,7 +88,7 @@ This section covers the following topics:
 - Loops (`for`, `while`, `do-while`)
 - Functions in C# (creating and calling)
 - Passing Arguments to Functions
-- Returning Values From Functions
+- Returning Values from Functions
 
 By completing these tasks you should have a good understanding of how to use conditional statements and loops to control program flow, how to define and call functions in C#, and how to pass arguments and return values from functions.
 
