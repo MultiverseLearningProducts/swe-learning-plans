@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg)
+
 # Next.js
 
 Next.js is a popular React framework for building server-side rendered and statically generated web applications. It was first released in 2016 by Zeit, a company that was later acquired by Vercel. Since then, Next.js has gained popularity in the web development community due to its ability to easily create scalable and performant web applications.
@@ -7,6 +9,14 @@ Next.js was created to solve some of the challenges faced by developers when bui
 In recent years, Next.js has been adopted by many big-name companies like Hulu, Twitch, and Nike to build their web applications. This has led to increased community support and the development of many useful plugins and libraries for Next.js.
 
 This learning plan is designed to provide you with a solid foundation in Next.js, from the basics of pages and routing to more advanced topics like data fetching and deployment. By the end of this plan, you should have the skills to build your own Next.js applications and be well-equipped to continue learning and exploring the framework on your own.
+
+## #checkoutTheDocs 🔍
+- **Next.js**: [Developer Documentation](https://nextjs.org/docs) the official documentation is the best place to start learning Next.js. It's comprehensive and easy to understand, and covers all the core concepts and features of the framework.
+- **Next.js**: [Getting Started with Next.js](https://nextjs.org/docs/getting-started/installation)
+- **Next.js**: [Next.js Showcase](https://nextjs.org/showcase)
+- **Traversy Media**: [Next.js Tutorial](https://www.youtube.com/watch?v=mTz0GXj8NN0)
+- **Egghead.io**: [Next.js Courses](https://egghead.io/q/next)
+- **Discord**: [Next.js Discord Community](http://nextjs.org/discord)
 
 ## 1. Introduction to Next.js
 
@@ -139,20 +149,6 @@ By completing these tasks you should have a good understanding of the different 
 
    - [ ] Read through the Advanced Features section of the Next.js documentation to learn about more advanced topics such as internationalization and serverless functions.
    - [ ] Choose one or more advanced features to experiment with, such as adding support for multiple languages in your app using Next.js's built-in i18n support or creating serverless functions using Next.js's API Routes feature.
-
-## Resources
-
-Here are some free online resources that you can use to learn Next.js:
-
-**Next.js Documentation** - the official documentation is the best place to start learning Next.js. It's comprehensive and easy to understand, and covers all the core concepts and features of the framework.
-
-**Next.js Crash Course on YouTube** - this video tutorial by Traversy Media is a great introduction to Next.js, and covers all the basics of building a Next.js app, including routing, data fetching, and styling.
-
-**Egghead.io Next.js Course** - Egghead.io offers a free Next.js course that covers all the basics of building a Next.js app, including data fetching, styling, and deployment.
-
-**Next.js GitHub Examples** - the official Next.js GitHub repository has a number of examples that you can use to learn how to implement different features in your app, such as authentication and internationalization.
-
-**Next.js Discord Community** - the Next.js Discord community is a great place to ask questions and get help from other developers who are experienced with the framework.
 
 ## Projects
 

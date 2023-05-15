@@ -36,6 +36,7 @@ Here are some free online resources that you can use to learn SQL:
 
 This section covers the following topics:
 - Learn what SQL is and why it's used
+- Download your companies SQL IDE and software
 - Understand basic concepts such as tables, rows, columns, and databases
 - Learn how to write basic queries using `SELECT`, `FROM`, and `WHERE` clauses
 
@@ -49,17 +50,21 @@ By completing these tasks you should have a basic understanding of SQL and be ab
       - [ ] Watch introductory videos or tutorials that explain SQL and its uses
       - [ ] Learn about the history of SQL and how it has evolved over time
 
-2. Understand basic concepts such as tables, rows, columns, and databases
+2. Download your companies SQL IDE and software
+      - [ ] Coordinate with your apprentice manager and coach to determine what SQL IDE and software you will be using on the job.
+      - [ ] Download this IDE and/or software onto your machine.
+
+3. Understand basic concepts such as tables, rows, columns, and databases
 
       - [ ] Research and read about the basic concepts of SQL such as tables, rows, columns, and databases
       - [ ] Watch videos or tutorials that explain these concepts and how they relate to each other
       - [ ] Practice creating a simple database and table using a tool such as MySQL Workbench
 
-3. Learn how to write basic queries using `SELECT`, `FROM`, and `WHERE` clauses
+4. Learn how to write basic queries using `SELECT`, `FROM`, and `WHERE` clauses
 
       - [ ] Research and read about the basic syntax of SQL queries, including `SELECT`, `FROM`, and `WHERE` clauses
       - [ ] Practice writing basic queries to retrieve data from a table
-      - [ ] Experiment with different query conditions using operators such as '=', '<>', '>', '<', '>=', and '<='
+      - [ ] Experiment with different query conditions using operators such as `=`, `<>`, `>`, `<`, `>=`, and `<=`
       - [ ] Practice ordering the results using ORDER BY clause
 
 ## 2. Working with Data
