@@ -36,6 +36,7 @@ Overall, React is a powerful frontend framework that has gained popularity thank
 
 ## 1. Getting started with React
 
+This section covers the following topics:
 - Start by understanding the basics of React and its core concepts.
 - Read the official React documentation and try to understand the concepts like JSX, components, state, and props.
 - Follow the [Quick Start guide](https://react.dev/learn) to create a simple "Hello World" application to get started.
@@ -59,6 +60,7 @@ Remember, this is just one way you could structure day 1 of your learning plan. 
 
 ## 2. Understanding Components
 
+This section covers the following topics:
 - Learn how to create React components and the different types of components.
 - Understand how to assign and render components props
 - Practice creating simple components like buttons, forms, and other UI elements.
@@ -90,6 +92,7 @@ Again, this is just one way you could structure day 2 of your learning plan. Fee
 
 ## 3. Working with State and Props
 
+This section covers the following topics:
 - Learn how to work with state and props in React.
 - Understand how to pass data between components using props.
 - Practice creating components that utilize state and props to create dynamic UIs.
@@ -116,6 +119,7 @@ As with the previous days, this is just one way you could structure day 3 of you
 
 ## 4. Routing and API Integration
 
+This section covers the following topics:
 - Learn how to handle routing in React using popular routing libraries like [React Router](https://reactrouter.com/en/main).
 - Understand how to integrate APIs in your React applications using `fetch` or libraries like Axios.
 - Practice creating components that utilize routing and API integration.
@@ -141,40 +145,42 @@ As with the previous days, this is just one way you could structure day 3 of you
 
 4. Build Something! 🔨
       - **Idea #1 - Profile**: Create a personal profile that has multiple pages that are rendered using React Router.
-      - **Idea #2 - Use An API**: Find a free API to use and build a simple React application around the data that is returned. For example, Spoonacular has an API that you could use to build a recipe app
+      - **Idea #2 - Use An API**: Find a [free API](https://github.com/public-apis/public-apis) to use and build a simple React application around the data that is returned. For example, [Spoonacular](https://spoonacular.com/food-api) has an API that you could use to build a recipe app
+      - Build something brand new based on what you have learned so far!
 
 Again, this is just one way you could structure day 4 of your learning plan. You may find that you need more or less time to cover certain topics, or that you want to adjust the order based on your personal preferences and learning style. The most important thing is to keep practising and building your skills as you go.
 
 ## 5. Advanced React Concepts
 
-- Learn advanced concepts like Redux, Higher-Order Components, and React Hooks.
+This section covers the following topics:
+- Learn advanced concepts like Redux, React Hooks, and Custom Hooks.
 - Understand the importance of testing in React applications and learn how to use testing frameworks like Jest, Enzyme, and React Testing Library.
 - Practice creating components that utilize advanced React concepts.
 
 ### Tasks
 
-1. Redux
+1. React Hooks
 
-      - [ ] Learn about advanced React concepts such as [Redux](), which is a popular state management library.
-      - [ ] Understand the basics of Redux, including actions, reducers, and the store.
-      - [ ] Learn how to integrate Redux into a React application, and how to use it to manage application state.
-      - [ ] Practice using Redux to manage state in a React application, such as creating a simple to-do list application.
-
-2. Higher-Order Components
-
-      - [ ] Learn about Highe[r-Order Components (HOCs)](), which are functions that can be used to wrap existing components to add additional functionality.
-      - [ ] Understand how to use HOCs in React, and how to create your own custom HOCs.
-
-3. React Hooks
-
-      - [ ] Learn about [React Hooks](), some of which you have already been using!
+      - [ ] Learn about [React Hooks](https://react.dev/reference/react), some of which you have already been using!
       - [ ] Understand the basics of React Hooks, including `useState`, `useEffect`, `useContext`, and `useReducer`.
-      - [ ] Practice using React Hooks to manage component state and lifecycle methods.
+      - [ ] Practice using React Hooks to manage component state and lifecycle methods. Focus on practicing `useContext` and `useReducer` as we haven't used these yet.
 
-4. Testing React applications
+2. React Custom Hooks
+      - [ ] Learn about [Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks#extracting-your-own-custom-hook-from-a-component) and how these can be used in React.
+      - [ ] Understand how custom hooks allow for logic to be reused.
+      - [ ] Write a custom hook and call it within a program. 
+
+3. Testing React applications
 
       - [ ] Learn about testing in React, including different testing frameworks like Jest, Enzyme, and React Testing Library.
       - [ ] Understand how to write unit tests for React components, and the importance of testing in building robust applications.
+
+4. Redux
+
+      - [ ] Learn about advanced React concepts such as [Redux](https://react-redux.js.org/), which is a popular state management library.
+      - [ ] Understand the basics of Redux, including actions, reducers, and the store.
+      - [ ] Learn how to integrate Redux into a React application, and how to use it to manage application state.
+      - [ ] Practice using Redux to manage state in a React application, such as creating a simple to-do list application.
 
 This is just one way you could structure day 5 of your learning plan. You may find that you need more or less time to cover certain topics, or that you want to adjust the order based on your personal preferences and learning style. The most important thing is to keep practising and building your skills as you go.
 
