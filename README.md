@@ -17,6 +17,7 @@ This repository contains all of the Learning Plans you can use throughout Bootca
 
 | Languages |
 | --------- |
+| [Apex]() |
 | [C#](./Languages/csharp.md) |
 | [Java](./Languages/java.md) |
 | [Python](./Languages/python.md) |
@@ -25,11 +26,15 @@ This repository contains all of the Learning Plans you can use throughout Bootca
 | Libraries & Frameworks |
 | --------- |
 | [Angular](./Libraries-and-Frameworks/angular.md) |
+| [.NET]() |
+| [Next.js]() |
+| [React]() |
+| [Spring Boot]() |
 
 | Databases |
 | --------- |
-| |
+| [SQL]() |
 
 | Cloud, Deployment, and Tooling |
 | --------- |
-| |
+| [git]() |
