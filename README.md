@@ -17,19 +17,24 @@ This repository contains all of the Learning Plans you can use throughout Bootca
 
 | Languages |
 | --------- |
-| [C#](./Languages/csharp.md) |
-| [Java](./Languages/java.md) |
-| [Python](./Languages/python.md) |
-| [TypeScript](./Languages/typescript.md) |
+| [Apex](./src/languages/apex.md) |
+| [C#](./src/languages/csharp.md) |
+| [Java](./src/languages/java.md) |
+| [Python](./src/languages/python.md) |
+| [TypeScript](./src/languages/typescript.md) |
 
 | Libraries & Frameworks |
 | --------- |
-| [Angular](./Libraries-and-Frameworks/angular.md) |
+| [Angular](./src/Libraries-and-Frameworks/angular.md) |
+| [.NET](./src/Libraries-and-Frameworks/dotnet.md) |
+| [Next.js](./src/Libraries-and-Frameworks/nextjs.md) |
+| [React](./src/Libraries-and-Frameworks/react.md) |
+| [Spring Boot](./src/Libraries-and-Frameworks/springboot.md)|
 
 | Databases |
 | --------- |
-| |
+| [SQL](./src//databases/sql.md) |
 
 | Cloud, Deployment, and Tooling |
 | --------- |
-| |
+| [git](./src/tooling/git.md) |

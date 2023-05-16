@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg)
+
 # Git
 
 Git is a popular version control system used by software developers all over the world. Git was created by Linus Torvalds, the creator of the Linux operating system, in 2005, and it quickly became a popular tool for managing code.
@@ -51,14 +53,22 @@ By completing these tasks you should have a basic understanding of Git and be ab
    - [ ] Practice using these commands by creating a small project, making some changes to it, and committing your changes. Here are some example commands you can run:
 
       ```sh
-      $ touch README.md                     # create a new file
-      $ git add README.md                   # stage the file for commit
-      $ git commit -m "Add README file"     # commit the changes
-      $ echo "Hello, Git!" >> README.md     # make some changes to the file
-      $ git status                          # see the status of your changes
-      $ git diff                            # see the changes you made
-      $ git commit -am "Update README file" # commit the changes
-      $ git log                             # see the commit history
+      $ touch README.md
+      # create a new file
+      $ git add README.md
+      # stage the file for commit
+      $ git commit -m "Add README file"
+      # commit the changes
+      $ echo "Hello, Git!" >> README.md
+      # make some changes to the file
+      $ git status 
+      # see the status of your changes
+      $ git diff 
+      # see the changes you made
+      $ git commit -am "Update README file" 
+      # commit the changes
+      $ git log
+      # see the commit history
       ```
 
 ## 2. Branching and Collaboration
@@ -131,11 +141,16 @@ By completing these tasks you should have a basic understanding of more advanced
    - [ ] Practice using these commands on a sample project. Here are some example commands you can run:
 
       ```sh
-      $ git diff <commit1> <commit2>    # see the differences between two commits
-      $ git reset <commit>              # undo commits and reset the repository to a previous state
-      $ git stash                        # save changes to a temporary area and revert to a clean state
-      $ git rebase <branch>              # reapply commits from one branch onto another
-      $ git cherry-pick <commit>         # apply a specific commit from another branch onto the current branch
+      $ git diff <commit1> <commit2>
+      # see the differences between two commits
+      $ git reset <commit>
+      # undo commits and reset the repository to a previous state
+      $ git stash
+      # save changes to a temporary area and revert to a clean state
+      $ git rebase <branch>
+      # reapply commits from one branch onto another
+      $ git cherry-pick <commit>
+      # apply a specific commit from another branch onto the current branch
       ```
 
 2. Working with Git GUI Tools:

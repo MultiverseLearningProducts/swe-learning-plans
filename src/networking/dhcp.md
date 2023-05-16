@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg)
+
 # Networking: DHCP
 
 This learning plan is designed to help you understand Dynamic Host Configuration Protocol (DHCP) and related protocols, which are fundamental to network administration and connectivity. DHCP is a protocol used to automatically assign IP addresses, as well as other network configuration settings, to devices on a network. By using DHCP, network administrators can simplify network management and reduce errors caused by manual IP address configuration.
