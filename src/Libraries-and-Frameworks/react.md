@@ -111,7 +111,8 @@ This section covers the following topics:
       - [ ] Learn about lifting state up, which is a pattern used in React to manage state at a higher level of the component hierarchy.
       - [ ] Understand how to use event handling in React, and how to pass event handlers down to child components as props.
       - [ ] Explore the use of conditional rendering in React, where you can show or hide UI elements based on state or props.
-4. Build Something! 🔨
+
+3. Build Something! 🔨
       - **Idea**: Create a form that captures responses to a quiz. Output a varied response based on what the user submits. E.g. create a "which cat matches your personality" quiz that outputs different cats based on the answers to a multiple choice quiz.
       - Build something brand new based on what you have learned so far!
 
