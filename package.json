@@ -3,11 +3,18 @@
   "version": "0.2.0",
   "description": "SWE Learning Plans",
   "main": "Makefile",
-  "scripts": {},
+  "scripts": {
+    "docs:dev": "vuepress dev src",
+    "docs:build": "vuepress build src"
+  },
   "keywords": [
     "learning plan",
     "multiverse",
     "swe"
   ],
-  "author": "Matthew Gibbons <matthew.gibbons@multiverse.io>"
+  "author": "Matthew Gibbons <matthew.gibbons@multiverse.io>",
+  "dependencies": {
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "^2.0.0-beta.62"
+  }
 }
