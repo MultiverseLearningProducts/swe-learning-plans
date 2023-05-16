@@ -1,3 +1,5 @@
+![logo](https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg)
+
 # Networking: DNS
 
 Domain Name System (DNS) is a critical component of the Internet infrastructure that translates human-readable domain names, like `www.example.com`, into machine-readable IP addresses, like `192.0.2.1`. DNS plays a vital role in the functioning of the Internet, and understanding its principles and mechanisms is essential for anyone interested in network administration, cybersecurity, or software engineering.

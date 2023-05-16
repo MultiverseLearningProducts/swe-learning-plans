@@ -30,6 +30,8 @@ Spring Boot is a developer-friendly framework that simplifies Java application d
 - **Java Brains**: [Spring Boot Tutorial](https://www.youtube.com/playlist?list=PLmbC-xnvykcghOSOJ1ZF6ja3aOgZAgaMO)
 - **Tech Primers**: [Spring Boot Primers](https://www.youtube.com/playlist?list=PLTyWtrsGknYegrUmDZB6rcqMotOFZKvbn)
 
+> Many of the tasks below are covered in the extensive [Spring Boot Guides](https://spring.io/guides#tutorials). Feel free to use these to complete many of the objectives outlined below!
+
 ## 1. Introduction to Spring Boot
 
 This section covers the following topics:
@@ -60,9 +62,9 @@ This section covers the following topics:
 
 4. Setting up the development environment
 
-   - [ ] Download and install the latest version of Spring Boot.
-   - [ ] Install and configure a Java IDE such as Eclipse or IntelliJ IDEA.
-   - [ ] Create a simple "Hello, World!" application using Spring Boot and run it on your local machine.
+   - [ ] [Download and install the latest version of Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html).
+   - [ ] Install and configure a Java IDE such as [Eclipse](https://www.eclipse.org/downloads/packages/release/kepler/sr1/eclipse-ide-java-developers) or [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+   - [ ] Create a simple "Hello, World!" application using Spring Boot and run it on your local machine using [the Spring Boot Guides](https://spring.io/guides/gs/spring-boot/).
 
 ## 2. Spring Boot Basics
 
@@ -76,27 +78,31 @@ This section covers the following topics:
 
 1. Creating a simple Spring Boot application
 
-   - [ ] Create a new Spring Boot project using the Spring Initializr.
+   - [ ] Create a new Spring Boot project using the [Spring Initializr](https://start.spring.io/).
    - [ ] Create a simple "Hello, World!" application using Spring Boot, and run it on your local machine.
    - [ ] Modify the application to include a basic REST endpoint that returns a simple JSON response.
 
 2. Understanding the basic structure of a Spring Boot project
 
    - [ ] Explore the different files and directories in a Spring Boot project.
-   - [ ] Understand the role of each file, such as application.properties, pom.xml, and Application.java.
+   - [ ] Understand the role of each file, such as `application.properties`, `pom.xml`, and `Application.java`.
    - [ ] Experiment with modifying the contents of each file to see how it affects the application.
 
 3. Building and running Spring Boot application
 
-   - [ ] Build the Spring Boot project using Maven or Gradle.
+   - [ ] Build the Spring Boot project using [Maven](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/) or [Gradle]().
    - [ ] Run the application using the command line or from within your IDE.
    - [ ] Experiment with different command-line arguments to modify the behavior of the application.
 
 4. Using the Spring Initializr to bootstrap your application
 
-   - [ ] Use the Spring Initializr to create a new Spring Boot project.
+   - [ ] Use the [Spring Initializr](https://start.spring.io/) to create a new Spring Boot project.
    - [ ] Customize the project settings to include specific dependencies and features.
    - [ ] Understand the difference between using the Spring Initializr and manually creating a Spring Boot project.
+
+5. Build Something! 🔨
+   - **Idea #1 - Simple REST API**: Create a simple domain object class, such as a `Book` class. Implement a REST controller class with endpoints to perform basic CRUD operations on the `Book` objects.
+   - **Idea #2 - File Upload and Download API**: Implement a REST controller with endpoints to handle file upload and download operations.
 
 ## 3. Working with Spring Boot
 
@@ -110,27 +116,31 @@ This section covers the following topics:
 
 1. Introduction to Spring Boot configuration and properties
 
-   - [ ] Understand how to use application.properties or `application.yml` to configure a Spring Boot application.
+   - [ ] Understand how to use `application.properties` or `application.yml` to configure a Spring Boot application.
    - [ ] Experiment with different settings such as the server port or logging level, and see how they affect the application.
    - [ ] Create a custom configuration file and use it to configure a component of the application.
 
 2. Dependency Injection in Spring Boot
 
    - [ ] Understand the basics of dependency injection and inversion of control.
-   - [ ] Use the @Autowired annotation to inject dependencies into a Spring Boot application.
+   - [ ] Use the `@Autowired` annotation to inject dependencies into a Spring Boot application.
    - [ ] Experiment with different types of dependency injection such as constructor injection and setter injection.
 
 3. Working with controllers and RESTful web services
 
    - [ ] Create a new controller and define multiple endpoints for it.
-   - [ ] Use the @RestController annotation to create a RESTful web service.
-   - [ ] Define different types of request mappings such as @GetMapping, @PostMapping, and @DeleteMapping.
+   - [ ] Use the `@RestController` annotation to create a RESTful web service.
+   - [ ] Define different types of request mappings such as `@GetMapping`, `@PostMapping`, and `@DeleteMapping`.
 
 4. Using Spring Boot DevTools for faster development
 
-      - [ ] Understand what Spring Boot DevTools is and how it can speed up development.
-      - [ ] Experiment with the different features of DevTools such as automatic restarts and live reload.
-      - [ ] Try disabling and enabling DevTools to see how it affects the development workflow.
+   - [ ] Understand what [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/current/reference/html/using.html#using.devtools) is and how it can speed up development.
+   - [ ] Experiment with the different features of DevTools such as automatic restarts and live reload.
+   - [ ] Try disabling and enabling DevTools to see how it affects the development workflow.
+
+5. Build Something! 🔨
+   - **Idea #1 - Weather Forecast Application**: Build a weather forecast application that retrieves weather data from an external API and exposes it through RESTful endpoints. Configure the API key and other settings using Spring Boot configuration properties, utilize dependency injection to manage the API client, and implement controllers to handle requests and provide weather information.
+   - **Idea #2 - Simple Blogging Platform**:  Create a simple blogging platform where users can create, read, update, and delete blog posts. Use Spring Boot configuration and properties to manage settings like the database connection details and the number of posts per page. Implement dependency injection to handle services like blog post management, and utilize controllers to expose RESTful endpoints for various operations.
 
 ## 4. Data Persistence with Spring Boot
 
@@ -146,25 +156,25 @@ This section covers the following topics:
 
    - [ ] Understand how to configure database settings in a Spring Boot application.
    - [ ] Experiment with using different types of databases such as H2, MySQL, and PostgreSQL.
-   - [ ] Create a simple CRUD (create, read, update, delete) application using Spring Data JPA.
+   - [ ] Create a simple CRUD (create, read, update, delete) application using [Spring Data JPA](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/).
 
 2. Working with Spring Data JPA for database access
 
-      - [ ] Understand what Spring Boot Actuator is and how it can help with monitoring and managing your application.
-      - [ ] Experiment with different endpoints such as /health, /metrics, and /info.
-      - [ ] Create custom endpoints using Spring Boot Actuator.
+   - [ ] Understand what [Spring Boot Actuator](https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html#actuator.enabling) is and how it can help with monitoring and managing your application.
+   - [ ] Experiment with different endpoints such as` /health`, `/metrics`, and `/info`.
+   - [ ] Create custom endpoints using Spring Boot Actuator.
 
 3. Connecting to a database using Spring Boot
 
-      - [ ] Understand the basic principles of RESTful APIs.
-      - [ ] Use Spring Boot to create a simple RESTful API that performs CRUD operations on a database.
-      - [ ] Test the API using a tool such as Postman or cURL.
+   - [ ] Understand the basic principles of RESTful APIs.
+   - [ ] Use Spring Boot to create a simple RESTful API that performs CRUD operations on a database.
+   - [ ] Test the API using a tool such as Postman or cURL.
 
 4. Using JdbcTemplate for accessing data
 
-      - [ ] Understand the basic principles of Spring Security.
-      - [ ] Use Spring Boot to create a secure RESTful API that requires authentication.
-      - [ ] Experiment with different authentication and authorization methods such as JWT or OAuth2.
+   - [ ] Understand the basic principles of [Spring Security](https://spring.io/guides/gs/securing-web/).
+   - [ ] Use Spring Boot to create a secure RESTful API that requires authentication.
+   - [ ] Experiment with different authentication and authorization methods such as JWT or OAuth2.
 
 ## 5. Spring Boot Advanced Topics
 
@@ -178,31 +188,30 @@ This section covers the following topics:
 
 1. Testing Spring Boot applications
 
-      - [ ] Understand the importance of testing in software development.
-      - [ ] Learn about the different types of testing such as unit testing and integration testing.
-      - [ ] Write unit and integration tests for a Spring Boot application using frameworks like JUnit and Mockito.
+   - [ ] Understand the importance of testing in software development.
+   - [ ] Learn about the different types of testing such as unit testing and integration testing.
+   - [ ] Write unit and integration tests for a Spring Boot application using frameworks like [JUnit](https://junit.org/) and [Mockito]().
 
 2. Securing Spring Boot applications with Spring Security
 
-      - [ ] Understand the basics of cloud computing and how it relates to deploying applications.
-      - [ ] Learn how to deploy a Spring Boot application to a cloud platform such as AWS or Google Cloud.
-      - [ ] Experiment with scaling your application and monitoring its performance.
+   - [ ] Understand the basics of cloud computing and how it relates to deploying applications.
+   - [ ] Learn how to deploy a Spring Boot application to a cloud platform such as AWS or Google Cloud.
+   - [ ] Experiment with scaling your application and monitoring its performance.
 
 3. Handling exceptions in Spring Boot
 
-- [ ] Understand the concept of profiles in Spring Boot and how they can be used to manage application configuration.
-- [ ] Learn how to define and activate profiles in a Spring Boot application.
-- [ ] Experiment with using different profiles to configure your application for different environments.
+   - [ ] Understand the concept of profiles in Spring Boot and how they can be used to manage application configuration.
+   - [ ] Learn how to define and activate profiles in a Spring Boot application.
+   - [ ] Experiment with using different profiles to configure your application for different environments.
 
 4. Deploying Spring Boot applications to a production environment
 
-      - [ ] Explore more advanced topics such as Spring Boot Actuator, Spring Boot CLI, and Spring Boot Custom Starters.
-      - [ ] Dive deeper into topics such as Spring Boot WebFlux, reactive programming, and asynchronous programming.
+   - [ ] Explore more advanced topics such as Spring Boot Actuator, Spring Boot CLI, and Spring Boot Custom Starters.
+   - [ ] Dive deeper into topics such as Spring Boot WebFlux, reactive programming, and asynchronous programming.
 
 ## Build Something with Spring Boot! 🔨
 
-Here are a few project ideas that you can build to practice and demonstrate what
-you have learned in Spring Boot:
+Here are a few project ideas that you can build to practice and demonstrate what you have learned in Spring Boot:
 - **TODO List Application**: Build a simple TODO list application using Spring Boot and Thymeleaf. The application should allow users to add, edit, and delete
 tasks, as well as mark them as complete.
 - **Online Bookstore**: Build an online bookstore application using Spring Boot and a database of your choice (such as MySQL or PostgreSQL). The application should allow users to browse books, search for books, add books to a cart, and check out.

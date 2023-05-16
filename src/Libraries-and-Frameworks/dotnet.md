@@ -20,14 +20,16 @@ With the introduction of .NET Core, a cross-platform and open-source implementat
 
 ## #checkoutTheDocs 🔍
 - **Microsoft**: [.NET Documentation](https://learn.microsoft.com/en-us/dotnet/)
-- **Microsoft Learn**: [Learn .NET](https://learn.microsoft.com/en-us/training/dotnet/)
+- **Microsoft**: [Learn .NET](https://learn.microsoft.com/en-us/training/dotnet/)
 - **Microsoft**: [.NET Tutorials and Resources](https://dotnet.microsoft.com/en-us/learn)
+- **Microsoft**: [Getting Started Tutorials](https://learn.microsoft.com/en-us/dotnet/standard/get-started)
 - **FreeCodeCamp**: [.NET Courses](https://www.freecodecamp.org/news/tag/net/)
 - **FreeCodeCamp**: [ASP.NET Core Crash Course - C# App in One Hour](https://www.youtube.com/watch?v=BfEjDD8mWYg)
 
 ## 1. Introduction to .NET Framework
 
 This section covers the following topics:
+- Download .NET
 - Understand what is .NET Framework
 - Familiarize yourself with the components of the .NET Framework, such as Common Language Runtime (CLR), Base Class Library (BCL), and Application Domain
 - Understand the architecture of the .NET Framework
@@ -35,29 +37,33 @@ This section covers the following topics:
 
 ### Tasks
 
-1. Understand what is .NET Framework:
+1. Download .NET
+      - [ ] Navigate to the [Install .NET](https://learn.microsoft.com/en-us/dotnet/core/install/) page and follow the download instructions for your operating system
+      - [ ] Follow the [Create a .NET console application](https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-7-0) tutorial to create and run a "Hello World" application
 
-   - [ ] Read an overview of .NET Framework from the Microsoft documentation
-   - [ ] Watch a video explaining what is .NET Framework
-   - [ ] Search for articles or blogs discussing .NET Framework and read a few to get an idea of what it is
+2. Understand what is .NET Framework:
 
-2. Familiarize yourself with the components of the .NET Framework, such as Common Language Runtime (CLR), Base Class Library (BCL), and Application Domain:
+      - [ ] Read an [overview of .NET Framework](https://learn.microsoft.com/en-us/dotnet/) from the Microsoft documentation
+      - [ ] Watch a video explaining what is .NET Framework
+      - [ ] Search for articles or blogs discussing .NET Framework and read a few to get an idea of what it is
 
-   - [ ] Read about CLR and its role in .NET Framework
-   - [ ] Familiarize yourself with the BCL and its most commonly used classes
-   - [ ] Learn what Application Domain is and how it can be used in .NET applications
+3. Familiarize yourself with the components of the .NET Framework, such as Common Language Runtime (CLR), Base Class Library (BCL), and Application Domain:
 
-3. Understand the architecture of the .NET Framework:
+      - [ ] [Read about CLR](https://learn.microsoft.com/en-us/dotnet/standard/clr) and its role in .NET Framework
+      - [ ] Familiarize yourself [with the BCL](https://learn.microsoft.com/en-us/dotnet/standard/class-library-overview) and its most commonly used classes
+      - [ ] Learn what [Application Domain](https://learn.microsoft.com/en-us/dotnet/framework/app-domains/application-domains) is and how it can be used in .NET applications
+
+4. Understand the architecture of the .NET Framework:
 
       - [ ] Study the different layers of the .NET Framework architecture
       - [ ] Understand how the layers interact with each other
       - [ ] Search for diagrams or visual aids to help you better understand the architecture
 
-4. Understand the benefits of using .NET Framework:
+5. Understand the benefits of using .NET Framework:
 
-   - [ ] Read about the advantages of using .NET Framework for application development
-   - [ ] Study the performance benefits of using .NET Framework
-   - [ ] Look for examples of companies or products that use .NET Framework to understand its real-world applications
+      - [ ] Read about the advantages of using .NET Framework for application development
+      - [ ] Study the performance benefits of using .NET Framework
+      - [ ] Look for examples of companies or products that use .NET Framework to understand its real-world applications
 
 Completing these tasks should give you a good understanding of what .NET Framework is, its components, architecture, and the benefits of using it.
 
@@ -72,23 +78,27 @@ This section covers the following topics:
 
 1. Learn about the .NET Class Library and its importance in .NET development:
 
-   - [ ] Read an overview of the .NET Class Library from the Microsoft documentation
-   - [ ] Watch a video explaining the importance of the .NET Class Library
-   - [ ] Study the most commonly used classes in the .NET Class Library
+      - [ ] Read an overview of the [.NET Class Library](https://learn.microsoft.com/en-us/dotnet/standard/class-library-overview) from the Microsoft documentation
+      - [ ] Watch a video explaining the importance of the .NET Class Library
+      - [ ] Study the most commonly used classes in the .NET Class Library
 
 2. Familiarize yourself with commonly used namespaces, such as System, System.IO, System.Collections, and System.Threading:
 
-   - [ ] Read about the purpose and usage of the System namespace
-   - [ ] Study the System.IO namespace and its commonly used classes
-   - [ ] Understand the usage of the System.Collections namespace and its classes
-   - [ ] Study the System.Threading namespace and its commonly used classes
+      - [ ] Read about the purpose and usage of the System namespace
+      - [ ] Study the [System.IO namespace](https://learn.microsoft.com/en-us/dotnet/api/system.io?view=net-7.0) and its commonly used classes
+      - [ ] Understand the usage of the System.Collections namespace and its classes
+      - [ ] Study the [System.Threading namespace](https://learn.microsoft.com/en-us/dotnet/api/system.threading?view=net-7.0) and its commonly used classes
 
 3. Understand how to use classes and interfaces from the .NET Class Library in your application:
 
-   - [ ] Learn how to add references to the .NET Class Library in your project
-   - [ ] Study how to instantiate objects from the .NET Class Library
-   - [ ] Understand how to use methods and properties from the .NET Class Library classes in your application
-   - [ ] Practice creating a simple application that uses classes and interfaces from the .NET Class Library
+      - [ ] Learn how to add references to the .NET Class Library in your project
+      - [ ] Study how to instantiate objects from the .NET Class Library
+      - [ ] Understand how to use methods and properties from the .NET Class Library classes in your application
+
+4. Build Something! 🔨
+      - **Idea #1 - File Explorer**: Develop a basic file explorer application that utilizes classes and interfaces from the .NET Class Library.
+      - **Idea #2 - Contact Management System**: Create a contact management system that uses classes and interfaces from the .NET Class Library to manage contact information
+      - Build anything else that uses classes and interfaces from the .NET Class Library.
 
 Completing these tasks should give you a good understanding of the .NET Class Library, commonly used namespaces, and how to use classes and interfaces from the library in your application.
 
@@ -104,28 +114,32 @@ This section covers the following topics:
 
 1. Get an introduction to ASP.NET, a popular web application framework for .NET:
 
-   - [ ] Read an overview of ASP.NET from the Microsoft documentation
-   - [ ] Watch a video explaining what ASP.NET is and its benefits
-   - [ ] Search for articles or blogs discussing ASP.NET and read a few to get an idea of what it is
+      - [ ] Read an overview of [ASP.NET from the Microsoft documentation](https://learn.microsoft.com/en-us/aspnet/overview)
+      - [ ] Watch a video explaining what ASP.NET is and its benefits
+      - [ ] Search for articles or blogs discussing ASP.NET and read a few to get an idea of what it is
 
 2. Understand the architecture of ASP.NET:
 
-   - [ ] Study the different components of the ASP.NET architecture, such as the HTTP runtime, HTTP modules, and the page framework
-   - [ ] Understand the role of the ASP.NET worker process and application domains in handling requests
-   - [ ] Search for diagrams or visual aids to help you better understand the ASP.NET architecture
+      - [ ] Study the different components of the ASP.NET architecture, such as the HTTP runtime, HTTP modules, and the page framework
+      - [ ] Understand the role of the ASP.NET worker process and application domains in handling requests
+      - [ ] Search for diagrams or visual aids to help you better understand the ASP.NET architecture
 
 3. Learn how to create web applications using ASP.NET and C#:
 
-   - [ ] Study the basics of creating an ASP.NET web application, including setting up a project, creating a web form, and adding server controls
-   - [ ] Learn how to create a simple web application that displays data from a database using ASP.NET and C#
-   - [ ] Study how to handle user input and respond with dynamic content using ASP.NET and C#
+      - [ ] Study the basics of creating an ASP.NET web application, including setting up a project, creating a web form, and adding server controls
+      - [ ] Learn how to create a simple web application that displays data from a database using ASP.NET and C#
+      - [ ] Study how to handle user input and respond with dynamic content using ASP.NET and C#
 
 4. Understand the concept of server controls and data binding in ASP.NET:
 
-   - [ ] Learn what server controls are and how they are used in ASP.NET
-   - [ ] Study the different types of server controls available in ASP.NET, such as text boxes, labels, and buttons
-   - [ ] Learn how to use data binding to populate server controls with data from a database
-   - [ ] Practice creating a simple application that uses server controls and data binding in ASP.NET
+      - [ ] Learn what server controls are and how they are used in ASP.NET
+      - [ ] Study the different types of server controls available in ASP.NET, such as text boxes, labels, and buttons
+      - [ ] Learn how to use data binding to populate server controls with data from a database
+
+5. Build Something! 
+      - **Idea #1 - Student Grade Management System**: Create a web application to manage student grades and display them using server controls and data binding.
+      - **Idea #2 - Product Management System**: Develop a web application to manage product inventory using server controls and data binding.
+      - Build something brand new based on what you have learned so far!
 
 Completing these tasks should give you a good understanding of ASP.NET, its architecture, and how to create web applications using ASP.NET and C#. You should also have an understanding of server controls and data binding in ASP.NET.
 
@@ -139,31 +153,31 @@ This section covers the following topics:
 
 ### Tasks
 
-Sure! Here are some tasks you could complete for Day 4:
-
 1. Learn about advanced topics such as LINQ, Entity Framework, and MVC:
 
-   - [ ] Read an overview of each topic from the Microsoft documentation
-   - [ ] Watch videos that provide an introduction to each topic and explain their importance in .NET development
-   - [ ] Search for articles or blogs discussing each topic and read a few to get an idea of what they are and how they are used
+      - [ ] Read an overview of each topic ([LINQ](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/), [Entity Framework](https://learn.microsoft.com/en-us/ef/), and [MVC](https://dotnet.microsoft.com/en-us/apps/aspnet/mvc)) from the Microsoft documentation
+      - [ ] Watch videos that provide an introduction to each topic and explain their importance in .NET development
+      - [ ] Search for articles or blogs discussing each topic and read a few to get an idea of what they are and how they are used
 
 2. Understand the benefits and usage of LINQ for querying data in .NET:
 
-   - [ ] Study the syntax of LINQ queries and how they are used to query data in .NET
-   - [ ] Learn how to use LINQ to query databases, collections, and arrays
-   - [ ] Practice writing LINQ queries for different types of data sources
+      - [ ] Study the syntax of LINQ queries and how they are used to query data in .NET
+      - [ ] Learn how to use LINQ to query databases, collections, and arrays
 
 3. Learn about Entity Framework and its importance in .NET development:
 
-   - [ ] Study the basics of Entity Framework, including its architecture and how it is used to access databases in .NET applications
-   - [ ] Learn how to use Entity Framework to create, read, update, and delete data in a database
-   - [ ] Practice using Entity Framework in a simple application to get a better understanding of how it works
+      - [ ] Study the basics of Entity Framework, including its architecture and how it is used to access databases in .NET applications
+      - [ ] Learn how to use Entity Framework to create, read, update, and delete data in a database
 
 4. Understand the Model-View-Controller (MVC) pattern and how to implement it in .NET applications:
 
-   - [ ] Study the basics of the MVC pattern and how it is used to organize code in .NET applications
-   - [ ] Learn how to create an MVC application in .NET, including creating models, views, and controllers
-   - [ ] Practice creating a simple application using the MVC pattern in .NET
+      - [ ] Study the basics of the MVC pattern and how it is used to organize code in .NET applications
+      - [ ] Learn how to create an MVC application in .NET, including creating models, views, and controllers
+
+5. Build Something! 🔨
+      - **Idea #1 - E-commerce Website**: Build a mini e-commerce website that incorporates LINQ, Entity Framework, and MVC.
+      - **Idea #2 - Task Management System**: Build a system that allows the user to manage tasks and incorporates LINQ, Entity Framework, and MVC.
+      - Build something brand new based on what you have learned so far!
 
 Completing these tasks should give you a good understanding of advanced topics such as LINQ, Entity Framework, and MVC. You should also have an understanding of the benefits and usage of LINQ for querying data, Entity Framework and its importance in .NET development, and the Model-View-Controller (MVC) pattern and how to implement it in .NET applications.
 
