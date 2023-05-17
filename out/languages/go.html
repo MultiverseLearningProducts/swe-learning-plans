@@ -1,0 +1,389 @@
+<figure>
+<img
+src="https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg"
+alt="logo" />
+<figcaption aria-hidden="true">logo</figcaption>
+</figure>
+<h1 id="go">Go</h1>
+<p>Go (also known as Golang) is a statically-typed, compiled programming
+language that was created by Google in 2007. It was initially designed
+by Robert Griesemer, Rob Pike, and Ken Thompson, who sought to create a
+language that was efficient, scalable, and easy to use. Go was
+officially announced in 2009 and has since become increasingly popular
+among developers.</p>
+<p>Go is known for its simplicity, efficiency, and readability. Some of
+its key features include:</p>
+<ul>
+<li>Built-in concurrency support: Go has a unique approach to
+concurrency that makes it easy for developers to write code that can
+execute multiple tasks simultaneously.</li>
+<li><strong>Fast compilation</strong>: Go code can be compiled very
+quickly, which makes it a popular choice for projects that require
+development.</li>
+<li><strong>Garbage collection</strong>: Go has an automatic garbage
+collector that helps manage memory usage and reduces the risk of memory
+leaks.</li>
+<li><strong>Strong typing</strong>: Go is a statically-typed language,
+which means that type errors are caught at compile-time rather than
+run-time.</li>
+<li><strong>Cross-platform compatibility</strong>: Go can be compiled to
+run on a variety of operating systems, including Linux, macOS, Windows,
+and more.</li>
+</ul>
+<p>Go is often used for building network services and web applications,
+but it can also be used for a variety of other projects. Some common
+use-cases for Go include:</p>
+<ul>
+<li>Building APIs and microservices</li>
+<li>Writing system-level software</li>
+<li>Developing command-line tools</li>
+<li>Building data pipelines and processing large amounts of data</li>
+<li>Creating network tools and utilities</li>
+</ul>
+<p>Overall, Go is a versatile and powerful programming language that is
+well-suited for a variety of use-cases. Its unique features and
+ease-of-use have made it a popular choice among developers, particularly
+those working on projects that require high performance and
+concurrency.</p>
+<h2 id="learning-plan-tasks">Learning Plan Tasks</h2>
+<ol type="1">
+<li><a href="#1-getting-started">Getting Started</a></li>
+<li><a href="#2-functions-and-packages">Functions and Packages</a></li>
+<li><a href="#3-arrays-slices-and-maps">Arrays, Slices, and
+Maps</a></li>
+<li><a href="#4-pointers-and-structs">Pointers and Structs</a></li>
+<li><a href="#5-concurrency-and-channels">Concurrency and
+Channels</a></li>
+<li><a href="#build-something-using-go-🔨">Build Something Using
+Go</a></li>
+</ol>
+<h2 id="checkoutthedocs">#checkoutTheDocs 🔍</h2>
+<p>Here are some free online resources that you can use to learn Go
+programming: - <strong>Go</strong>: <a href="https://go.dev/">Official
+Documentation</a> - <strong>Go</strong>: <a
+href="https://go.dev/doc/tutorial/getting-started">Tutorial - Getting
+Started</a> - <strong>Go</strong>: <a
+href="https://go.dev/tour/welcome/1">A Tour of Go</a> -
+<strong>Go</strong>: <a href="https://go.dev/learn/">Selected
+Tutorials</a> - <strong><a href="https://gobyexample.com/">Go By
+Example</a></strong>: Practical examples that cover the basics of Go
+programming. - <strong>Gophercises</strong>: <a
+href="https://gophercises.com/">Free Coding Exercises</a> -
+<strong>YouTube</strong>: <a
+href="https://www.youtube.com/c/justforfunc">Just for Func</a> -
+<strong><a href="https://quii.gitbook.io/learn-go-with-tests/">Learn Go
+with Tests</a></strong></p>
+<h2 id="getting-started">1. Getting Started</h2>
+<p>This section covers the following topics: - Learn about Go and its
+history. - Understand how to download and install Go on your computer. -
+Learn the basic syntax of Go: variables, data types, operators, and
+control structures. - Create a simple “Hello, World!” program in Go.</p>
+<h3 id="tasks">Tasks</h3>
+<ol type="1">
+<li><p>Learn about Go and its history</p>
+<ul class="task-list">
+<li><input type="checkbox" />Read about the history of Go and its design
+goals.</li>
+<li><input type="checkbox" />Watch introductory videos or read articles
+about Go to gain a basic understanding of the language.</li>
+</ul></li>
+<li><p>Install Go on your computer</p>
+<ul class="task-list">
+<li><input type="checkbox" /><a href="https://go.dev/dl/">Download and
+install</a> the latest version of Go on your computer.</li>
+<li><input type="checkbox" />Write a program that prints “Hello, World!”
+to the console using the fmt package.</li>
+<li><input type="checkbox" />Compile and run the program to make sure it
+works.
+<ul>
+<li><strong>Stuck?</strong> Check out the <a
+href="https://go.dev/doc/tutorial/getting-started">Get Started with
+Go</a> Tutorial!</li>
+</ul></li>
+</ul></li>
+<li><p>Learn the basic syntax of Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Read and understand the basic syntax of Go,
+such as:
+<ul>
+<li>Variable</li>
+<li>Data types</li>
+<li>Operators</li>
+<li>Control structures</li>
+<li>Loops</li>
+</ul></li>
+<li><input type="checkbox" />Follow tutorials or watch videos to learn
+how to write simple Go programs.</li>
+</ul></li>
+<li><p>Build Something! 🔨 Here’s a few ideas:</p>
+<ul>
+<li><strong>Idea #1 - Simple Calculator</strong>: Create a command-line
+calculator application that allows users to perform basic arithmetic
+operations. The program should prompt the user to enter two numbers and
+an operator (<code>+</code>, <code>-</code>, <code>*</code>,
+<code>/</code>) using <a
+href="https://www.w3schools.com/go/go_input.php">one of Go’s ways of
+accepting user input</a>. Based on the chosen operator, the program
+should perform the corresponding operation and display the result.</li>
+<li><strong>Idea #2 - Number Guessing Game</strong>: Develop a number
+guessing game where the program generates a random number between 1 and
+100, and the player needs to guess the correct number using <a
+href="https://www.w3schools.com/go/go_input.php">one of Go’s ways of
+accepting user input</a>. The program should provide feedback to the
+player if their guess is too high or too low, and continue until the
+correct number is guessed.</li>
+<li><strong>Idea #3</strong>: Build something brand new based on what
+you have learned so far!</li>
+</ul></li>
+</ol>
+<h2 id="functions-and-packages">2. Functions and Packages</h2>
+<p>This section covers the following topics: - Understand functions in
+Go: declaration, parameters, and return values. - Learn how to use
+built-in packages in Go: fmt, math, and time. - Create your own custom
+packages and use them in your programs. - Write a program that makes use
+of the math package to perform simple calculations.</p>
+<h3 id="tasks-1">Tasks</h3>
+<ol type="1">
+<li><p>Understand functions in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Read and understand the concept of
+functions in Go, including how to declare, call, and return values from
+functions.</li>
+<li><input type="checkbox" />Follow tutorials or watch videos to learn
+how to write and use functions in Go.</li>
+</ul></li>
+<li><p>Learn how to use built-in packages in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Read and understand how to use built-in
+packages in Go, such as <code>fmt</code>, <code>math</code>, and
+<code>time</code>.</li>
+<li><input type="checkbox" />Follow tutorials or watch videos to learn
+how to use these packages to perform common tasks.</li>
+</ul></li>
+<li><p>Create your own custom packages</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to create your own custom
+packages in Go, including how to define package names, export functions,
+and import packages in your code.</li>
+<li><input type="checkbox" />Write your own custom package and use it in
+a simple program.</li>
+</ul></li>
+<li><p>Write a program that makes use of the <code>math</code>
+package</p>
+<ul class="task-list">
+<li><input type="checkbox" />Write a program that makes use of the
+<code>math</code> package to perform simple calculations, such as
+calculating the area of a circle or the square root of a number.</li>
+<li><input type="checkbox" />Compile and run the program to make sure it
+works.</li>
+</ul></li>
+<li><p>Build Something! 🔨 Here’s a few ideas:</p>
+<ul>
+<li><strong>Idea #1: Time Tracker</strong>: Build a command-line time
+tracking application that allows users to track the time they spend on
+different tasks. The program should use the <code>time</code> package to
+record the start and end times of each task and calculate the total time
+spent. The <code>fmt</code> package can be used to display the results
+to the user.</li>
+<li><strong>Idea #2 - Math Quiz Game</strong>: Develop a math quiz game
+where the program generates random arithmetic problems (addition,
+subtraction, multiplication, or division) and prompts the player to
+solve them. The math package can be used to generate the problems and
+evaluate the correct answers. The program should keep track of the
+player’s score and display it at the end of the quiz.</li>
+<li><strong>Idea #3</strong>: Build something brand new based on what
+you have learned so far!</li>
+</ul></li>
+</ol>
+<h2 id="arrays-slices-and-maps">3. Arrays, Slices, and Maps</h2>
+<p>This section covers the following topics: - Understand arrays,
+slices, and maps in Go. - Learn how to work with arrays: declaration,
+initialization, and manipulation. - Learn how to work with slices:
+declaration, initialization, and manipulation. - Learn how to work with
+maps: declaration, initialization, and manipulation.</p>
+<h3 id="tasks-2">Tasks</h3>
+<ol type="1">
+<li><p>Understand arrays, slices, and maps in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Read and understand the concepts of arrays,
+slices, and maps in Go, including how to declare, initialize, and
+manipulate them.</li>
+<li><input type="checkbox" />Follow tutorials or watch videos to learn
+how to use arrays, slices, and maps in Go.</li>
+</ul></li>
+<li><p>Learn how to work with arrays</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to work with arrays in Go,
+including how to declare, initialize, and manipulate them.</li>
+<li><input type="checkbox" />Write a program that makes use of arrays to
+store and manipulate data.</li>
+</ul></li>
+<li><p>Learn how to work with slices</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to work with slices in Go,
+including how to declare, initialize, and manipulate them.</li>
+<li><input type="checkbox" />Write a program that makes use of slices to
+store and manipulate data.</li>
+</ul></li>
+<li><p>Learn how to work with maps</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to work with maps in Go,
+including how to declare, initialize, and manipulate them.</li>
+<li><input type="checkbox" />Write a program that makes use of maps to
+store and manipulate data.</li>
+</ul></li>
+<li><p>Build Something! 🔨 Here’s a few ideas:</p>
+<ul>
+<li><strong>Item #1 - Todo List Manager</strong>: Create a command-line
+todo list manager that allows users to add, remove, and display their
+tasks. The program should use slices to store the tasks and provide
+options for adding new tasks, removing completed tasks, and displaying
+the current tasks. You can also implement additional features like
+marking tasks as completed or setting due dates for tasks.</li>
+<li><strong>Item #2 - Word Frequency Counter</strong>: Build a program
+that reads a text file and determines the frequency of each word in the
+file. The program should use maps to store the words as keys and their
+frequencies as values. You can implement additional features like
+excluding common words (e.g., “the”, “and”) or displaying the most
+frequent words.</li>
+<li><strong>Idea #3</strong>: Build something brand new based on what
+you have learned so far!</li>
+</ul></li>
+</ol>
+<h2 id="pointers-and-structs">4. Pointers and Structs</h2>
+<p>This section covers the following topics: - Understand pointers and
+structs in Go. - Learn how to work with pointers: declaration,
+initialization, and manipulation. - Learn how to work with structs:
+declaration, initialization, and manipulation. - Learn how to handle
+errors in Go</p>
+<h3 id="tasks-3">Tasks</h3>
+<ol type="1">
+<li><p>Learn about pointers in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Read and understand the concept of pointers
+in Go, including how to declare, use, and manipulate them.</li>
+<li><input type="checkbox" />Follow tutorials or watch videos to learn
+how to work with pointers in Go.</li>
+</ul></li>
+<li><p>Learn how to work with structs in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to work with structs in Go,
+including how to declare, initialize, and manipulate them.</li>
+<li><input type="checkbox" />Write a program that makes use of structs
+to store and manipulate data.</li>
+</ul></li>
+<li><p>Learn how to work with interfaces in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to work with interfaces in Go,
+including how to declare, implement, and use them.</li>
+<li><input type="checkbox" />Write a program that makes use of
+interfaces to create a more modular and extensible code.</li>
+</ul></li>
+<li><p>Learn how to handle errors in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to handle errors in Go, including
+how to use the built-in error type, how to return and handle errors from
+functions, and how to use the panic and recover mechanisms.</li>
+<li><input type="checkbox" />Write a program that handles errors
+properly and gracefully.</li>
+</ul></li>
+<li><p>Build something! 🔨 Here’s a few ideas:</p>
+<ul>
+<li><strong>Idea #1 - Contact Management System</strong>: Develop a
+contact management system that allows users to store and manage their
+contacts. The program should use a struct to represent each contact,
+containing fields like name, email, and phone number. You should use
+pointers to dynamically allocate memory for new contacts and manipulate
+the contact details using pointer operations. Additionally, you should
+implement error handling to validate user inputs, such as checking for
+duplicate contacts or ensuring valid email formats.</li>
+<li><strong>Idea #2 - File Reader and Analyzer</strong>: Create a
+program that reads a text file, analyzes its contents, and provides
+various statistics. The program should use a struct to store the
+analysis results, such as the number of lines, words, and characters in
+the file. You should utilize pointers to pass the struct as a parameter
+to different functions for processing and updating the analysis results.
+Error handling should be implemented to handle file read errors or
+invalid file formats.</li>
+<li><strong>Idea #3</strong>: Build something brand new based on what
+you have learned so far!</li>
+</ul></li>
+</ol>
+<h2 id="concurrency-and-channels">5. Concurrency and Channels</h2>
+<p>This section covers the following topics: - Understand concurrency
+and channels in Go. - Learn how to create goroutines and use channels to
+communicate between them. - Understand how to use select statements to
+synchronize between goroutines.</p>
+<h3 id="tasks-4">Tasks</h3>
+<ol type="1">
+<li><p>Learn how to work with concurrency in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Read and understand the concept of
+concurrency in Go, including how to use goroutines, channels, and select
+statements.</li>
+<li><input type="checkbox" />Follow tutorials or watch videos to learn
+how to write concurrent programs in Go.</li>
+</ul></li>
+<li><p>Learn how to work with files in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to work with files in Go,
+including how to read and write files, create and delete files and
+directories, and use the file system API.</li>
+<li><input type="checkbox" />Write a program that makes use of file I/O
+in Go.</li>
+</ul></li>
+<li><p>Learn how to work with network in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to work with network in Go,
+including how to create and use TCP and UDP sockets, how to send and
+receive data over the network, and how to use the net package.</li>
+<li><input type="checkbox" />Write a program that makes use of network
+I/O in Go.</li>
+</ul></li>
+<li><p>Learn how to work with databases in Go</p>
+<ul class="task-list">
+<li><input type="checkbox" />Learn how to work with databases in Go,
+including how to connect to a database, how to query and manipulate
+data, and how to use the database/sql package.</li>
+<li><input type="checkbox" />Write a program that makes use of a
+database in Go.</li>
+</ul></li>
+</ol>
+<h2 id="build-something-using-go">Build Something Using Go 🔨</h2>
+<p>You have already built some very powerful initial applications. After
+completing your Go learning plan, try to build out at least one of the
+applications below (or something else that you want to build!): -
+<strong>Simple Web Application</strong>: Create a simple web application
+using the net/http package. You can create a basic CRUD (Create, Read,
+Update, Delete) application for a specific domain. - <strong>RESTful
+API</strong>: Build a RESTful API using the net/http package and a
+third-party router library like Gorilla Mux. You can create an API for a
+specific domain and implement CRUD functionality. - <strong>CLI
+Tool</strong>: Develop a command-line interface (CLI) tool using the os
+and flag packages. The tool can perform some specific tasks like file
+operations, data processing, or system management. -
+<strong>Concurrency</strong>: Create a concurrent program that performs
+some tasks like downloading files, processing data, or managing network
+requests. Use goroutines and channels to handle concurrency. -
+<strong>Web Scraper</strong>: Build a web scraper that extracts data
+from websites and saves it to a file or database. Use a third-party
+library like GoQuery to scrape HTML data. - <strong>Chat
+Application</strong>: Create a simple chat application using the
+WebSocket protocol and a third-party library like Gorilla WebSocket.
+Users can join chat rooms and exchange messages with each other. -
+<strong>Authentication and Authorization</strong>: Implement
+authentication and- authorization in a web application or RESTful API
+using third-party libraries like JWT or OAuth2. - <strong>Image
+Processing</strong>: Build an image processing application that can
+perform various operations like cropping, resizing, or converting image
+formats. Use third-party libraries like Imaging or GoCV. -
+<strong>Machine Learning</strong>: Use the GoCV library to build a
+machine learning application that can perform tasks like face
+recognition, object detection, or image classification. - <strong>Game
+Development</strong> - Create a simple game using a third-party game
+engine like Engo or Ebiten. You can create a 2D or 3D game and use Go’s
+concurrency features to handle game logic.</p>
+<p>These are just a few examples of the many project ideas you can build
+to demonstrate your understanding of Go. You can choose the one that
+interests you the most and use your creativity to add your own features
+and functionalities to make it unique.</p>

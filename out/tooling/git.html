@@ -1,3 +1,9 @@
+<figure>
+<img
+src="https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg"
+alt="logo" />
+<figcaption aria-hidden="true">logo</figcaption>
+</figure>
 <h1 id="git">Git</h1>
 <p>Git is a popular version control system used by software developers
 all over the world. Git was created by Linus Torvalds, the creator of
@@ -75,14 +81,22 @@ essential to using Git effectively.</p></li>
 creating a small project, making some changes to it, and committing your
 changes. Here are some example commands you can run:</p>
 <div class="sourceCode" id="cb4"><pre
-class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> touch README.md                     <span class="co"># create a new file</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git add README.md                   <span class="co"># stage the file for commit</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">&quot;Add README file&quot;</span>     <span class="co"># commit the changes</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> echo <span class="st">&quot;Hello, Git!&quot;</span> <span class="op">&gt;&gt;</span> README.md     <span class="co"># make some changes to the file</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git status                          <span class="co"># see the status of your changes</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git diff                            <span class="co"># see the changes you made</span></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-am</span> <span class="st">&quot;Update README file&quot;</span> <span class="co"># commit the changes</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git log                             <span class="co"># see the commit history</span></span></code></pre></div></li>
+class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> touch README.md</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new file</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git add README.md</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># stage the file for commit</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">&quot;Add README file&quot;</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># commit the changes</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> echo <span class="st">&quot;Hello, Git!&quot;</span> <span class="op">&gt;&gt;</span> README.md</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># make some changes to the file</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git status </span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># see the status of your changes</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git diff </span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="co"># see the changes you made</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-am</span> <span class="st">&quot;Update README file&quot;</span> </span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co"># commit the changes</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git log</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="co"># see the commit history</span></span></code></pre></div></li>
 </ul></li>
 </ol>
 <h2 id="branching-and-collaboration">2. Branching and Collaboration</h2>
@@ -165,11 +179,16 @@ complex changes to your repository.</p></li>
 <li><p><input type="checkbox" />Practice using these commands on a
 sample project. Here are some example commands you can run:</p>
 <div class="sourceCode" id="cb11"><pre
-class="sourceCode sh"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git diff <span class="op">&lt;</span>commit1<span class="op">&gt;</span> <span class="op">&lt;</span>commit2<span class="op">&gt;</span>    # see the differences between two commits</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git reset <span class="op">&lt;</span>commit<span class="op">&gt;</span>              # undo commits and reset the repository to a previous state</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git stash                        <span class="co"># save changes to a temporary area and revert to a clean state</span></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git rebase <span class="op">&lt;</span>branch<span class="op">&gt;</span>              # reapply commits from one branch onto another</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git cherry-pick <span class="op">&lt;</span>commit<span class="op">&gt;</span>         # apply a specific commit from another branch onto the current branch</span></code></pre></div></li>
+class="sourceCode sh"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git diff <span class="op">&lt;</span>commit1<span class="op">&gt;</span> <span class="op">&lt;</span>commit2<span class="op">&gt;</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># see the differences between two commits</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git reset <span class="op">&lt;</span>commit<span class="op">&gt;</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># undo commits and reset the repository to a previous state</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git stash</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="co"># save changes to a temporary area and revert to a clean state</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git rebase <span class="op">&lt;</span>branch<span class="op">&gt;</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="co"># reapply commits from one branch onto another</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git cherry-pick <span class="op">&lt;</span>commit<span class="op">&gt;</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co"># apply a specific commit from another branch onto the current branch</span></span></code></pre></div></li>
 </ul></li>
 <li><p>Working with Git GUI Tools:</p>
 <ul class="task-list">
