@@ -24,17 +24,12 @@ export default defineUserConfig({
         ]
       },
       {
-        text: 'Frontend',
-        children: [
-          { text: 'Angular', link: '/frontend/angular' },
-          { text: 'React', link: '/frontend/react' }
-        ]
-      },
-      {
         text: 'Frameworks',
         children: [
+          { text: 'Angular', link: '/frameworks/angular' },
           { text: '.Net', link: '/frameworks/dotnet' },
           { text: 'Next.js', link: '/frameworks/nextjs' },
+          { text: 'React', link: '/frameworks/react' },
           { text: 'Spring Boot', link: '/frameworks/springboot' }
         ]
       },
