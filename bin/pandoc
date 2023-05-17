@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 docker run --rm \
   --volume "$(pwd):/data" \
-  --volume "./etc:/etc" \
+  --volume "/etc:/etc" \
   --user $(id -u):$(id -g) \
   pandoc/extra $@
