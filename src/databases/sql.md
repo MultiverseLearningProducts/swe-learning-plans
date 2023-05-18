@@ -1,4 +1,4 @@
-# SQL!
+# SQL
 
 Structured Query Language (SQL) is a programming language used to manage and
 manipulate relational databases. It was first developed in the 1970s by IBM

@@ -1,5 +1,3 @@
-![logo](https://user-images.githubusercontent.com/44912347/202296600-c5f247d6-9616-49db-88f0-38433429d781.jpg)
-
 # Angular
 
 Angular is a front-end web framework for building dynamic web applications using
