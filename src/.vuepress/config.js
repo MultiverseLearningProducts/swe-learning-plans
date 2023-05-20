@@ -11,6 +11,9 @@ export default defineUserConfig({
     md.use(taskLists)
   },
   theme: defaultTheme({
+    logo: '/mv-symbol.png',
+    logoDark: '/mv-symbol-dark.png',
+    repo: 'MultiverseLearningProducts/swe-learning-plans',
     navbar: [
       {
         text: 'Languages',
