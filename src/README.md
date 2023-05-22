@@ -38,4 +38,5 @@ This page contains all of the Learning Plans you can use throughout Bootcamp Par
 
 | Cloud, Deployment, and Tooling |
 | --------- |
+| [Terraform](./cloud/terraform.md) |
 | [git](./tooling/git.md) |
