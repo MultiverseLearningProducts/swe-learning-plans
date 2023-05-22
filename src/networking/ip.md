@@ -28,21 +28,21 @@ By completing these tasks, you should have a solid understanding of IP addressin
 
 1. Learn the basics of IP addressing
 
-   - [ ] Understand the purpose of IP addresses in networking and how they uniquely identify devices on a network.
-   - [ ] Learn the structure of an IPv4 address and IPv6 address, including the different address types such as unicast, multicast, and broadcast.
-   - [ ] Understand the format of an IPv4 address, which consists of four octets (or bytes) separated by dots, and an IPv6 address, which consists of eight groups of four hexadecimal digits separated by colons.
+   - Understand the purpose of IP addresses in networking and how they uniquely identify devices on a network.
+   - Learn the structure of an IPv4 address and IPv6 address, including the different address types such as unicast, multicast, and broadcast.
+   - Understand the format of an IPv4 address, which consists of four octets (or bytes) separated by dots, and an IPv6 address, which consists of eight groups of four hexadecimal digits separated by colons.
 
 2. Familiarize yourself with IPv4 addressing and subnetting
 
-   - [ ] Learn about the different classes of IPv4 addresses, including Class A, B, C, D, and E, and their corresponding address ranges.
-   - [ ] Understand the concept of subnetting, which involves dividing a network into smaller subnetworks, and how it helps conserve IP addresses.
-   - [ ] Learn how to calculate subnet masks, which define the range of IP addresses in a subnet, using binary arithmetic.
+   - Learn about the different classes of IPv4 addresses, including Class A, B, C, D, and E, and their corresponding address ranges.
+   - Understand the concept of subnetting, which involves dividing a network into smaller subnetworks, and how it helps conserve IP addresses.
+   - Learn how to calculate subnet masks, which define the range of IP addresses in a subnet, using binary arithmetic.
 
 3. Study the differences between public and private IP addresses
 
-   - [ ] Understand the concept of public and private IP addresses, and how they are used in networking.
-   - [ ] Learn the different ranges of private IP addresses, including Class A, B, and C, and how they are used in private networks.
-   - [ ] Understand how Network Address Translation (NAT) is used to map private IP addresses to public IP addresses, and the benefits and limitations of NAT.
+   - Understand the concept of public and private IP addresses, and how they are used in networking.
+   - Learn the different ranges of private IP addresses, including Class A, B, and C, and how they are used in private networks.
+   - Understand how Network Address Translation (NAT) is used to map private IP addresses to public IP addresses, and the benefits and limitations of NAT.
 
 ## 2. From IPv4 to IPv6
 
@@ -56,21 +56,21 @@ By completing these tasks, you should have a solid understanding of the limitati
 
 1. Learn about the limitations of IPv4 and NAT
 
-   - [ ] Understand the history and evolution of IPv4, and the reasons for its limitations in terms of available addresses and scalability.
-   - [ ] Learn about the challenges of NAT (Network Address Translation), including how it can introduce security issues, and the limitations it poses in terms of end-to-end connectivity and peer-to-peer networking.
+   - Understand the history and evolution of IPv4, and the reasons for its limitations in terms of available addresses and scalability.
+   - Learn about the challenges of NAT (Network Address Translation), including how it can introduce security issues, and the limitations it poses in terms of end-to-end connectivity and peer-to-peer networking.
 
 2. Understand the fundamentals of IPv6
 
-   - [ ] Learn about the structure of IPv6 addresses, including their 128-bit length, hexadecimal notation, and the use of colons to separate address segments.
-   - [ ] Understand the different types of IPv6 addresses, including unicast, multicast, and anycast, and their unique features and applications.
-   - [ ] Learn about the benefits of IPv6 over IPv4, including the vastly expanded address space, simplified header format, and improved support for mobility and security.
+   - Learn about the structure of IPv6 addresses, including their 128-bit length, hexadecimal notation, and the use of colons to separate address segments.
+   - Understand the different types of IPv6 addresses, including unicast, multicast, and anycast, and their unique features and applications.
+   - Learn about the benefits of IPv6 over IPv4, including the vastly expanded address space, simplified header format, and improved support for mobility and security.
 
 3. Study the transition mechanisms for IPv6
 
-   - [ ] Learn about the different transition mechanisms that enable the coexistence of IPv4 and IPv6 networks, such as dual-stack, tunneling, and translation.
-   - [ ] Understand how dual-stack networks allow both IPv4 and IPv6 to coexist on the same network infrastructure, and the challenges and benefits of this approach.
-   - [ ] Learn about tunneling techniques like 6to4 and Teredo, which allow IPv6 packets to be encapsulated and transmitted over IPv4 networks.
-   - [ ] Study translation mechanisms like NAT64 and SIIT, which enable IPv6-only networks to communicate with IPv4-only networks.
+   - Learn about the different transition mechanisms that enable the coexistence of IPv4 and IPv6 networks, such as dual-stack, tunneling, and translation.
+   - Understand how dual-stack networks allow both IPv4 and IPv6 to coexist on the same network infrastructure, and the challenges and benefits of this approach.
+   - Learn about tunneling techniques like 6to4 and Teredo, which allow IPv6 packets to be encapsulated and transmitted over IPv4 networks.
+   - Study translation mechanisms like NAT64 and SIIT, which enable IPv6-only networks to communicate with IPv4-only networks.
 
 ## 3. Protocols
 
@@ -84,20 +84,20 @@ By completing these tasks, you should have a solid understanding of routing prot
 
 1. Learn about routing protocols used in IPv4 and IPv6 networks
 
-   - [ ] Understand the role of routing protocols in network communication, and how they help routers learn and exchange information about network topology and reachability.
-   - [ ] Learn about popular routing protocols used in IPv4 and IPv6 networks, including OSPF, BGP, RIP, and EIGRP, and their unique features and applications.
-   - [ ] Understand the differences between interior gateway protocols (IGPs) and exterior gateway protocols (EGPs), and how they are used to route traffic within and between autonomous systems.
+   - Understand the role of routing protocols in network communication, and how they help routers learn and exchange information about network topology and reachability.
+   - Learn about popular routing protocols used in IPv4 and IPv6 networks, including OSPF, BGP, RIP, and EIGRP, and their unique features and applications.
+   - Understand the differences between interior gateway protocols (IGPs) and exterior gateway protocols (EGPs), and how they are used to route traffic within and between autonomous systems.
 
 2. Study the different types of routing protocols
 
-   - [ ] Understand the differences between link-state and distance-vector routing protocols, including how they calculate and exchange routing information, and the benefits and limitations of each approach.
-   - [ ] Learn about hybrid routing protocols, which combine features of link-state and distance-vector protocols to improve scalability and convergence speed.
+   - Understand the differences between link-state and distance-vector routing protocols, including how they calculate and exchange routing information, and the benefits and limitations of each approach.
+   - Learn about hybrid routing protocols, which combine features of link-state and distance-vector protocols to improve scalability and convergence speed.
 
 3. Learn about the role of routers in IP packet forwarding
 
-   - [ ] Understand the basic functions of a router, including forwarding IP packets between networks and maintaining routing tables.
-   - [ ] Learn about how routers use routing protocols to exchange and learn about network topology and reachability, and how they use this information to make forwarding decisions.
-   - [ ] Study the different types of routing protocols, including static routing, default routing, and dynamic routing, and their applications in network design.
+   - Understand the basic functions of a router, including forwarding IP packets between networks and maintaining routing tables.
+   - Learn about how routers use routing protocols to exchange and learn about network topology and reachability, and how they use this information to make forwarding decisions.
+   - Study the different types of routing protocols, including static routing, default routing, and dynamic routing, and their applications in network design.
 
 ## 4. Transport Layer
 
@@ -111,19 +111,19 @@ By completing these tasks, you should have a solid understanding of the importan
 
 1. Understand the importance of the Transport Layer protocols
 
-   - [ ] Learn about the role of the Transport Layer in the OSI and TCP/IP models, and how it provides end-to-end communication between applications running on different hosts.
-   - [ ] Understand the functions of Transport Layer protocols, including multiplexing, segmentation, flow control, and error recovery.
+   - Learn about the role of the Transport Layer in the OSI and TCP/IP models, and how it provides end-to-end communication between applications running on different hosts.
+   - Understand the functions of Transport Layer protocols, including multiplexing, segmentation, flow control, and error recovery.
 
 2. Study the differences between TCP and UDP
 
-   - [ ] Learn about the differences between TCP and UDP, including their reliability, congestion control, and other features.
-   - [ ] Understand the advantages and disadvantages of each protocol, and their unique applications in different network scenarios.
+   - Learn about the differences between TCP and UDP, including their reliability, congestion control, and other features.
+   - Understand the advantages and disadvantages of each protocol, and their unique applications in different network scenarios.
 
 3. Learn about the various application-layer protocols that use TCP or UDP
 
-   - [ ] Study the popular application-layer protocols that use TCP, such as HTTP, FTP, Telnet, and SMTP, and their features and applications.
-   - [ ] Learn about the popular application-layer protocols that use UDP, such as DNS, DHCP, SNMP, and RTP, and their unique features and applications.
-   - [ ] Understand the differences between connection-oriented and connectionless protocols, and how this affects the design and implementation of application-layer protocols.
+   - Study the popular application-layer protocols that use TCP, such as HTTP, FTP, Telnet, and SMTP, and their features and applications.
+   - Learn about the popular application-layer protocols that use UDP, such as DNS, DHCP, SNMP, and RTP, and their unique features and applications.
+   - Understand the differences between connection-oriented and connectionless protocols, and how this affects the design and implementation of application-layer protocols.
 
 ## 5. IP Security
 
@@ -137,19 +137,19 @@ By completing these tasks, you should have a solid understanding of the security
 
 1. Review the security issues related to IP networking
 
-   - [ ] Learn about common security threats to IP networks, such as DDoS attacks, malware, hacking, and phishing, and how they can be prevented or mitigated.
-   - [ ] Understand the importance of network security policies, access control, and other best practices for securing IP networks.
+   - Learn about common security threats to IP networks, such as DDoS attacks, malware, hacking, and phishing, and how they can be prevented or mitigated.
+   - Understand the importance of network security policies, access control, and other best practices for securing IP networks.
 
 2. Learn about the security protocols used to protect IP networks
 
-   - [ ] Study the different security protocols used to protect IP networks, including IPSec, SSL/TLS, VPN, and SSH, and their features and applications.
-   - [ ] Understand how these protocols provide confidentiality, integrity, and authenticity of network traffic, and how they can be used to establish secure connections between hosts and networks.
+   - Study the different security protocols used to protect IP networks, including IPSec, SSL/TLS, VPN, and SSH, and their features and applications.
+   - Understand how these protocols provide confidentiality, integrity, and authenticity of network traffic, and how they can be used to establish secure connections between hosts and networks.
 
 3. Learn about emerging networking technologies like SDN
 
-   - [ ] Study the concept of Software-Defined Networking (SDN) and how it is changing the way we design and manage networks.
-   - [ ] Understand the benefits of SDN, such as improved network flexibility, scalability, and programmability, and its applications in different network scenarios.
-   - [ ] Learn about the popular SDN controllers and programming languages, such as OpenFlow, Python, and Java, and their unique features and applications.
+   - Study the concept of Software-Defined Networking (SDN) and how it is changing the way we design and manage networks.
+   - Understand the benefits of SDN, such as improved network flexibility, scalability, and programmability, and its applications in different network scenarios.
+   - Learn about the popular SDN controllers and programming languages, such as OpenFlow, Python, and Java, and their unique features and applications.
 
 
 ## Resources

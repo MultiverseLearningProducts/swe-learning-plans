@@ -54,25 +54,25 @@ This section covers the following topics:
 
 1. Learn about Go and its history
 
-   - [ ] Read about the history of Go and its design goals.
-   - [ ] Watch introductory videos or read articles about Go to gain a basic understanding of the language.
+   - Read about the history of Go and its design goals.
+   - Watch introductory videos or read articles about Go to gain a basic understanding of the language.
 
 2. Install Go on your computer
 
-   - [ ] [Download and install](https://go.dev/dl/) the latest version of Go on your computer.
-   - [ ] Write a program that prints "Hello, World!" to the console using the fmt package.
-   - [ ] Compile and run the program to make sure it works.
+   - [Download and install](https://go.dev/dl/) the latest version of Go on your computer.
+   - Write a program that prints "Hello, World!" to the console using the fmt package.
+   - Compile and run the program to make sure it works.
       - **Stuck?** Check out the [Get Started with Go](https://go.dev/doc/tutorial/getting-started) Tutorial!
 
 3. Learn the basic syntax of Go
 
-   - [ ] Read and understand the basic syntax of Go, such as:
+   - Read and understand the basic syntax of Go, such as:
       - Variable
       - Data types
       - Operators
       - Control structures
       - Loops
-   - [ ] Follow tutorials or watch videos to learn how to write simple Go programs.
+   - Follow tutorials or watch videos to learn how to write simple Go programs.
 
 4. Build Something! 🔨 Here's a few ideas:
       - **Idea #1 - Simple Calculator**: Create a command-line calculator application that allows users to perform basic arithmetic operations. The program should prompt the user to enter two numbers and an operator (`+`, `-`, `*`, `/`) using [one of Go's ways of accepting user input](https://www.w3schools.com/go/go_input.php). Based on the chosen operator, the program should perform the corresponding operation and display the result.
@@ -91,23 +91,23 @@ This section covers the following topics:
 
 1. Understand functions in Go
 
-   - [ ] Read and understand the concept of functions in Go, including how to declare, call, and return values from functions.
-   - [ ] Follow tutorials or watch videos to learn how to write and use functions in Go.
+   - Read and understand the concept of functions in Go, including how to declare, call, and return values from functions.
+   - Follow tutorials or watch videos to learn how to write and use functions in Go.
 
 2. Learn how to use built-in packages in Go
 
-   - [ ] Read and understand how to use built-in packages in Go, such as `fmt`, `math`, and `time`.
-   - [ ] Follow tutorials or watch videos to learn how to use these packages to perform common tasks.
+   - Read and understand how to use built-in packages in Go, such as `fmt`, `math`, and `time`.
+   - Follow tutorials or watch videos to learn how to use these packages to perform common tasks.
 
 3. Create your own custom packages
 
-   - [ ] Learn how to create your own custom packages in Go, including how to define package names, export functions, and import packages in your code.
-   - [ ] Write your own custom package and use it in a simple program.
+   - Learn how to create your own custom packages in Go, including how to define package names, export functions, and import packages in your code.
+   - Write your own custom package and use it in a simple program.
 
 4. Write a program that makes use of the `math` package
 
-   - [ ] Write a program that makes use of the `math` package to perform simple calculations, such as calculating the area of a circle or the square root of a number.
-   - [ ] Compile and run the program to make sure it works.
+   - Write a program that makes use of the `math` package to perform simple calculations, such as calculating the area of a circle or the square root of a number.
+   - Compile and run the program to make sure it works.
 
 5. Build Something! 🔨 Here's a few ideas:
       - **Idea #1: Time Tracker**: Build a command-line time tracking application that allows users to track the time they spend on different tasks. The program should use the `time` package to record the start and end times of each task and calculate the total time spent. The `fmt` package can be used to display the results to the user.
@@ -126,23 +126,23 @@ This section covers the following topics:
 
 1. Understand arrays, slices, and maps in Go
 
-   - [ ] Read and understand the concepts of arrays, slices, and maps in Go, including how to declare, initialize, and manipulate them.
-   - [ ] Follow tutorials or watch videos to learn how to use arrays, slices, and maps in Go.
+   - Read and understand the concepts of arrays, slices, and maps in Go, including how to declare, initialize, and manipulate them.
+   - Follow tutorials or watch videos to learn how to use arrays, slices, and maps in Go.
 
 2. Learn how to work with arrays
 
-   - [ ] Learn how to work with arrays in Go, including how to declare, initialize, and manipulate them.
-   - [ ] Write a program that makes use of arrays to store and manipulate data.
+   - Learn how to work with arrays in Go, including how to declare, initialize, and manipulate them.
+   - Write a program that makes use of arrays to store and manipulate data.
 
 3. Learn how to work with slices
 
-   - [ ] Learn how to work with slices in Go, including how to declare, initialize, and manipulate them.
-   - [ ] Write a program that makes use of slices to store and manipulate data.
+   - Learn how to work with slices in Go, including how to declare, initialize, and manipulate them.
+   - Write a program that makes use of slices to store and manipulate data.
 
 4. Learn how to work with maps
 
-   - [ ] Learn how to work with maps in Go, including how to declare, initialize, and manipulate them.
-   - [ ] Write a program that makes use of maps to store and manipulate data.
+   - Learn how to work with maps in Go, including how to declare, initialize, and manipulate them.
+   - Write a program that makes use of maps to store and manipulate data.
 
 5. Build Something! 🔨 Here's a few ideas:
 
@@ -162,23 +162,23 @@ This section covers the following topics:
 
 1. Learn about pointers in Go
 
-   - [ ] Read and understand the concept of pointers in Go, including how to declare, use, and manipulate them.
-   - [ ] Follow tutorials or watch videos to learn how to work with pointers in Go.
+   - Read and understand the concept of pointers in Go, including how to declare, use, and manipulate them.
+   - Follow tutorials or watch videos to learn how to work with pointers in Go.
 
 2. Learn how to work with structs in Go
 
-   - [ ] Learn how to work with structs in Go, including how to declare, initialize, and manipulate them.
-   - [ ] Write a program that makes use of structs to store and manipulate data.
+   - Learn how to work with structs in Go, including how to declare, initialize, and manipulate them.
+   - Write a program that makes use of structs to store and manipulate data.
 
 3. Learn how to work with interfaces in Go
 
-   - [ ] Learn how to work with interfaces in Go, including how to declare, implement, and use them.
-   - [ ] Write a program that makes use of interfaces to create a more modular and extensible code.
+   - Learn how to work with interfaces in Go, including how to declare, implement, and use them.
+   - Write a program that makes use of interfaces to create a more modular and extensible code.
 
 4. Learn how to handle errors in Go
 
-   - [ ] Learn how to handle errors in Go, including how to use the built-in error type, how to return and handle errors from functions, and how to use the panic and recover mechanisms.
-   - [ ] Write a program that handles errors properly and gracefully.
+   - Learn how to handle errors in Go, including how to use the built-in error type, how to return and handle errors from functions, and how to use the panic and recover mechanisms.
+   - Write a program that handles errors properly and gracefully.
 
 5. Build something! 🔨 Here's a few ideas:
 
@@ -197,23 +197,23 @@ This section covers the following topics:
 
 1. Learn how to work with concurrency in Go
 
-   - [ ] Read and understand the concept of concurrency in Go, including how to use goroutines, channels, and select statements.
-   - [ ] Follow tutorials or watch videos to learn how to write concurrent programs in Go.
+   - Read and understand the concept of concurrency in Go, including how to use goroutines, channels, and select statements.
+   - Follow tutorials or watch videos to learn how to write concurrent programs in Go.
 
 2. Learn how to work with files in Go
 
-   - [ ] Learn how to work with files in Go, including how to read and write files, create and delete files and directories, and use the file system API.
-   - [ ] Write a program that makes use of file I/O in Go.
+   - Learn how to work with files in Go, including how to read and write files, create and delete files and directories, and use the file system API.
+   - Write a program that makes use of file I/O in Go.
 
 3. Learn how to work with network in Go
 
-   - [ ] Learn how to work with network in Go, including how to create and use TCP and UDP sockets, how to send and receive data over the network, and how to use the net package.
-   - [ ] Write a program that makes use of network I/O in Go.
+   - Learn how to work with network in Go, including how to create and use TCP and UDP sockets, how to send and receive data over the network, and how to use the net package.
+   - Write a program that makes use of network I/O in Go.
 
 4. Learn how to work with databases in Go
 
-   - [ ] Learn how to work with databases in Go, including how to connect to a database, how to query and manipulate data, and how to use the database/sql package.
-   - [ ] Write a program that makes use of a database in Go.
+   - Learn how to work with databases in Go, including how to connect to a database, how to query and manipulate data, and how to use the database/sql package.
+   - Write a program that makes use of a database in Go.
 
 ## Build Something Using Go 🔨
 
