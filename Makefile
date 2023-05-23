@@ -16,9 +16,9 @@ PDF_FILES := $(patsubst $(SRC_DIR)/%.md,$(OUT_DIR)/%.pdf,$(MARKDOWN_FILES))
 
 $(OUT_DIR)/%.pdf: $(SRC_DIR)/%.md
 	@mkdir -p $(@D)
-	bin/pandoc $< -o $@
+	bin/pandoc $< -o $@ --template=/etc/template.latex
 
-# Default target is to build all HTML files
+# Default target is to build all HTML and PDF files
 all: $(HTML_FILES) $(PDF_FILES)
 
 # Clean up output directory
