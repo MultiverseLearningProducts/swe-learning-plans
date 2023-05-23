@@ -59,33 +59,33 @@ exercises and applying what you have learned in real-world scenarios.
 
 1. Learn what SQL is and why it's used
 
-   - [ ] Research and read about SQL to understand what it is and why it's used
-   - [ ] Watch introductory videos or tutorials that explain SQL and its uses
-   - [ ] Learn about the history of SQL and how it has evolved over time
+   - Research and read about SQL to understand what it is and why it's used
+   - Watch introductory videos or tutorials that explain SQL and its uses
+   - Learn about the history of SQL and how it has evolved over time
 
 2. Download your companies SQL IDE and software
 
-   - [ ] Coordinate with your apprentice manager and coach to determine what SQL
-         IDE and software you will be using on the job.
-   - [ ] Download this IDE and/or software onto your machine.
+   - Coordinate with your apprentice manager and coach to determine what SQL IDE
+     and software you will be using on the job.
+   - Download this IDE and/or software onto your machine.
 
 3. Understand basic concepts such as tables, rows, columns, and databases
 
-   - [ ] Research and read about the basic concepts of SQL such as tables, rows,
-         columns, and databases
-   - [ ] Watch videos or tutorials that explain these concepts and how they
-         relate to each other
-   - [ ] Practice creating a simple database and table using a tool such as
-         MySQL Workbench
+   - Research and read about the basic concepts of SQL such as tables, rows,
+     columns, and databases
+   - Watch videos or tutorials that explain these concepts and how they relate
+     to each other
+   - Practice creating a simple database and table using a tool such as MySQL
+     Workbench
 
 4. Learn how to write basic queries using `SELECT`, `FROM`, and `WHERE` clauses
 
-   - [ ] Research and read about the basic syntax of SQL queries, including
-         `SELECT`, `FROM`, and `WHERE` clauses
-   - [ ] Practice writing basic queries to retrieve data from a table
-   - [ ] Experiment with different query conditions using operators such as `=`,
-         `<>`, `>`, `<`, `>=`, and `<=`
-   - [ ] Practice ordering the results using ORDER BY clause
+   - Research and read about the basic syntax of SQL queries, including
+     `SELECT`, `FROM`, and `WHERE` clauses
+   - Practice writing basic queries to retrieve data from a table
+   - Experiment with different query conditions using operators such as `=`,
+     `<>`, `>`, `<`, `>=`, and `<=`
+   - Practice ordering the results using ORDER BY clause
 
 ## 2. Working with Data
 
@@ -104,28 +104,28 @@ learned in real-world scenarios.
 
 1. Learn how to filter data using `WHERE`, `AND`, `OR`, and `IN` clauses
 
-   - [ ] Review and practice using the `WHERE` clause to filter data based on a
-         condition
-   - [ ] Learn how to use logical operators such as AND and `OR` to filter data
-         based on multiple conditions
-   - [ ] Understand how to use the `IN` clause to filter data based on a list of
-         possible values
+   - Review and practice using the `WHERE` clause to filter data based on a
+     condition
+   - Learn how to use logical operators such as AND and `OR` to filter data
+     based on multiple conditions
+   - Understand how to use the `IN` clause to filter data based on a list of
+     possible values
 
 2. Understand how to sort data using `ORDER BY`
 
-   - [ ] Review and practice using the `ORDER BY` clause to sort data in
-         ascending or descending order
-   - [ ] Learn how to sort data by multiple columns by specifying multiple
-         fields in the `ORDER BY` clause
+   - Review and practice using the `ORDER BY` clause to sort data in ascending
+     or descending order
+   - Learn how to sort data by multiple columns by specifying multiple fields in
+     the `ORDER BY` clause
 
 3. Learn how to limit and paginate data using `LIMIT` and `OFFSET`
 
-   - [ ] Understand how to use the `LIMIT` clause to limit the number of rows
-         returned by a query
-   - [ ] Learn how to use the `OFFSET` clause to skip a specified number of rows
-         before returning results
-   - [ ] Practice combining the `LIMIT` and `OFFSET` clauses to paginate data in
-         your queries
+   - Understand how to use the `LIMIT` clause to limit the number of rows
+     returned by a query
+   - Learn how to use the `OFFSET` clause to skip a specified number of rows
+     before returning results
+   - Practice combining the `LIMIT` and `OFFSET` clauses to paginate data in
+     your queries
 
 ## 3. Advanced Queries
 
@@ -144,26 +144,26 @@ have learned in real-world scenarios.
 
 1. Learn how to join tables using `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN`
 
-   - [ ] Understand the concept of table joins and the different types of joins
-         available in SQL
-   - [ ] Practice joining two tables using `INNER JOIN`, `LEFT JOIN`, and
-         `RIGHT JOIN` clauses
-   - [ ] Learn how to join more than two tables using nested joins
+   - Understand the concept of table joins and the different types of joins
+     available in SQL
+   - Practice joining two tables using `INNER JOIN`, `LEFT JOIN`, and
+     `RIGHT JOIN` clauses
+   - Learn how to join more than two tables using nested joins
 
 2. Understand how to group data using `GROUP BY`
 
-   - [ ] Understand the concept of grouping data in SQL
-   - [ ] Practice using the `GROUP BY` clause to group data based on one or more
-         columns
-   - [ ] Learn how to use aggregate functions such as `SUM`, `COUNT`, `AVG`,
-         `MIN`, and `MAX` to summarize data within groups
+   - Understand the concept of grouping data in SQL
+   - Practice using the `GROUP BY` clause to group data based on one or more
+     columns
+   - Learn how to use aggregate functions such as `SUM`, `COUNT`, `AVG`, `MIN`,
+     and `MAX` to summarize data within groups
 
 3. Learn how to filter grouped data using `HAVING`
 
-   - [ ] Understand how to use the `HAVING` clause to filter data based on
-         aggregate functions
-   - [ ] Practice combining `GROUP BY` and `HAVING` clauses to filter and
-         summarize data
+   - Understand how to use the `HAVING` clause to filter data based on aggregate
+     functions
+   - Practice combining `GROUP BY` and `HAVING` clauses to filter and summarize
+     data
 
 ## 4. Modifying Data
 
@@ -182,28 +182,25 @@ and applying what you have learned in real-world scenarios.
 
 1. Understand how to insert data into tables using `INSERT INTO`
 
-   - [ ] Review and practice using the `INSERT INTO` clause to insert data into
-         a table
-   - [ ] Learn how to specify values for each column in a table, or how to
-         insert data into only some columns
-   - [ ] Practice inserting multiple rows at once using the `INSERT INTO` clause
+   - Review and practice using the `INSERT INTO` clause to insert data into a
+     table
+   - Learn how to specify values for each column in a table, or how to insert
+     data into only some columns
+   - Practice inserting multiple rows at once using the `INSERT INTO` clause
 
 2. Learn how to update data in tables using `UPDATE`
 
-   - [ ] Review and practice using the `UPDATE` clause to modify existing data
-         in a table
-   - [ ] Understand how to use the `WHERE` clause to specify which rows to
-         update
-   - [ ] Learn how to update multiple columns at once using the `UPDATE` clause
+   - Review and practice using the `UPDATE` clause to modify existing data in a
+     table
+   - Understand how to use the `WHERE` clause to specify which rows to update
+   - Learn how to update multiple columns at once using the `UPDATE` clause
 
 3. Understand how to delete data from tables using `DELETE`
 
-   - [ ] Review and practice using the `DELETE` clause to remove data from a
-         table
-   - [ ] Understand how to use the `WHERE` clause to specify which rows to
-         delete
-   - [ ] Learn how to use the `TRUNCATE TABLE` command to remove all rows from a
-         table
+   - Review and practice using the `DELETE` clause to remove data from a table
+   - Understand how to use the `WHERE` clause to specify which rows to delete
+   - Learn how to use the `TRUNCATE TABLE` command to remove all rows from a
+     table
 
 ## 5. Additional Topics
 
@@ -223,28 +220,27 @@ practice exercises and applying what you have learned in real-world scenarios.
 
 1. Learn about subqueries and how they can be used in SQL
 
-   - [ ] Understand the concept of subqueries and their importance in SQL
-   - [ ] Practice using subqueries in `SELECT`, `WHERE`, and `FROM` clauses
-   - [ ] Learn how to use subqueries to join multiple tables and filter data
-         based on results from another query
+   - Understand the concept of subqueries and their importance in SQL
+   - Practice using subqueries in `SELECT`, `WHERE`, and `FROM` clauses
+   - Learn how to use subqueries to join multiple tables and filter data based
+     on results from another query
 
 2. Understand how to work with aggregate functions such as `COUNT`, `SUM`,
    `AVG`, `MIN`, and `MAX`
 
-   - [ ] Review and practice using aggregate functions to perform calculations
-         on groups of data
-   - [ ] Understand how to use the `GROUP BY` clause with aggregate functions to
-         group and summarize data
-   - [ ] Learn how to use the `DISTINCT` keyword to eliminate duplicate values
-         from aggregate function results
+   - Review and practice using aggregate functions to perform calculations on
+     groups of data
+   - Understand how to use the `GROUP BY` clause with aggregate functions to
+     group and summarize data
+   - Learn how to use the `DISTINCT` keyword to eliminate duplicate values from
+     aggregate function results
 
 3. Learn about views and how they can be used to simplify complex queries
 
-   - [ ] Understand the concept of views and how they can be used to create
-         virtual tables based on the results of a query
-   - [ ] Practice creating and using views in SQL
-   - [ ] Learn how to use views to simplify complex queries and reuse common
-         queries
+   - Understand the concept of views and how they can be used to create virtual
+     tables based on the results of a query
+   - Practice creating and using views in SQL
+   - Learn how to use views to simplify complex queries and reuse common queries
 
 ## Build Something with SQL!
 

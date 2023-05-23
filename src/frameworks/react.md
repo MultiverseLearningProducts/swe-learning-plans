@@ -66,26 +66,26 @@ This section covers the following topics:
 
 1. Learn about what React is and its purpose in web development.
 
-   - [ ] Understand the basics of React, including JSX syntax, components,
-         state, and props.
-   - [ ] Read the official React documentation to get a comprehensive
-         understanding of these concepts.
+   - Understand the basics of React, including JSX syntax, components, state,
+     and props.
+   - Read the official React documentation to get a comprehensive understanding
+     of these concepts.
 
 2. Follow the [Quick Start](https://react.dev/learn) guide to create a "Hello
    World Application
 
-   - [ ] Setup your first React application using the
-         [Quick Start](https://react.dev/learn) guide.
-   - [ ] Create a simple "Hello World" application to get started.
-   - [ ] Learn about the different tools and libraries that can be used with
-         React, such as [Babel](https://babeljs.io/) and
-         [Webpack](https://webpack.js.org/).
-   - [ ] Explore some popular React UI libraries like
-         [Material-UI](https://mui.com/) and
-         [Semantic-UI](https://semantic-ui.com/).
-   - [ ] Familiarize yourself with the
-         [React Developer Tools](https://react.dev/learn/react-developer-tools),
-         which can help you debug and analyze your React applications.
+   - Setup your first React application using the
+     [Quick Start](https://react.dev/learn) guide.
+   - Create a simple "Hello World" application to get started.
+   - Learn about the different tools and libraries that can be used with React,
+     such as [Babel](https://babeljs.io/) and
+     [Webpack](https://webpack.js.org/).
+   - Explore some popular React UI libraries like
+     [Material-UI](https://mui.com/) and
+     [Semantic-UI](https://semantic-ui.com/).
+   - Familiarize yourself with the
+     [React Developer Tools](https://react.dev/learn/react-developer-tools),
+     which can help you debug and analyze your React applications.
 
 Remember, this is just one way you could structure day 1 of your learning plan.
 You may find that you want to spend more time on certain topics or skip over
@@ -105,26 +105,26 @@ This section covers the following topics:
 
 1. React components
 
-   - [ ] Learn about the different types of React components, including class
-         components, functional components, and stateless components.
-   - [ ] Understand how to create a component in React, and the syntax for
-         rendering it to the DOM.
+   - Learn about the different types of React components, including class
+     components, functional components, and stateless components.
+   - Understand how to create a component in React, and the syntax for rendering
+     it to the DOM.
 
 2. Component props
 
-   - [ ] Understand how to use props to pass data from a parent component to a
-         child component.
-   - [ ] Understand how to use render data in a component that has been passed
-         as a prop.
+   - Understand how to use props to pass data from a parent component to a child
+     component.
+   - Understand how to use render data in a component that has been passed as a
+     prop.
 
 3. Practice creating components
 
-   - [ ] Create simple components like buttons, forms, and other UI elements to
-         gain proficiency in creating components.
-   - [ ] Learn about component composition, where you can combine multiple
-         components to create more complex UIs.
-   - [ ] Learn how to use `<Fragment>`(`<>...</>`) to group a list of children
-         elements without adding extra markup to the DOM.
+   - Create simple components like buttons, forms, and other UI elements to gain
+     proficiency in creating components.
+   - Learn about component composition, where you can combine multiple
+     components to create more complex UIs.
+   - Learn how to use `<Fragment>`(`<>...</>`) to group a list of children
+     elements without adding extra markup to the DOM.
 
 4. Build Something! 🔨
    - **Idea #1 - Pizza Shop**: Build a web application for a pizza shop that
@@ -151,23 +151,22 @@ This section covers the following topics:
 
 1. Working with State
 
-   - [ ] Understand how state works in React and how it can be used to manage
-         component data.
-   - [ ] Learn how to update the state of a component using the `useState` hook.
+   - Understand how state works in React and how it can be used to manage
+     component data.
+   - Learn how to update the state of a component using the `useState` hook.
 
 2. Working with Props
 
-   - [ ] Understand the difference between props and state, and how to use them
-         together to create dynamic UIs.
-   - [ ] Practice creating components that utilize state and props to create
-         dynamic UIs, such as a counter or a simple form that saves data to
-         state.
-   - [ ] Learn about lifting state up, which is a pattern used in React to
-         manage state at a higher level of the component hierarchy.
-   - [ ] Understand how to use event handling in React, and how to pass event
-         handlers down to child components as props.
-   - [ ] Explore the use of conditional rendering in React, where you can show
-         or hide UI elements based on state or props.
+   - Understand the difference between props and state, and how to use them
+     together to create dynamic UIs.
+   - Practice creating components that utilize state and props to create dynamic
+     UIs, such as a counter or a simple form that saves data to state.
+   - Learn about lifting state up, which is a pattern used in React to manage
+     state at a higher level of the component hierarchy.
+   - Understand how to use event handling in React, and how to pass event
+     handlers down to child components as props.
+   - Explore the use of conditional rendering in React, where you can show or
+     hide UI elements based on state or props.
 
 3. Build Something! 🔨
    - **Idea**: Create a form that captures responses to a quiz. Output a varied
@@ -196,28 +195,27 @@ This section covers the following topics:
 
 1. Routing with React Router
 
-   - [ ] Learn about routing in React and the different routing libraries
-         available, such as [React Router](https://reactrouter.com/en/main).
-   - [ ] Understand how to create routes in React and how to use route
-         parameters.
-   - [ ] Practice creating a simple multi-page application with React Router.
+   - Learn about routing in React and the different routing libraries available,
+     such as [React Router](https://reactrouter.com/en/main).
+   - Understand how to create routes in React and how to use route parameters.
+   - Practice creating a simple multi-page application with React Router.
 
 2. Integrating APIs
 
-   - [ ] Learn about integrating APIs in React, using `fetch` and the different
-         libraries available for this like
-         [Axios](https://www.freecodecamp.org/news/how-to-use-axios-with-react/).
-   - [ ] Understand how to make API calls in React and how to handle the
-         response data using `useEffect` and `useState`.
-   - [ ] Practice integrating an API into a React application, such as
-         displaying data from an API or submitting form data to an API.
+   - Learn about integrating APIs in React, using `fetch` and the different
+     libraries available for this like
+     [Axios](https://www.freecodecamp.org/news/how-to-use-axios-with-react/).
+   - Understand how to make API calls in React and how to handle the response
+     data using `useEffect` and `useState`.
+   - Practice integrating an API into a React application, such as displaying
+     data from an API or submitting form data to an API.
 
 3. Asynchronous React
 
-   - [ ] Learn about asynchronous programming in React, including the use of
-         `async`/`await` and Promises.
-   - [ ] Explore different ways of handling errors in React, such as using error
-         boundaries.
+   - Learn about asynchronous programming in React, including the use of
+     `async`/`await` and Promises.
+   - Explore different ways of handling errors in React, such as using error
+     boundaries.
 
 4. Build Something! 🔨
    - **Idea #1 - Profile**: Create a personal profile that has multiple pages
@@ -248,40 +246,39 @@ This section covers the following topics:
 
 1. React Hooks
 
-   - [ ] Learn about [React Hooks](https://react.dev/reference/react), some of
-         which you have already been using!
-   - [ ] Understand the basics of React Hooks, including `useState`,
-         `useEffect`, `useContext`, and `useReducer`.
-   - [ ] Practice using React Hooks to manage component state and lifecycle
-         methods. Focus on practicing `useContext` and `useReducer` as we
-         haven't used these yet.
+   - Learn about [React Hooks](https://react.dev/reference/react), some of which
+     you have already been using!
+   - Understand the basics of React Hooks, including `useState`, `useEffect`,
+     `useContext`, and `useReducer`.
+   - Practice using React Hooks to manage component state and lifecycle methods.
+     Focus on practicing `useContext` and `useReducer` as we haven't used these
+     yet.
 
 2. React Custom Hooks
 
-   - [ ] Learn about
-         [Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks#extracting-your-own-custom-hook-from-a-component)
-         and how these can be used in React.
-   - [ ] Understand how custom hooks allow for logic to be reused.
-   - [ ] Write a custom hook and call it within a program.
+   - Learn about
+     [Custom Hooks](https://react.dev/learn/reusing-logic-with-custom-hooks#extracting-your-own-custom-hook-from-a-component)
+     and how these can be used in React.
+   - Understand how custom hooks allow for logic to be reused.
+   - Write a custom hook and call it within a program.
 
 3. Testing React applications
 
-   - [ ] Learn about testing in React, including different testing frameworks
-         like Jest, Enzyme, and React Testing Library.
-   - [ ] Understand how to write unit tests for React components, and the
-         importance of testing in building robust applications.
+   - Learn about testing in React, including different testing frameworks like
+     Jest, Enzyme, and React Testing Library.
+   - Understand how to write unit tests for React components, and the importance
+     of testing in building robust applications.
 
 4. Redux
 
-   - [ ] Learn about advanced React concepts such as
-         [Redux](https://react-redux.js.org/), which is a popular state
-         management library.
-   - [ ] Understand the basics of Redux, including actions, reducers, and the
-         store.
-   - [ ] Learn how to integrate Redux into a React application, and how to use
-         it to manage application state.
-   - [ ] Practice using Redux to manage state in a React application, such as
-         creating a simple to-do list application.
+   - Learn about advanced React concepts such as
+     [Redux](https://react-redux.js.org/), which is a popular state management
+     library.
+   - Understand the basics of Redux, including actions, reducers, and the store.
+   - Learn how to integrate Redux into a React application, and how to use it to
+     manage application state.
+   - Practice using Redux to manage state in a React application, such as
+     creating a simple to-do list application.
 
 This is just one way you could structure day 5 of your learning plan. You may
 find that you need more or less time to cover certain topics, or that you want

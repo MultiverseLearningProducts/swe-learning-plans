@@ -36,44 +36,43 @@ your changes using basic Git commands.</p>
 <h3 id="tasks">Tasks</h3>
 <ol type="1">
 <li><p>Introduction to Git:</p>
-<ul class="task-list">
-<li><input type="checkbox" />Read about what is Git and why it is used.
-You can start with the official Git website’s documentation or other
-online resources like the Git SCM book.</li>
-<li><input type="checkbox" />Familiarize yourself with basic concepts
-like version control, commits, branches, and repositories. Try to
-understand how these concepts work together and how they enable
-developers to collaborate effectively.</li>
+<ul>
+<li>Read about what is Git and why it is used. You can start with the
+official Git website’s documentation or other online resources like the
+Git SCM book.</li>
+<li>Familiarize yourself with basic concepts like version control,
+commits, branches, and repositories. Try to understand how these
+concepts work together and how they enable developers to collaborate
+effectively.</li>
 </ul></li>
 <li><p>Installation and Setup:</p>
-<ul class="task-list">
-<li><p><input type="checkbox" />Download and install Git on your system.
-You can find installation instructions for different operating systems
-on the Git website.</p></li>
-<li><p><input type="checkbox" />Set up your user name and email by
-running the following commands in your terminal:</p>
+<ul>
+<li><p>Download and install Git on your system. You can find
+installation instructions for different operating systems on the Git
+website.</p></li>
+<li><p>Set up your user name and email by running the following commands
+in your terminal:</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">--global</span> user.name <span class="st">&quot;Your Name&quot;</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">--global</span> user.email <span class="st">&quot;youremail@example.com&quot;</span></span></code></pre></div></li>
-<li><p><input type="checkbox" />Configure your editor by running the
-following command and selecting your preferred editor:</p>
+<li><p>Configure your editor by running the following command and
+selecting your preferred editor:</p>
 <div class="sourceCode" id="cb2"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">--global</span> core.editor <span class="op">&lt;</span>your-editor<span class="op">&gt;</span></span></code></pre></div></li>
-<li><p><input type="checkbox" />Create your first repository by
-navigating to a folder where you want to store your project and running
-the following command:</p>
+<li><p>Create your first repository by navigating to a folder where you
+want to store your project and running the following command:</p>
 <div class="sourceCode" id="cb3"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git init</span></code></pre></div></li>
 </ul></li>
 <li><p>Basic Git Commands:</p>
-<ul class="task-list">
-<li><p><input type="checkbox" />Learn basic Git commands like
-<code>git init</code>, <code>git add</code>, <code>git commit</code>,
-<code>git status</code>, and <code>git log</code>. These commands are
-essential to using Git effectively.</p></li>
-<li><p><input type="checkbox" />Practice using these commands by
-creating a small project, making some changes to it, and committing your
-changes. Here are some example commands you can run:</p>
+<ul>
+<li><p>Learn basic Git commands like <code>git init</code>,
+<code>git add</code>, <code>git commit</code>, <code>git status</code>,
+and <code>git log</code>. These commands are essential to using Git
+effectively.</p></li>
+<li><p>Practice using these commands by creating a small project, making
+some changes to it, and committing your changes. Here are some example
+commands you can run:</p>
 <div class="sourceCode" id="cb4"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> touch README.md</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># create a new file</span></span>
@@ -108,46 +107,39 @@ others using remote repositories.</p>
 <h3 id="tasks-1">Tasks</h3>
 <ol type="1">
 <li><p>Branching and Merging:</p>
-<ul class="task-list">
-<li><p><input type="checkbox" />Read about the concepts of branching and
-merging in Git. You can refer to the Git SCM book or other online
-resources.</p></li>
-<li><p><input type="checkbox" />Create a new branch using the following
-command:</p>
+<ul>
+<li><p>Read about the concepts of branching and merging in Git. You can
+refer to the Git SCM book or other online resources.</p></li>
+<li><p>Create a new branch using the following command:</p>
 <div class="sourceCode" id="cb5"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git branch <span class="op">&lt;</span>branch-name<span class="op">&gt;</span></span></code></pre></div></li>
-<li><p><input type="checkbox" />Switch to a different branch using the
-following command:</p>
+<li><p>Switch to a different branch using the following command:</p>
 <div class="sourceCode" id="cb6"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git checkout <span class="op">&lt;</span>branch-name<span class="op">&gt;</span></span></code></pre></div></li>
-<li><p><input type="checkbox" />Make some changes on the new branch and
-commit them.</p></li>
-<li><p><input type="checkbox" />Switch back to the main branch using the
-following command:</p>
+<li><p>Make some changes on the new branch and commit them.</p></li>
+<li><p>Switch back to the main branch using the following command:</p>
 <div class="sourceCode" id="cb7"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git checkout main</span></code></pre></div></li>
-<li><p><input type="checkbox" />Merge the changes from the new branch
-into the main branch using the following command:</p>
+<li><p>Merge the changes from the new branch into the main branch using
+the following command:</p>
 <div class="sourceCode" id="cb8"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git merge <span class="op">&lt;</span>branch-name<span class="op">&gt;</span></span></code></pre></div></li>
 </ul></li>
 <li><p>Collaborating with Others:</p>
-<ul class="task-list">
-<li><p><input type="checkbox" />Read about remote repositories and how
-to work with them in Git. You can refer to the Git SCM book or other
-online resources.</p></li>
-<li><p><input type="checkbox" />Create a remote repository on a hosting
-service like GitHub, GitLab, or Bitbucket.</p></li>
-<li><p><input type="checkbox" />Add the remote repository as a Git
-remote using the following command:</p>
+<ul>
+<li><p>Read about remote repositories and how to work with them in Git.
+You can refer to the Git SCM book or other online resources.</p></li>
+<li><p>Create a remote repository on a hosting service like GitHub,
+GitLab, or Bitbucket.</p></li>
+<li><p>Add the remote repository as a Git remote using the following
+command:</p>
 <div class="sourceCode" id="cb9"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git remote add <span class="op">&lt;</span>remote-name<span class="op">&gt;</span> <span class="op">&lt;</span>remote-url<span class="op">&gt;</span></span></code></pre></div></li>
-<li><p><input type="checkbox" />Push your local repository to the remote
-repository using the following command:</p>
+<li><p>Push your local repository to the remote repository using the
+following command:</p>
 <pre><code>$ git push &lt;remote-name&gt; &lt;branch-name&gt;</code></pre></li>
-<li><p><input type="checkbox" />Collaborate with others by cloning the
-remote repository, making changes, and pushing them to the remote
-repository.</p></li>
+<li><p>Collaborate with others by cloning the remote repository, making
+changes, and pushing them to the remote repository.</p></li>
 </ul></li>
 </ol>
 <h2 id="advanced-git">3. Advanced Git</h2>
@@ -164,14 +156,14 @@ tool.</p>
 <h3 id="tasks-2">Tasks</h3>
 <ol type="1">
 <li><p>Advanced Git Commands:</p>
-<ul class="task-list">
-<li><p><input type="checkbox" />Learn more advanced Git commands like
-<code>git diff</code>, <code>git reset</code>, <code>git stash</code>,
-<code>git rebase</code>, and <code>git cherry-pick</code>. These
-commands can help you manage your Git history more effectively and make
-complex changes to your repository.</p></li>
-<li><p><input type="checkbox" />Practice using these commands on a
-sample project. Here are some example commands you can run:</p>
+<ul>
+<li><p>Learn more advanced Git commands like <code>git diff</code>,
+<code>git reset</code>, <code>git stash</code>, <code>git rebase</code>,
+and <code>git cherry-pick</code>. These commands can help you manage
+your Git history more effectively and make complex changes to your
+repository.</p></li>
+<li><p>Practice using these commands on a sample project. Here are some
+example commands you can run:</p>
 <div class="sourceCode" id="cb11"><pre
 class="sourceCode sh"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git diff <span class="op">&lt;</span>commit1<span class="op">&gt;</span> <span class="op">&lt;</span>commit2<span class="op">&gt;</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># see the differences between two commits</span></span>
@@ -185,19 +177,17 @@ class="sourceCode sh"><code class="sourceCode bash"><span id="cb11-1"><a href="#
 <span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co"># apply a specific commit from another branch onto the current branch</span></span></code></pre></div></li>
 </ul></li>
 <li><p>Working with Git GUI Tools:</p>
-<ul class="task-list">
-<li><input type="checkbox" />Explore Git GUI tools like GitHub Desktop,
-SourceTree, and GitKraken. These tools provide a graphical interface for
-managing your Git repositories and can help simplify your workflow.</li>
-<li><input type="checkbox" />Install and set up a Git GUI tool of your
-choice. You can find installation instructions on the tool’s
-website.</li>
-<li><input type="checkbox" />Try using the tool to perform basic Git
-tasks like committing changes, switching branches, and pushing changes
-to a remote repository.</li>
-<li><input type="checkbox" />Experiment with more advanced Git features
-in the GUI tool, like visualizing your commit history or resolving merge
-conflicts.</li>
+<ul>
+<li>Explore Git GUI tools like GitHub Desktop, SourceTree, and
+GitKraken. These tools provide a graphical interface for managing your
+Git repositories and can help simplify your workflow.</li>
+<li>Install and set up a Git GUI tool of your choice. You can find
+installation instructions on the tool’s website.</li>
+<li>Try using the tool to perform basic Git tasks like committing
+changes, switching branches, and pushing changes to a remote
+repository.</li>
+<li>Experiment with more advanced Git features in the GUI tool, like
+visualizing your commit history or resolving merge conflicts.</li>
 </ul></li>
 </ol>
 <h2 id="git-workflow">4. Git Workflow</h2>
@@ -215,68 +205,60 @@ your own projects.</p>
 <h3 id="tasks-3">Tasks</h3>
 <ol type="1">
 <li><p>Git Workflows:</p>
-<ul class="task-list">
-<li><p><input type="checkbox" />Learn about different Git workflows like
-Gitflow, GitHub Flow, and GitLab Flow. These are popular workflows used
-by many teams and can help you manage your Git repositories more
-effectively.</p></li>
-<li><p><input type="checkbox" />Read about the advantages and
-disadvantages of each workflow and consider which one might be the best
-fit for your project. You can find information on these workflows on the
-Git SCM book or other online resources.</p></li>
-<li><p><input type="checkbox" />Practice implementing the workflow of
-your choice on a sample project. Here are some general steps for each
-workflow:</p>
+<ul>
+<li><p>Learn about different Git workflows like Gitflow, GitHub Flow,
+and GitLab Flow. These are popular workflows used by many teams and can
+help you manage your Git repositories more effectively.</p></li>
+<li><p>Read about the advantages and disadvantages of each workflow and
+consider which one might be the best fit for your project. You can find
+information on these workflows on the Git SCM book or other online
+resources.</p></li>
+<li><p>Practice implementing the workflow of your choice on a sample
+project. Here are some general steps for each workflow:</p>
 <h4 id="gitflow">Gitflow</h4>
 <p>This workflow is based on two long-lived branches - master and
 develop - and uses feature branches for new work. Here are some steps to
 follow:</p>
-<ul class="task-list">
-<li><input type="checkbox" />Create a new feature branch for your
-work.</li>
-<li><input type="checkbox" />Make changes to the feature branch and
-commit them.</li>
-<li><input type="checkbox" />Merge the feature branch into the develop
-branch when it’s ready.</li>
-<li><input type="checkbox" />Release the code from the develop branch to
-the master branch when it’s stable.</li>
+<ul>
+<li>Create a new feature branch for your work.</li>
+<li>Make changes to the feature branch and commit them.</li>
+<li>Merge the feature branch into the develop branch when it’s
+ready.</li>
+<li>Release the code from the develop branch to the master branch when
+it’s stable.</li>
 </ul>
 <h4 id="github-flow">GitHub Flow</h4>
 <p>This workflow is based on a single branch - usually the main branch -
 and uses pull requests for new work. Here are some steps to follow:</p>
-<ul class="task-list">
-<li><input type="checkbox" />Create a new branch for your work.</li>
-<li><input type="checkbox" />Make changes to the branch and commit
-them.</li>
-<li><input type="checkbox" />Open a pull request to merge the branch
-into the main branch when it’s ready.</li>
-<li><input type="checkbox" />Review and approve the pull request.</li>
-<li><input type="checkbox" />Merge the branch into the main branch.</li>
+<ul>
+<li>Create a new branch for your work.</li>
+<li>Make changes to the branch and commit them.</li>
+<li>Open a pull request to merge the branch into the main branch when
+it’s ready.</li>
+<li>Review and approve the pull request.</li>
+<li>Merge the branch into the main branch.</li>
 </ul>
 <h4 id="gitlab-flow">GitLab Flow</h4>
 <p>This workflow is similar to GitHub Flow but uses environments for
 testing and deployment. Here are some steps to follow:</p>
-<ul class="task-list">
-<li><input type="checkbox" />Create a new branch for your work.</li>
-<li><input type="checkbox" />Make changes to the branch and commit
-them.</li>
-<li><input type="checkbox" />Open a merge request to merge the branch
-into the main branch when it’s ready.</li>
-<li><input type="checkbox" />Review and approve the merge request.</li>
-<li><input type="checkbox" />Deploy the code to a testing environment
-for testing.</li>
-<li><input type="checkbox" />Merge the branch into the main branch and
-deploy to production.</li>
+<ul>
+<li>Create a new branch for your work.</li>
+<li>Make changes to the branch and commit them.</li>
+<li>Open a merge request to merge the branch into the main branch when
+it’s ready.</li>
+<li>Review and approve the merge request.</li>
+<li>Deploy the code to a testing environment for testing.</li>
+<li>Merge the branch into the main branch and deploy to production.</li>
 </ul></li>
 </ul></li>
 <li><p>Git Best Practices:</p>
-<ul class="task-list">
-<li><input type="checkbox" />Learn about Git best practices like writing
-clear commit messages, using descriptive branch names, and avoiding
-committing directly to the main branch. These practices can help you
-maintain a clean and well-organized Git history.</li>
-<li><input type="checkbox" />Practice implementing these best practices
-on a sample project. Here are some general guidelines:
+<ul>
+<li>Learn about Git best practices like writing clear commit messages,
+using descriptive branch names, and avoiding committing directly to the
+main branch. These practices can help you maintain a clean and
+well-organized Git history.</li>
+<li>Practice implementing these best practices on a sample project. Here
+are some general guidelines:
 <ul>
 <li>Write clear and concise commit messages that summarize your
 changes.</li>
@@ -305,14 +287,13 @@ manage large files in your Git repositories.</p>
 <h3 id="tasks-4">Tasks</h3>
 <ol type="1">
 <li><p>Troubleshooting Git:</p>
-<ul class="task-list">
-<li><input type="checkbox" />Learn about common Git errors like merge
-conflicts, Git repository corruption, and Git clone issues, and how to
-troubleshoot them.</li>
-<li><input type="checkbox" />Read through Git documentation and online
-resources to understand how to fix these errors.</li>
-<li><input type="checkbox" />Practice troubleshooting Git errors on a
-sample project. Here are some steps to follow:
+<ul>
+<li>Learn about common Git errors like merge conflicts, Git repository
+corruption, and Git clone issues, and how to troubleshoot them.</li>
+<li>Read through Git documentation and online resources to understand
+how to fix these errors.</li>
+<li>Practice troubleshooting Git errors on a sample project. Here are
+some steps to follow:
 <ul>
 <li>Identify the error and the cause of the error.</li>
 <li>Use Git commands and tools to fix the error.</li>
@@ -320,14 +301,13 @@ sample project. Here are some steps to follow:
 </ul></li>
 </ul></li>
 <li><p>Git Extensions:</p>
-<ul class="task-list">
-<li><input type="checkbox" />Learn about Git extensions like Git LFS and
-Git Annex, which are used for managing large files in Git
-repositories</li>
-<li><input type="checkbox" />Understand the benefits and drawbacks of
-using Git extensions and how to set them up.</li>
-<li><input type="checkbox" />Practice using Git extensions on a sample
-project. Here are some general steps to follow:
+<ul>
+<li>Learn about Git extensions like Git LFS and Git Annex, which are
+used for managing large files in Git repositories</li>
+<li>Understand the benefits and drawbacks of using Git extensions and
+how to set them up.</li>
+<li>Practice using Git extensions on a sample project. Here are some
+general steps to follow:
 <ul>
 <li>Install and configure the Git extension you want to use.</li>
 <li>Add large files to your Git repository using the Git extension.</li>

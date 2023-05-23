@@ -1,0 +1,295 @@
+<h1 id="terraform">Terraform</h1>
+<p>Terraform is an open-source tool for building, changing, and
+versioning infrastructure. It was created by HashiCorp, a company that
+also created other popular DevOps tools like Vagrant, Consul, and Vault.
+The first version of Terraform was released in 2014, and it has since
+become one of the most widely used infrastructure as code tools.</p>
+<p>Terraform uses a declarative language to describe infrastructure
+resources like virtual machines, load balancers, and databases. This
+means that you don’t have to write scripts to provision or configure
+infrastructure; instead, you can define the desired state of your
+infrastructure using Terraform code, and Terraform will manage the
+infrastructure for you.</p>
+<p>One of the key benefits of Terraform is that it supports multiple
+cloud platforms, including AWS, Azure, Google Cloud, and many others.
+This makes it easy to manage infrastructure resources across multiple
+cloud providers using a single tool.</p>
+<p>Terraform has also been adopted by many organizations for managing
+their infrastructure. It provides a standardized way of managing
+infrastructure resources and allows teams to collaborate on
+infrastructure changes using version control.</p>
+<p>Overall, Terraform is a powerful tool for managing infrastructure as
+code, and it’s an essential skill for anyone working in DevOps or cloud
+computing. This learning plan is designed to help you get started with
+Terraform and build your skills from the basics to more advanced
+topics.</p>
+<h2 id="learning-plan-tasks">Learning Plan Tasks</h2>
+<ol type="1">
+<li><a href="#1-introduction-to-terraform">Introduction to
+Terraform</a></li>
+<li><a href="#2-terraform-basics">Terraform Basics</a></li>
+<li><a href="#3-managing-infrastructure-with-terraform">Managing
+Infrastructure with Terraform with</a></li>
+<li><a href="#4-collaboration-with-terraform">Collaboration with
+Terraform</a></li>
+<li><a href="#5-advanced-terraform">Advanced Terraform</a></li>
+<li><a href="#build-something-with-terraform-🔨">Build Something Using
+Terraform!</a></li>
+</ol>
+<h2 id="checkoutthedocs">#checkoutTheDocs 🔍</h2>
+<ul>
+<li><strong>Terraform</strong>: <a
+href="https://developer.hashicorp.com/terraform/docs">Official
+Documentation</a></li>
+<li><strong>Free Code Camp</strong>: <a
+href="https://www.youtube.com/watch?v=SLB_c_ayRMo">Terraform Crash
+Course</a></li>
+<li><strong>Hashicorp</strong>: <a
+href="https://developer.hashicorp.com/terraform/tutorials">Terraform
+Tutorials</a></li>
+<li><strong>Hashicorp</strong>: <a
+href="https://developer.hashicorp.com/terraform/tutorials/aws-get-started">Terraform
+on AWS</a></li>
+<li><strong>Hashicorp</strong>: <a
+href="https://developer.hashicorp.com/terraform/tutorials/azure-get-started">Terraform
+on Azure</a></li>
+</ul>
+<h2 id="introduction-to-terraform">1. Introduction to Terraform</h2>
+<p>This section covers the following topics:</p>
+<ul>
+<li>Read the official Terraform introduction to understand what it is
+and how it works.</li>
+<li>Install Terraform on your local machine and follow the Getting
+Started Guide to create your first Terraform configuration file and
+deploy a simple infrastructure resource.</li>
+</ul>
+<h3 id="tasks">Tasks</h3>
+<ol type="1">
+<li><p>Read the official Terraform introduction:</p>
+<ul>
+<li>Read through the <a
+href="https://developer.hashicorp.com/terraform/intro">‘What is
+Terraform’</a> on the Terraform website to understand what Terraform is
+and how it works.</li>
+</ul></li>
+<li><p>Install Terraform and create your first configuration file:</p>
+<ul>
+<li><a
+href="https://developer.hashicorp.com/terraform/downloads">Install
+Terraform by following the installation instructions for your operating
+system.</a></li>
+<li>Open a new terminal or command prompt window and run the
+<code>terraform --version</code> command to verify that Terraform is
+installed and working correctly.</li>
+<li>Follow the ‘Getting Started Guide’ to create a simple infrastructure
+resource (<a
+href="https://developer.hashicorp.com/terraform/tutorials/aws-get-started">an
+AWS EC2 instance</a>).
+<ul>
+<li><strong>Note</strong>: You will need an AWS account and an <a
+href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html">IAM
+user</a> with appropriate permissions to complete this tutorial.</li>
+</ul></li>
+<li>After completing the tutorial, try modifying the configuration file
+and deploying the changes to your infrastructure to get a better
+understanding of how Terraform works.</li>
+</ul></li>
+</ol>
+<h2 id="terraform-basics">2. Terraform Basics</h2>
+<p>This section covers the following topics:</p>
+<ul>
+<li>Learn about the basic Terraform concepts such as providers,
+resources, variables, and modules.</li>
+<li>Complete the Terraform Crash Course to learn how to create more
+complex infrastructure and how to use variables and modules.</li>
+</ul>
+<h3 id="tasks-1">Tasks</h3>
+<ol type="1">
+<li><p>Learn about the basic Terraform concepts:</p>
+<ul>
+<li>Read the Terraform documentation guides on providers, resources ,
+variables, and modules.</li>
+<li>Try creating a few simple resources using different providers (e.g.,
+AWS, Azure, Google Cloud) and experimenting with variables.</li>
+</ul></li>
+<li><p>Complete the Terraform Crash Course:</p>
+<ul>
+<li>Go to the <a
+href="https://developer.hashicorp.com/terraform/tutorials">Terraform
+Crash Course</a> and start with the cloud platform that aligns to your
+companies tech stack.</li>
+<li>Work through each section of the tutorial, creating the
+infrastructure resources as instructed.</li>
+<li>Pay special attention to the sections on <a
+href="https://developer.hashicorp.com/terraform/language/modules/develop">modules</a>
+and <a
+href="https://developer.hashicorp.com/terraform/language/values">variables</a>,
+as these are key concepts in Terraform.</li>
+<li>After completing the tutorial, try modifying the configuration files
+and deploying the changes to your infrastructure to solidify your
+understanding.</li>
+</ul></li>
+</ol>
+<p>By completing these tasks you should have a good understanding of the
+basic Terraform concepts and how to use them to create infrastructure
+resources.</p>
+<h2 id="managing-infrastructure-with-terraform">3. Managing
+Infrastructure with Terraform</h2>
+<p>This section covers the following topics:</p>
+<ul>
+<li>Learn how to manage infrastructure with Terraform using state
+files.</li>
+<li>Follow the Manage Resources tutorial to learn how to create, update
+and destroy resources.</li>
+</ul>
+<h3 id="tasks-2">Tasks</h3>
+<ol type="1">
+<li><p>Learn how to manage infrastructure with Terraform using state
+files:</p>
+<ul>
+<li>Read the Terraform documentation on state to understand how
+Terraform manages the <a
+href="https://developer.hashicorp.com/terraform/language/state">state of
+your infrastructure resources</a>.</li>
+<li>Learn about the different backends that Terraform supports for
+storing state, such as local, remote, and enhanced.</li>
+<li>Follow the tutorial on <a
+href="https://developer.hashicorp.com/terraform/tutorials/state">Managing
+Terraform State</a> to learn how to work with state files, including
+backing up and restoring state, and migrating state to a new
+backend.</li>
+</ul></li>
+<li><p>Follow the Manage Resources tutorial to learn how to create,
+update, and destroy resources:</p>
+<ul>
+<li>Follow the ‘Managing Resources’ tutorial to learn how to create,
+update, and destroy resources in AWS using Terraform.</li>
+<li>Pay attention to the best practices outlined in the tutorial, such
+as using modules and organizing your code into multiple files.</li>
+<li>Try modifying the configuration files to create different types of
+resources or to modify existing resources.</li>
+</ul></li>
+</ol>
+<p>By completing these tasks you should have a good understanding of how
+Terraform manages state and how to create, update, and destroy resources
+using Terraform. Good luck and let me know if you have any
+questions!</p>
+<h2 id="collaboration-with-terraform">4. Collaboration with
+Terraform</h2>
+<p>This section covers the following topics:</p>
+<ul>
+<li>Learn how to collaborate with others by using Terraform Cloud to
+store state files and manage Terraform runs.</li>
+<li>Complete the Getting Started with Terraform Cloud tutorial.</li>
+</ul>
+<h3 id="tasks-3">Tasks</h3>
+<ol type="1">
+<li><p>Learn how to collaborate with others by using Terraform Cloud to
+store state files and manage Terraform runs:</p>
+<ul>
+<li>Go to the <a href="https://app.terraform.io/session">Terraform Cloud
+website</a> and create an account if you haven’t already.</li>
+<li><a href="https://developer.hashicorp.com/terraform/cloud-docs">Learn
+about the benefits of using Terraform Cloud</a> for collaboration.</li>
+</ul></li>
+<li><p>Complete the <a
+href="https://developer.hashicorp.com/terraform/tutorials/cloud-get-started?utm_source=WEBSITE&amp;utm_medium=WEB_IO&amp;utm_offer=ARTICLE_PAGE&amp;utm_content=DOCS">Getting
+Started with Terraform Cloud</a> tutorial:</p>
+<ul>
+<li>Follow the steps in the tutorial to create a new workspace in
+Terraform Cloud, connect it to a version control system, and configure
+Terraform to use Terraform Cloud for state storage and runs.</li>
+<li>Run the example configuration provided in the tutorial to create
+infrastructure resources in AWS.</li>
+<li>Experiment with modifying the configuration and running Terraform
+plans and applies from Terraform Cloud.</li>
+</ul></li>
+</ol>
+<p>By completing these tasks you should have a good understanding of how
+to use Terraform Cloud for collaboration and managing Terraform
+runs.</p>
+<h2 id="advanced-terraform">5. Advanced Terraform</h2>
+<p>This section covers the following topics:</p>
+<ul>
+<li>Learn how to use advanced features of Terraform such as data
+sources, interpolation, and remote backends.</li>
+<li>Read the Terraform documentation on Advanced Usage to learn how to
+use these features effectively.</li>
+</ul>
+<h3 id="tasks-4">Tasks</h3>
+<ol type="1">
+<li><p>Learn how to use advanced features of Terraform such as <a
+href="https://developer.hashicorp.com/terraform/language/data-sources">data
+sources</a>, interpolation, and <a
+href="https://developer.hashicorp.com/terraform/language/settings/backends/remote">remote
+backends</a>:</p>
+<ul>
+<li>Read the Terraform documentation on data sources to understand how
+to use external data in your Terraform configuration.</li>
+<li>Learn about interpolation syntax in Terraform and how to use it to
+create dynamic configurations.</li>
+<li>Explore remote backends in Terraform and how to use them to store
+state remotely.</li>
+</ul></li>
+<li><p>Read the <a
+href="https://www.hashicorp.com/resources/advanced-terraform-techniques">Terraform
+documentation on Advanced Usage</a> to learn how to use these features
+effectively:</p>
+<ul>
+<li>Read through the ‘Advanced Usage’ section of the Terraform
+documentation to learn about more advanced topics such as workspaces,
+remote state management, and custom providers.</li>
+<li>Pay attention to the best practices outlined in the documentation,
+such as using modules effectively and using Terraform CLI commands to
+manage your infrastructure.</li>
+</ul></li>
+</ol>
+<p>By completing these tasks you should have a good understanding of how
+to use advanced features of Terraform to create more complex and dynamic
+infrastructure configurations.</p>
+<h2 id="build-something-with-terraform">Build Something with Terraform!
+🔨</h2>
+<p>Here are some project ideas that you can build to test your Terraform
+skills:</p>
+<ul>
+<li><strong>Create a Web Server Infrastructure</strong>: Build a web
+server infrastructure on AWS or any other cloud platform using
+Terraform. The infrastructure should include an EC2 instance, a load
+balancer, and a database.</li>
+<li><strong>Multi-Environment Infrastructure</strong>: Build a
+multi-environment infrastructure using Terraform. Create separate
+environments for development, staging, and production with different
+configurations.</li>
+<li><strong>Autoscaling Infrastructure</strong>: Build an autoscaling
+infrastructure using Terraform. The infrastructure should automatically
+scale based on the load on the web servers.</li>
+<li><strong>Container Infrastructure</strong>: bBild a container
+infrastructure using Terraform. Use Terraform to create an Elastic
+Kubernetes Service (EKS) cluster on AWS and deploy a containerized
+application to the cluster.</li>
+<li><strong>Serverless Infrastructure</strong>: Build a serverless
+infrastructure using Terraform. Use Terraform to create an AWS Lambda
+function and API Gateway to create a serverless REST API.</li>
+<li><strong>Infrastructure as Code for a CMS</strong>: Build an
+infrastructure as code for a CMS like Wordpress or Joomla. You can use
+Terraform to create the infrastructure that will host the CMS, including
+the database and web server.</li>
+</ul>
+<h2 id="next-steps">Next Steps</h2>
+<p>Here are some next steps to help you continue your Terraform learning
+journey:</p>
+<ul>
+<li><strong>Certifications</strong>: Consider getting certified in
+Terraform to validate your knowledge and demonstrate your skills to
+potential employers. HashiCorp offers a Terraform Associate
+certification that you can earn by passing a certification exam.</li>
+<li><strong>Explore advanced topics</strong>: After completing the basic
+learning plan, you can explore more advanced topics like data sources,
+interpolation, and remote backends. You can also learn about the best
+practices for writing Terraform code and managing infrastructure at
+scale.</li>
+<li><strong>Build more projects</strong>: Build more complex projects to
+apply your Terraform knowledge and gain more experience. You can also
+try to recreate an existing infrastructure using Terraform to understand
+how it works.</li>
+</ul>
