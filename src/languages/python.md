@@ -42,25 +42,25 @@ By completing these steps, you should get a good foundation in the basics of Pyt
 
 1. Understand the Fundamentals of Python Programming
 
-   - [ ] [Install Python](https://www.python.org/downloads/) on your computer.
-   - [ ] Create your first Python file in VSCode (or your preferred coding editor).
-   - [ ] Use a `print` statement to output your name and `"Hello World"` to the console. Run your file using the command `python3 FILE_NAME`.
-   - [ ] Learn about variables, data types, and basic Python syntax.
+   - [Install Python](https://www.python.org/downloads/) on your computer.
+   - Create your first Python file in VSCode (or your preferred coding editor).
+   - Use a `print` statement to output your name and `"Hello World"` to the console. Run your file using the command `python3 FILE_NAME`.
+   - Learn about variables, data types, and basic Python syntax.
 
 2. Learn About Python Data Structures
 
-   - [ ] Understand the basics of Python's 3 of the the built-in data types: lists, tuples, and, dictionaries.
-   - [ ] Work with conditional statements and loops
-   - [ ] Do an exercise involving manipulating data structures. For example, given a list of numbers, double all these numbers using loops and 
+   - Understand the basics of Python's 3 of the the built-in data types: lists, tuples, and, dictionaries.
+   - Work with conditional statements and loops
+   - Do an exercise involving manipulating data structures. For example, given a list of numbers, double all these numbers using loops and 
       - Can't find a dataset? Ask ChatGPT to create a dataset for you!
 
 3. Learn About Functions and Modules
 
-   - [ ] Understand function definition and calling
-   - [ ] Do an exercise involving writing and using a custom function
-   - [ ] Learn About Python modules and libraries
-   - [ ] Find at least one Python module and/or library and write a function that utilizes it
-   - [ ] Understand `__init__.py` and `__main__`
+   - Understand function definition and calling
+   - Do an exercise involving writing and using a custom function
+   - Learn About Python modules and libraries
+   - Find at least one Python module and/or library and write a function that utilizes it
+   - Understand `__init__.py` and `__main__`
 
 4. Build Something 🔨
    - **Option #1 - Rock, Paper, Scissors**: You now know enough to rebuild your Rock, Paper, Scissors project! Your project should include the following:
@@ -82,23 +82,23 @@ With the above steps completed, you'll be able to create more sophisticated prog
 
 1. Advanced Data Structures
 
-   - [ ] Learn about sets and frozensets
-   - [ ] Work with nested data structures (a list of lists, a list of dictionaries, etc.)
-   - [ ] Find and manipulate an advanced dataset
+   - Learn about sets and frozensets
+   - Work with nested data structures (a list of lists, a list of dictionaries, etc.)
+   - Find and manipulate an advanced dataset
       - Can't find a dataset? Ask ChatGPT to create a dataset for you!
 
 2. File Handling and Exceptions
 
-   - [ ] Learn how to read and write files
-   - [ ] Work with exception handling to catch and handle errors
-   - [ ] Do an exercise involving file handling and exception handling
+   - Learn how to read and write files
+   - Work with exception handling to catch and handle errors
+   - Do an exercise involving file handling and exception handling
       - E.g. Write a Python program that reads a text file and counts the number of words in it. The program should handle file handling and exception handling to ensure that the file exists and can be accessed without errors.
 
 3. Unit Testing in Python
 
-   - [ ] Install the [pytests](https://docs.pytest.org/en/7.3.x/) unit testing library
-   - [ ] Go back to the mini-project you made from the last section and create some tests for functions you you wrote.
-   - [ ] Use a TDD approach to create some functions by writing the tests ***before*** creating the functions.
+   - Install the [pytests](https://docs.pytest.org/en/7.3.x/) unit testing library
+   - Go back to the mini-project you made from the last section and create some tests for functions you you wrote.
+   - Use a TDD approach to create some functions by writing the tests ***before*** creating the functions.
       - E.g. Write tests for a function to return the largest element of an array before writing the function itself.
 
 4. Build Something! 🔨
@@ -119,30 +119,30 @@ By completing the above steps, you will have a stronger understanding of object 
 
 1. Classes and Objects
 
-   - [ ] Create a simple class with attributes and methods.
-   - [ ] Create an object of the class and access its attributes and methods.
-   - [ ] Write a program that uses a class to model a real-world object.
+   - Create a simple class with attributes and methods.
+   - Create an object of the class and access its attributes and methods.
+   - Write a program that uses a class to model a real-world object.
       - E.g. Create a `Person` class with a `name`, `age`, and `hometown` properties. The class should also have a `bio` method that prints on the persons information.
 
 2. Inheritance
 
-   - [ ] Create a subclass that inherits from a superclass.
-   - [ ] Override a method in the subclass.
-   - [ ] Use inheritance to create a hierarchy of classes that models a real-world scenario.
+   - Create a subclass that inherits from a superclass.
+   - Override a method in the subclass.
+   - Use inheritance to create a hierarchy of classes that models a real-world scenario.
       - E.g. Create an `Animal` parent class with multiple animal subclasses that inherit information from the parent class.
 
 3. Polymorphism
 
-   - [ ] Create a program that uses polymorphism through method overriding and/or method overloading. 
-   - [ ] Use the `isinstance()` function to check the type of an object.
-   - [ ] Write a program that demonstrates the concept of polymorphism in a real-world scenario.
+   - Create a program that uses polymorphism through method overriding and/or method overloading. 
+   - Use the `isinstance()` function to check the type of an object.
+   - Write a program that demonstrates the concept of polymorphism in a real-world scenario.
       - E.g. Create a shape calculator that calculates the area of different shapes such as rectangles, circles, and triangles each with a `area()` method.
 
 4. Encapsulation
 
-   - [ ] Create a class with private attributes and methods.
-   - [ ] Use getter and setter methods to access and modify private attributes.
-   - [ ] Write a program that uses encapsulation to protect data in a real-world scenario.
+   - Create a class with private attributes and methods.
+   - Use getter and setter methods to access and modify private attributes.
+   - Write a program that uses encapsulation to protect data in a real-world scenario.
       - E.g. Create a bank account management system. The program allows users to create bank accounts, deposit and withdraw money, and retrieve the account balance. The program should ensure that the internal details and operations of the bank account are hidden and can only be accessed through well-defined methods.
 
 5. Build Something 🔨
@@ -163,22 +163,22 @@ These topics could easily take a day each - don't try to become an expert in all
 
 1. Regular Expressions
 
-   - [ ] Understand the basics of regular expressions
-   - [ ] Learn how to use the `re` module to search for and manipulate strings
-   - [ ] Do an exercise involving regular expressions.
+   - Understand the basics of regular expressions
+   - Learn how to use the `re` module to search for and manipulate strings
+   - Do an exercise involving regular expressions.
       - E.g. Use regular expressions to validate that email addresses are in a valid format.
 
 2. Web Scraping
 
-   - [ ] Understand the basics of web scraping
-   - [ ] Learn how to use the `requests` and `BeautifulSoup` libraries to scrape websites
-   - [ ] Utilize the `requests` and/or `BeautifulSoup` libraries to create a program that uses web scraping
+   - Understand the basics of web scraping
+   - Learn how to use the `requests` and `BeautifulSoup` libraries to scrape websites
+   - Utilize the `requests` and/or `BeautifulSoup` libraries to create a program that uses web scraping
 
 3. Data Visualization
 
-   - [ ] Learn about data visualization libraries like Matplotlib and Seaborn
-   - [ ] Understand the basics of creating plots and charts
-   - [ ] Create a program that creates a data visualization using Matplotlib and/or Seaborn
+   - Learn about data visualization libraries like Matplotlib and Seaborn
+   - Understand the basics of creating plots and charts
+   - Create a program that creates a data visualization using Matplotlib and/or Seaborn
 
 ## 5. Review
 
@@ -190,13 +190,13 @@ This section covers the following topics:
 
 1. Review and Practice
 
-   - [ ] Go over the concepts covered in the previous days
-   - [ ] Do some practice exercises to reinforce your understanding
+   - Go over the concepts covered in the previous days
+   - Do some practice exercises to reinforce your understanding
 
 2. Explore Additional Python Topics
 
-   - [ ] Learn about advanced Python topics that interest you, such as multithreading, network programming, or machine learning
-   - [ ] Do some research and find resources to learn more about these topics
+   - Learn about advanced Python topics that interest you, such as multithreading, network programming, or machine learning
+   - Do some research and find resources to learn more about these topics
 
 ## Build Something Using Python! 🔨
 

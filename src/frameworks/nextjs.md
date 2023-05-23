@@ -41,22 +41,22 @@ By completing these tasks you should have a good understanding of what Next.js i
 
 1. Read [the "Foundations" section on the official Next.js documentation](https://nextjs.org/learn/foundations/about-nextjs)
 
-   - [ ] Start by reading the Abut Next.js section on the [Next.js documentation website](https://nextjs.org/learn/foundations/about-nextjs), which provides an overview of the framework and its features.
-   - [ ] Then, read through the [From JavaScript to React](https://nextjs.org/learn/foundations/about-nextjs) section, which covers how JavaScript and React are related.
-   - [ ] Next, read through [From React to Next.js](https://nextjs.org/learn/foundations/from-react-to-nextjs) to get an overview of what Next.js is and how to get started.
-   - [ ] Finally, read through [How Next.js Works](https://nextjs.org/learn/foundations/how-nextjs-works) to get an overview of how Next.js works.
+   - Start by reading the Abut Next.js section on the [Next.js documentation website](https://nextjs.org/learn/foundations/about-nextjs), which provides an overview of the framework and its features.
+   - Then, read through the [From JavaScript to React](https://nextjs.org/learn/foundations/about-nextjs) section, which covers how JavaScript and React are related.
+   - Next, read through [From React to Next.js](https://nextjs.org/learn/foundations/from-react-to-nextjs) to get an overview of what Next.js is and how to get started.
+   - Finally, read through [How Next.js Works](https://nextjs.org/learn/foundations/how-nextjs-works) to get an overview of how Next.js works.
 
 2. Watch some introductory videos on Next.js
 
-   - [ ] There are many free and paid video courses available on platforms like YouTube, Udemy, and Egghead that cover Next.js. Choose one or more that suit your learning style and preferences.
-   - [ ] Watch videos that cover the basics of Next.js, such as creating pages, using routing, and fetching data.
+   - There are many free and paid video courses available on platforms like YouTube, Udemy, and Egghead that cover Next.js. Choose one or more that suit your learning style and preferences.
+   - Watch videos that cover the basics of Next.js, such as creating pages, using routing, and fetching data.
 
 3. Set up a new Next.js project and explore the file structure and configuration options:
 
-   - [ ] [Follow the instructions on the Next.js documentation](https://nextjs.org/learn/basics/create-nextjs-app) website to set up a new Next.js project using the command-line interface (CLI) tool.
-   - [ ] Once you have set up a new project, take some time to explore the various files and directories that are created. The main directories you should focus on are `pages/`, `public/`, `styles/`, and `api/`.
-   - [ ] Open `pages/index.js` with your text editor. Find the text that says `“Welcome to”` under the `<h1>` tag and change it to `“Learn”`. Save the file to preview your work.
-   - [ ] Learn about the different configuration options available for your Next.js project by exploring the `next.config.js` and `package.json` files.
+   - [Follow the instructions on the Next.js documentation](https://nextjs.org/learn/basics/create-nextjs-app) website to set up a new Next.js project using the command-line interface (CLI) tool.
+   - Once you have set up a new project, take some time to explore the various files and directories that are created. The main directories you should focus on are `pages/`, `public/`, `styles/`, and `api/`.
+   - Open `pages/index.js` with your text editor. Find the text that says `“Welcome to”` under the `<h1>` tag and change it to `“Learn”`. Save the file to preview your work.
+   - Learn about the different configuration options available for your Next.js project by exploring the `next.config.js` and `package.json` files.
 
 ## 2. Pages and Routing
 
@@ -71,20 +71,20 @@ By completing these tasks you should have a good understanding of how Next.js ha
 
 1. Learn about the pages system in Next.js and how to create different routes for your app:
 
-   - [ ] Read through [the Pages section of the Next.js documentation](https://nextjs.org/learn/basics/navigate-between-pages) to learn how to create new pages in your app and how Next.js handles routing between them.
-   - [ ] Learn about the different file-based routing options available in Next.js, such as dynamic routes and catch-all routes.
+   - Read through [the Pages section of the Next.js documentation](https://nextjs.org/learn/basics/navigate-between-pages) to learn how to create new pages in your app and how Next.js handles routing between them.
+   - Learn about the different file-based routing options available in Next.js, such as dynamic routes and catch-all routes.
 
 2. Experiment with creating new pages and custom routes, including dynamic routes:
 
-   - [ ] Start by creating a few simple pages in your Next.js app using the `pages/` directory. For example, create a home page and an about page.
-   - [ ] Then, experiment with creating custom routes using file-based routing. For example, create a new page at `pages/posts/[slug].js` to handle dynamic routes for individual blog posts.
-   - [ ] Test your routes and pages by navigating to them in your browser and ensuring that they load correctly.
+   - Start by creating a few simple pages in your Next.js app using the `pages/` directory. For example, create a home page and an about page.
+   - Then, experiment with creating custom routes using file-based routing. For example, create a new page at `pages/posts/[slug].js` to handle dynamic routes for individual blog posts.
+   - Test your routes and pages by navigating to them in your browser and ensuring that they load correctly.
 
 3. Implement basic navigation using Next.js's built-in Link component:
 
-   - [ ] Use the [built-in Link component](https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating) from Next.js to implement basic navigation between pages in your app.
-   - [ ] Experiment with passing query parameters and state between pages using the as and href props of the Link component.
-   - [ ] Test your navigation by clicking links and verifying that the correct pages load.
+   - Use the [built-in Link component](https://nextjs.org/docs/pages/building-your-application/routing/linking-and-navigating) from Next.js to implement basic navigation between pages in your app.
+   - Experiment with passing query parameters and state between pages using the as and href props of the Link component.
+   - Test your navigation by clicking links and verifying that the correct pages load.
 
 4. Build Something! 🔨
     - **Idea #1 - Profile**: Create a personal profile that has multiple pages and Link components.
@@ -104,19 +104,19 @@ By completing these tasks you should have a good understanding of the different 
 
 1. Learn about the different methods for fetching data in Next.js, such as server-side rendering and static site generation:
 
-   - [ ] Read through the [Data Fetching section of the Next.js documentation](https://nextjs.org/learn/basics/data-fetching) to learn about the different methods for fetching data in a Next.js app.
-   - [ ] Understand the differences between server-side rendering, static site generation, and client-side rendering, and when to use each method.
+   - Read through the [Data Fetching section of the Next.js documentation](https://nextjs.org/learn/basics/data-fetching) to learn about the different methods for fetching data in a Next.js app.
+   - Understand the differences between server-side rendering, static site generation, and client-side rendering, and when to use each method.
 
 2. Experiment with fetching data from external APIs and rendering it on a page:
 
-   - [ ] Choose an external API that you'd like to fetch data from, such as the [OpenWeather API](https://openweathermap.org/) or the [GitHub API](https://docs.github.com/en/rest).
-   - [ ] Use the built-in data fetching methods in Next.js, such as [`getStaticProps`](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props) or [`getServerSideProps`](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props), to fetch data from the API and pass it to a page component.
-   - [ ] Render the data on the page using React components and Next.js's dynamic content rendering features.
+   - Choose an external API that you'd like to fetch data from, such as the [OpenWeather API](https://openweathermap.org/) or the [GitHub API](https://docs.github.com/en/rest).
+   - Use the built-in data fetching methods in Next.js, such as [`getStaticProps`](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-static-props) or [`getServerSideProps`](https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props), to fetch data from the API and pass it to a page component.
+   - Render the data on the page using React components and Next.js's dynamic content rendering features.
 
 3. Learn about caching strategies to improve performance:
 
-   - [ ] Read through the [Caching section of the Next.js documentation](https://nextjs.org/docs/app/building-your-application/data-fetching/caching) to learn about caching strategies that can help improve performance in your app.
-   - [ ] Experiment with different caching strategies, such as using the revalidate option in getStaticProps or implementing client-side caching using React's useState and useEffect hooks.
+   - Read through the [Caching section of the Next.js documentation](https://nextjs.org/docs/app/building-your-application/data-fetching/caching) to learn about caching strategies that can help improve performance in your app.
+   - Experiment with different caching strategies, such as using the revalidate option in getStaticProps or implementing client-side caching using React's useState and useEffect hooks.
 
 ## 4. Styling and UI
 
@@ -131,21 +131,21 @@ By completing these tasks you should have a good understanding of the different 
 
 1. Learn about the different options for styling your Next.js app, including CSS modules and CSS-in-JS libraries like styled-components:
 
-   - [ ] Read through the [Styling section of the Next.js documentation](https://nextjs.org/docs/app/building-your-application/styling) to learn about the different options for styling your app.
-   - [ ] Understand the benefits and drawbacks of each option, and choose the one that best fits your needs.
-   - [ ] Complete the [Assets, Metadata, and CSS](https://nextjs.org/learn/basics/assets-metadata-css) section of the app you started building on Day 1.
+   - Read through the [Styling section of the Next.js documentation](https://nextjs.org/docs/app/building-your-application/styling) to learn about the different options for styling your app.
+   - Understand the benefits and drawbacks of each option, and choose the one that best fits your needs.
+   - Complete the [Assets, Metadata, and CSS](https://nextjs.org/learn/basics/assets-metadata-css) section of the app you started building on Day 1.
 
 2. Experiment with creating a basic UI for your app using your preferred styling method:
 
-   - [ ] Start by creating a basic layout for your app using HTML and CSS.
-   - [ ] Choose a styling method that you'd like to experiment with, such as CSS modules or styled-components, and implement it in your app.
-   - [ ] Create a few simple components using your chosen styling method, and experiment with different CSS styles to create a visually appealing UI.
+   - Start by creating a basic layout for your app using HTML and CSS.
+   - Choose a styling method that you'd like to experiment with, such as CSS modules or styled-components, and implement it in your app.
+   - Create a few simple components using your chosen styling method, and experiment with different CSS styles to create a visually appealing UI.
 
 3. Learn about responsive design and how to implement it in your Next.js app:
 
-   - [ ] Read through the Responsive Design section of the Next.js documentation to learn about responsive design principles and how to implement them in your app.
-   - [ ] Experiment with implementing responsive design in your app using CSS media queries or responsive design frameworks like Bootstrap or Material UI.
-   - [ ] Test your app on different screen sizes and devices to ensure that it looks good and functions correctly.
+   - Read through the Responsive Design section of the Next.js documentation to learn about responsive design principles and how to implement them in your app.
+   - Experiment with implementing responsive design in your app using CSS media queries or responsive design frameworks like Bootstrap or Material UI.
+   - Test your app on different screen sizes and devices to ensure that it looks good and functions correctly.
 
 ## 5. Deployment and Beyond
 
@@ -160,19 +160,19 @@ By completing these tasks you should have a good understanding of the different 
 
 1. Learn about the different deployment options for Next.js, including serverless deployment on services like Vercel:
 
-   - [ ] Read through [the Deployment section of the Next.js documentation](https://nextjs.org/docs/pages/building-your-application/deploying) to learn about the different deployment options for Next.js apps.
-   - [ ] Understand the benefits of serverless deployment, such as automatic scaling and reduced costs, and learn how to set up a Next.js app for serverless deployment.
-   - [ ] [Deploy the starter app using the Vercel guide](https://nextjs.org/learn/basics/deploying-nextjs-app) 
+   - Read through [the Deployment section of the Next.js documentation](https://nextjs.org/docs/pages/building-your-application/deploying) to learn about the different deployment options for Next.js apps.
+   - Understand the benefits of serverless deployment, such as automatic scaling and reduced costs, and learn how to set up a Next.js app for serverless deployment.
+   - [Deploy the starter app using the Vercel guide](https://nextjs.org/learn/basics/deploying-nextjs-app) 
 
 2. Deploy your app to a hosting service of your choice:
 
-   - [ ] Pick one of the other Next.js applications you have built in the previous sections. Choose a hosting service, such as Vercel, Render, Railway, or AWS, and follow their documentation to deploy your Next.js app.
-   - [ ] Test your deployed app to ensure that it's functioning correctly and that any external APIs are still accessible.
+   - Pick one of the other Next.js applications you have built in the previous sections. Choose a hosting service, such as Vercel, Render, Railway, or AWS, and follow their documentation to deploy your Next.js app.
+   - Test your deployed app to ensure that it's functioning correctly and that any external APIs are still accessible.
 
 3. Learn about advanced topics such as internationalization and serverless functions:
 
-   - [ ] Read through the Advanced Features section of the Next.js documentation to learn about more advanced topics such as [internationalization](https://nextjs.org/docs/app/building-your-application/routing/internationalization) and serverless functions.
-   - [ ] Choose one or more advanced features to experiment with, such as adding support for multiple languages in your app using Next.js's built-in i18n support or creating [serverless functions](https://nextjs.org/learn/basics/api-routes) using Next.js's API Routes feature.
+   - Read through the Advanced Features section of the Next.js documentation to learn about more advanced topics such as [internationalization](https://nextjs.org/docs/app/building-your-application/routing/internationalization) and serverless functions.
+   - Choose one or more advanced features to experiment with, such as adding support for multiple languages in your app using Next.js's built-in i18n support or creating [serverless functions](https://nextjs.org/learn/basics/api-routes) using Next.js's API Routes feature.
 
 ## Build Something with Next.js! 🔨
 

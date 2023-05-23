@@ -22,26 +22,26 @@ By completing these learning tasks, you will have a strong foundation in the bas
 
 1. Learn about the basics of UDP and TCP protocols:
 
-   - [ ] Research the history and purpose of the UDP and TCP protocols
-   - [ ] Understand the key elements of each protocol, such as headers, ports, and sockets
-   - [ ] Read about the structure of UDP and TCP packets and their fields
-   - [ ] Understand the role of checksums in error detection and correction
-   - [ ] Study how UDP and TCP are implemented in different operating systems and programming languages
+   - Research the history and purpose of the UDP and TCP protocols
+   - Understand the key elements of each protocol, such as headers, ports, and sockets
+   - Read about the structure of UDP and TCP packets and their fields
+   - Understand the role of checksums in error detection and correction
+   - Study how UDP and TCP are implemented in different operating systems and programming languages
 
 2. Understand the differences between UDP and TCP, such as reliability, speed, and overhead:
 
-   - [ ] Research the differences in reliability between UDP and TCP and the reasons behind these differences
-   - [ ] Understand the role of flow control and congestion control in TCP and how they affect its performance
-   - [ ] Study the differences in the speed of UDP and TCP and their impact on different types of applications
-   - [ ] Learn about the overhead associated with UDP and TCP and how it affects network performance
-   - [ ] Identify the key differences between UDP and TCP in terms of their strengths and weaknesses
+   - Research the differences in reliability between UDP and TCP and the reasons behind these differences
+   - Understand the role of flow control and congestion control in TCP and how they affect its performance
+   - Study the differences in the speed of UDP and TCP and their impact on different types of applications
+   - Learn about the overhead associated with UDP and TCP and how it affects network performance
+   - Identify the key differences between UDP and TCP in terms of their strengths and weaknesses
 
 3. Study the applications of UDP and TCP, including their strengths and weaknesses:
 
-   - [ ] Research the different types of applications that use UDP and TCP, such as online gaming, video streaming, file transfers, web browsing, and email
-   - [ ] Understand the strengths and weaknesses of UDP and TCP in each of these application scenarios
-   - [ ] Identify the reasons why UDP or TCP may be preferred for certain types of applications
-   - [ ] Study the impact of network conditions on the performance of UDP and TCP-based applications
+   - Research the different types of applications that use UDP and TCP, such as online gaming, video streaming, file transfers, web browsing, and email
+   - Understand the strengths and weaknesses of UDP and TCP in each of these application scenarios
+   - Identify the reasons why UDP or TCP may be preferred for certain types of applications
+   - Study the impact of network conditions on the performance of UDP and TCP-based applications
 
 ## 2. UDP Protocol
 
@@ -55,25 +55,25 @@ By completing these learning tasks, you will have a deep understanding of the Us
 
 1. Study the User Datagram Protocol (UDP) in-depth:
 
-   - [ ] Understand the history and purpose of UDP
-   - [ ] Study the UDP header structure and its fields
-   - [ ] Learn about the different types of UDP packets, such as datagrams, multicast packets, and broadcast packets
-   - [ ] Understand the role of UDP ports and sockets in network communication
-   - [ ] Research the implementation of UDP in different operating systems and programming languages
+   - Understand the history and purpose of UDP
+   - Study the UDP header structure and its fields
+   - Learn about the different types of UDP packets, such as datagrams, multicast packets, and broadcast packets
+   - Understand the role of UDP ports and sockets in network communication
+   - Research the implementation of UDP in different operating systems and programming languages
 
 2. Learn how UDP works, including its features, advantages, and limitations:
 
-   - [ ] Understand the differences between UDP and TCP, including reliability, speed, and overhead
-   - [ ] Learn about the features of UDP, such as low latency, simple design, and no congestion control
-   - [ ] Identify the advantages of UDP in certain scenarios, such as real-time applications and low-bandwidth networks
-   - [ ] Understand the limitations of UDP, such as its lack of reliability and flow control
+   - Understand the differences between UDP and TCP, including reliability, speed, and overhead
+   - Learn about the features of UDP, such as low latency, simple design, and no congestion control
+   - Identify the advantages of UDP in certain scenarios, such as real-time applications and low-bandwidth networks
+   - Understand the limitations of UDP, such as its lack of reliability and flow control
 
 3. Understand the various applications of UDP, such as online gaming, VoIP, and video streaming:
 
-   - [ ] Study the use of UDP in online gaming and its advantages over TCP in terms of speed and responsiveness
-   - [ ] Learn about the use of UDP in VoIP and its ability to handle real-time audio and video streams
-   - [ ] Understand the role of UDP in video streaming and how it enables high-quality, low-latency streaming
-   - [ ] Identify other types of applications that use UDP, such as DNS, SNMP, and TFTP
+   - Study the use of UDP in online gaming and its advantages over TCP in terms of speed and responsiveness
+   - Learn about the use of UDP in VoIP and its ability to handle real-time audio and video streams
+   - Understand the role of UDP in video streaming and how it enables high-quality, low-latency streaming
+   - Identify other types of applications that use UDP, such as DNS, SNMP, and TFTP
 
 ## 3. TCP Protocol
 
@@ -87,25 +87,25 @@ By completing these learning tasks, you will have a comprehensive understanding 
 
 1. Study the Transmission Control Protocol (TCP) in-depth:
 
-   - [ ] Understand the history and purpose of TCP
-   - [ ] Study the TCP header structure and its fields
-   - [ ] Learn about the different phases of the TCP connection establishment and termination process
-   - [ ] Understand the role of TCP ports and sockets in network communication
-   - [ ] Research the implementation of TCP in different operating systems and programming languages
+   - Understand the history and purpose of TCP
+   - Study the TCP header structure and its fields
+   - Learn about the different phases of the TCP connection establishment and termination process
+   - Understand the role of TCP ports and sockets in network communication
+   - Research the implementation of TCP in different operating systems and programming languages
 
 2. Learn how TCP works, including its features, advantages, and limitations:
 
-   - [ ] Understand the differences between TCP and UDP, including reliability, speed, and overhead
-   - [ ] Learn about the features of TCP, such as flow control, congestion control, and error detection and correction
-   - [ ] Identify the advantages of TCP in certain scenarios, such as large file transfers and reliable data delivery
-   - [ ] Understand the limitations of TCP, such as its impact on network performance and its vulnerability to denial-of-service attacks
+   - Understand the differences between TCP and UDP, including reliability, speed, and overhead
+   - Learn about the features of TCP, such as flow control, congestion control, and error detection and correction
+   - Identify the advantages of TCP in certain scenarios, such as large file transfers and reliable data delivery
+   - Understand the limitations of TCP, such as its impact on network performance and its vulnerability to denial-of-service attacks
 
 3. Understand the various applications of TCP, such as web browsing, file transfers, and email:
 
-   - [ ] Study the use of TCP in web browsing and how it enables reliable and efficient transfer of web pages
-   - [ ] Learn about the use of TCP in file transfers and its ability to handle large files and ensure data integrity
-   - [ ] Understand the role of TCP in email and its ability to ensure reliable delivery of email messages
-   - [ ] Identify other types of applications that use TCP, such as remote login (SSH), secure data transfer (HTTPS), and remote procedure calls (RPC)
+   - Study the use of TCP in web browsing and how it enables reliable and efficient transfer of web pages
+   - Learn about the use of TCP in file transfers and its ability to handle large files and ensure data integrity
+   - Understand the role of TCP in email and its ability to ensure reliable delivery of email messages
+   - Identify other types of applications that use TCP, such as remote login (SSH), secure data transfer (HTTPS), and remote procedure calls (RPC)
 
 ## 4. Related Protocols
 
@@ -119,22 +119,22 @@ By completing these learning tasks, you will have a thorough understanding of th
 
 1. Study related protocols, such as IP, ICMP, and ARP:
 
-   - [ ] Understand the role of the Internet Protocol (IP) in facilitating communication between hosts on the Internet
-   - [ ] Study the IP header structure and its fields, including source and destination IP addresses
-   - [ ] Learn about the Address Resolution Protocol (ARP) and its role in resolving IP addresses to MAC addresses
-   - [ ] Understand the Internet Control Message Protocol (ICMP) and its use in error reporting and network management
+   - Understand the role of the Internet Protocol (IP) in facilitating communication between hosts on the Internet
+   - Study the IP header structure and its fields, including source and destination IP addresses
+   - Learn about the Address Resolution Protocol (ARP) and its role in resolving IP addresses to MAC addresses
+   - Understand the Internet Control Message Protocol (ICMP) and its use in error reporting and network management
 
 2. Learn how these protocols work in conjunction with UDP and TCP to facilitate communication:
 
-   - [ ] Understand how IP packets are used to carry UDP and TCP datagrams across the network
-   - [ ] Study the use of ICMP messages in response to errors and network events related to UDP and TCP communication
-   - [ ] Learn about the role of ARP in resolving IP addresses to MAC addresses for communication between hosts
+   - Understand how IP packets are used to carry UDP and TCP datagrams across the network
+   - Study the use of ICMP messages in response to errors and network events related to UDP and TCP communication
+   - Learn about the role of ARP in resolving IP addresses to MAC addresses for communication between hosts
 
 3. Understand the role of each protocol in network communication and how they affect UDP and TCP:
 
-   - [ ] Understand how the Internet Protocol (IP) provides a connectionless, best-effort delivery service for UDP and TCP datagrams
-   - [ ] Learn how ICMP messages are used to report errors related to UDP and TCP communication, such as unreachable hosts and network congestion
-   - [ ] Understand how ARP is used to map IP addresses to MAC addresses for communication between hosts on the same network
+   - Understand how the Internet Protocol (IP) provides a connectionless, best-effort delivery service for UDP and TCP datagrams
+   - Learn how ICMP messages are used to report errors related to UDP and TCP communication, such as unreachable hosts and network congestion
+   - Understand how ARP is used to map IP addresses to MAC addresses for communication between hosts on the same network
 
 ## 5. Network Troubleshooting
 
@@ -148,21 +148,21 @@ By completing these learning tasks, you will have the skills and knowledge neces
 
 1. Learn how to troubleshoot network issues related to UDP and TCP:
 
-   - [ ] Understand the common causes of network issues related to UDP and TCP, such as congestion, packet loss, and timeouts
-   - [ ] Learn how to identify symptoms of network issues related to UDP and TCP, such as slow transfer speeds and connection errors
-   - [ ] Study common troubleshooting techniques, such as resetting network connections and adjusting network settings
+   - Understand the common causes of network issues related to UDP and TCP, such as congestion, packet loss, and timeouts
+   - Learn how to identify symptoms of network issues related to UDP and TCP, such as slow transfer speeds and connection errors
+   - Study common troubleshooting techniques, such as resetting network connections and adjusting network settings
 
 2. Study common issues and their solutions, such as congestion, packet loss, and timeouts:
 
-   - [ ] Understand how network congestion can affect UDP and TCP communication and how to alleviate congestion through techniques such as traffic shaping and quality of service (QoS) measures
-   - [ ] Learn about packet loss and its impact on UDP and TCP communication, as well as methods for detecting and reducing packet loss, such as error correction and retransmission
-   - [ ] Study the causes of timeouts in UDP and TCP communication and how to adjust timeout values to improve network performance
+   - Understand how network congestion can affect UDP and TCP communication and how to alleviate congestion through techniques such as traffic shaping and quality of service (QoS) measures
+   - Learn about packet loss and its impact on UDP and TCP communication, as well as methods for detecting and reducing packet loss, such as error correction and retransmission
+   - Study the causes of timeouts in UDP and TCP communication and how to adjust timeout values to improve network performance
 
 3. Understand how to use diagnostic tools, such as ping, traceroute, and netstat, to identify and resolve network issues:
 
-   - [ ] Learn how to use ping to test network connectivity and measure network latency and packet loss
-   - [ ] Understand how traceroute can be used to identify network hops and locate issues in network routing
-   - [ ] Study netstat and how it can be used to monitor network connections and identify issues with network traffic and congestion
+   - Learn how to use ping to test network connectivity and measure network latency and packet loss
+   - Understand how traceroute can be used to identify network hops and locate issues in network routing
+   - Study netstat and how it can be used to monitor network connections and identify issues with network traffic and congestion
 
 ## Resources
 

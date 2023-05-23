@@ -36,15 +36,15 @@ By completing these tasks you should have a solid foundation in the basics of Ap
 
 1. Start with the official Salesforce Trailhead tutorial for Apex programming:
 
-      - [ ] [Create a Trailhead account](https://trailhead.salesforce.com/) so that your progress can be saved!
-      - [ ] Read through the ["Get Started with Apex"](https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_intro) section, which covers an overview of Apex, how it is used in the Salesforce ecosystem, and the basics of Apex syntax and how to write your first Apex class.
-      - [ ] Complete the ["Create a Simple Apex Class"](https://trailhead.salesforce.com/content/learn/projects/quickstart-apex/quickstart-apex-1) challenge by following the instructions to create a basic Apex class and test it in a Salesforce Developer Edition org.
+      - [Create a Trailhead account](https://trailhead.salesforce.com/) so that your progress can be saved!
+      - Read through the ["Get Started with Apex"](https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_intro) section, which covers an overview of Apex, how it is used in the Salesforce ecosystem, and the basics of Apex syntax and how to write your first Apex class.
+      - Complete the ["Create a Simple Apex Class"](https://trailhead.salesforce.com/content/learn/projects/quickstart-apex/quickstart-apex-1) challenge by following the instructions to create a basic Apex class and test it in a Salesforce Developer Edition org.
 
 2. Complete the ["Apex Basics & Database"](https://trailhead.salesforce.com/content/learn/modules/apex_database) module on Trailhead:
 
-      - [ ] Read through the "Introduction to Apex" section, which provides an overview of Apex and its syntax.
-      - [ ] Complete the "Apex Basics" unit, which covers Apex syntax, variables, and control structures. Make sure to complete the challenges as you go along.
-      - [ ] Complete the "DML Operations" unit, which covers how to interact with Salesforce's database using Apex. Again, make sure to complete the challenges as you go along.
+      - Read through the "Introduction to Apex" section, which provides an overview of Apex and its syntax.
+      - Complete the "Apex Basics" unit, which covers Apex syntax, variables, and control structures. Make sure to complete the challenges as you go along.
+      - Complete the "DML Operations" unit, which covers how to interact with Salesforce's database using Apex. Again, make sure to complete the challenges as you go along.
 
 ## 2. Object-Oriented Programming in Apex
 
@@ -58,17 +58,17 @@ By completing these tasks you should have a good understanding of object-oriente
 
 1. Start with the "[Object-Oriented Programming with Apex"](https://trailhead.salesforce.com/content/learn/modules/object-oriented-programming-for-admins) module on Trailhead:
 
-      - [ ] Read through the "Introduction to Object-Oriented Programming" section, which provides an overview of object-oriented programming concepts and how they apply to Apex.
-      - [ ] Complete the "Classes and Objects" unit, which covers how to define and use classes in Apex, including constructors, properties, and methods.
-      - [ ] Complete the "Inheritance and Polymorphism" unit, which covers how to use inheritance to create subclasses of existing classes, and how to use polymorphism to treat objects of different classes as if they were the same type.
-      - [ ] Complete the "Interfaces" unit, which covers how to define and use interfaces in Apex, which provide a way to define a set of methods that a class must implement.
+      - Read through the "Introduction to Object-Oriented Programming" section, which provides an overview of object-oriented programming concepts and how they apply to Apex.
+      - Complete the "Classes and Objects" unit, which covers how to define and use classes in Apex, including constructors, properties, and methods.
+      - Complete the "Inheritance and Polymorphism" unit, which covers how to use inheritance to create subclasses of existing classes, and how to use polymorphism to treat objects of different classes as if they were the same type.
+      - Complete the "Interfaces" unit, which covers how to define and use interfaces in Apex, which provide a way to define a set of methods that a class must implement.
 
 2. Practice [writing and testing your own classes](https://trailhead.salesforce.com/content/learn/modules/apex_testing) in a sandbox environment:
 
-      - [ ] Create a new [Salesforce Developer Edition organization](https://developer.salesforce.com/signup) if you haven't already.
-      - [ ] Use the Apex Developer Console or a code editor such as Visual Studio Code with the Salesforce Extension Pack to write Apex classes.
-      - [ ] Write a simple Apex class that defines a custom object and methods for creating, reading, updating, and deleting records of that object.
-      - [ ] Use the Developer Console or the Apex Test Execution page to write and run tests for your class to ensure that it works as expected.
+      - Create a new [Salesforce Developer Edition organization](https://developer.salesforce.com/signup) if you haven't already.
+      - Use the Apex Developer Console or a code editor such as Visual Studio Code with the Salesforce Extension Pack to write Apex classes.
+      - Write a simple Apex class that defines a custom object and methods for creating, reading, updating, and deleting records of that object.
+      - Use the Developer Console or the Apex Test Execution page to write and run tests for your class to ensure that it works as expected.
 
 ## 3. Apex Triggers
 
@@ -82,16 +82,16 @@ By completing these tasks you should have a good understanding of how to write A
 
 1. Begin with the ["Triggers" module on Trailhead](https://trailhead.salesforce.com/content/learn/modules/apex_triggers):
 
-      - [ ] Read through the "Introduction to Triggers" section, which provides an overview of what triggers are and how they are used in Salesforce.
-      - [ ] Complete the "Trigger Events and the Order of Execution" unit, which covers the different types of trigger events and how they are processed by Salesforce, as well as the order in which triggers are executed.
-      - [ ] Complete the "Anatomy of a Trigger" unit, which covers the basic structure of a trigger in Apex and how to define trigger handlers.
-      - [ ] Complete the "Bulk Triggers" unit, which covers best practices for writing triggers that can handle large amounts of data.
+      - Read through the "Introduction to Triggers" section, which provides an overview of what triggers are and how they are used in Salesforce.
+      - Complete the "Trigger Events and the Order of Execution" unit, which covers the different types of trigger events and how they are processed by Salesforce, as well as the order in which triggers are executed.
+      - Complete the "Anatomy of a Trigger" unit, which covers the basic structure of a trigger in Apex and how to define trigger handlers.
+      - Complete the "Bulk Triggers" unit, which covers best practices for writing triggers that can handle large amounts of data.
 
 2. Practice writing and testing your own triggers in a sandbox environment:
 
-      - [ ] Using the same Developer Edition organization that you created, write a simple trigger that performs an action in response to a specific event, such as creating a new record or updating an existing record.
-      - [ ] Use the Developer Console or the Apex Test Execution page to write and run tests for your trigger to ensure that it works correctly.
-      - [ ] Experiment with different trigger events and conditions to see how they affect the behavior of your trigger.
+      - Using the same Developer Edition organization that you created, write a simple trigger that performs an action in response to a specific event, such as creating a new record or updating an existing record.
+      - Use the Developer Console or the Apex Test Execution page to write and run tests for your trigger to ensure that it works correctly.
+      - Experiment with different trigger events and conditions to see how they affect the behavior of your trigger.
 
 ## 4. Visualforce Pages
 
@@ -105,17 +105,17 @@ By completing these tasks you should have a good understanding of how to create 
 
 1. Start with the ["Visualforce Basics" module](https://trailhead.salesforce.com/content/learn/modules/visualforce_fundamentals) on Trailhead:
 
-      - [ ] Read through the "Introduction to Visualforce" section, which provides an overview of what Visualforce is and how it is used in Salesforce.
-      - [ ] Complete the "Visualforce Pages" unit, which covers how to create Visualforce pages using markup and components, and how to control their behavior using controllers and extensions.
-      - [ ] Complete the "Visualforce Controllers" unit, which covers how to write Apex code to control the behavior of Visualforce pages, including retrieving and updating data from Salesforce.
-      - [ ] Complete the "Visualforce Components" unit, which covers how to create reusable components for use in multiple Visualforce pages.
+      - Read through the "Introduction to Visualforce" section, which provides an overview of what Visualforce is and how it is used in Salesforce.
+      - Complete the "Visualforce Pages" unit, which covers how to create Visualforce pages using markup and components, and how to control their behavior using controllers and extensions.
+      - Complete the "Visualforce Controllers" unit, which covers how to write Apex code to control the behavior of Visualforce pages, including retrieving and updating data from Salesforce.
+      - Complete the "Visualforce Components" unit, which covers how to create reusable components for use in multiple Visualforce pages.
 
 2. Practice building and testing your own Visualforce pages in a sandbox environment:
 
-      - [ ] Using the same Developer Edition organization that you created, create a simple Visualforce page that displays data from a custom object in Salesforce.
-      - [ ] Write a Visualforce controller to retrieve data from Salesforce and pass it to the page.
-      - [ ] Use the Developer Console or the Visualforce Previewer to preview and test your page.
-      - [ ] Experiment with different Visualforce components and styling options to customize the look and feel of your page.
+      - Using the same Developer Edition organization that you created, create a simple Visualforce page that displays data from a custom object in Salesforce.
+      - Write a Visualforce controller to retrieve data from Salesforce and pass it to the page.
+      - Use the Developer Console or the Visualforce Previewer to preview and test your page.
+      - Experiment with different Visualforce components and styling options to customize the look and feel of your page.
 
 ## 5. Advanced Apex Topics
 
@@ -129,17 +129,17 @@ By completing these tasks you should have a good understanding of how to integra
 
 1. Start with the ["Apex Integration Services" module](https://trailhead.salesforce.com/content/learn/modules/apex_integration_services) on Trailhead:
 
-      - [ ] Read through the "Introduction to Apex Integration" section, which provides an overview of the different ways that you can integrate your Apex code with external systems.
-      - [ ] Complete the "Apex Web Services" unit, which covers how to create and consume SOAP and REST web services in Apex.
-      - [ ] Complete the "Apex Callouts" unit, which covers how to make HTTP requests from Apex code to external systems.
-      - [ ] Complete the "Outbound Messaging" unit, which covers how to use outbound messages to send data from Salesforce to an external system.
+      - Read through the "Introduction to Apex Integration" section, which provides an overview of the different ways that you can integrate your Apex code with external systems.
+      - Complete the "Apex Web Services" unit, which covers how to create and consume SOAP and REST web services in Apex.
+      - Complete the "Apex Callouts" unit, which covers how to make HTTP requests from Apex code to external systems.
+      - Complete the "Outbound Messaging" unit, which covers how to use outbound messages to send data from Salesforce to an external system.
 
 2. Practice writing and testing your own Apex code to integrate with an external system:
 
-      - [ ] Identify an external system that you want to integrate with Salesforce, such as a web service or a database.
-      - [ ] Write Apex code to interact with the external system using one of the integration methods covered in the Trailhead module.
-      - [ ] Use the Developer Console or the Apex Test Execution page to write and run tests for your code to ensure that it works correctly.
-      - [ ] Experiment with different integration scenarios and error handling to see how they affect the behavior of your code.
+      - Identify an external system that you want to integrate with Salesforce, such as a web service or a database.
+      - Write Apex code to interact with the external system using one of the integration methods covered in the Trailhead module.
+      - Use the Developer Console or the Apex Test Execution page to write and run tests for your code to ensure that it works correctly.
+      - Experiment with different integration scenarios and error handling to see how they affect the behavior of your code.
 
 ## Build Something with Apex! 🔨
 

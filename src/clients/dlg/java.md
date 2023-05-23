@@ -4,64 +4,64 @@
 
 ### Java Fundamentals
 
-- [ ] Familiarize yourself with the basic syntax of the Java programming
+- Familiarize yourself with the basic syntax of the Java programming
       language. Practice writing small programs that use variables, loops, and
       conditional statements.
-- [ ] Understand the concept of data types in Java and how to use them. Learn
+- Understand the concept of data types in Java and how to use them. Learn
       about primitive data types, such as int, double, and boolean, as well as
       reference data types, such as String and arrays.
-- [ ] Learn how to use classes and objects in Java. Practice creating classes
+- Learn how to use classes and objects in Java. Practice creating classes
       and objects and calling methods on them.
-- [ ] Learn how to use Java packages and import statements to organize your
+- Learn how to use Java packages and import statements to organize your
       code.
-- [ ] Learn how to use access modifiers, such as public, private, and protected,
+- Learn how to use access modifiers, such as public, private, and protected,
       to control the visibility of classes, methods, and variables.
 
 ### OOP Concepts:
 
-- [ ] Understand the basic principles of object-oriented programming (OOP), such
+- Understand the basic principles of object-oriented programming (OOP), such
       as encapsulation, inheritance, and polymorphism.
-- [ ] Learn how to use classes and objects to encapsulate data and behavior.
-- [ ] Practice using inheritance to create a class hierarchy.
-- [ ] Learn how to use polymorphism to write code that can work with objects of
+- Learn how to use classes and objects to encapsulate data and behavior.
+- Practice using inheritance to create a class hierarchy.
+- Learn how to use polymorphism to write code that can work with objects of
       different types.
 
 ### Overloading & Overriding:
 
-- [ ] Understand the difference between method overloading and method
+- Understand the difference between method overloading and method
       overriding.
-- [ ] Practice writing methods that overload other methods with different
+- Practice writing methods that overload other methods with different
       parameters.
-- [ ] Practice writing methods that override methods in a superclass.
-- [ ] Understand how to use the @Override annotation to indicate that a method
+- Practice writing methods that override methods in a superclass.
+- Understand how to use the @Override annotation to indicate that a method
       is intended to override a superclass method.
 
 ### Inheritance with Interface and Abstract Class:
 
-- [ ] Understand the difference between an interface and an abstract class.
-- [ ] Practice creating interfaces and implementing them in classes.
-- [ ] Practice creating abstract classes and extending them in subclasses.
-- [ ] Understand how to use inheritance to create a class hierarchy that models
+- Understand the difference between an interface and an abstract class.
+- Practice creating interfaces and implementing them in classes.
+- Practice creating abstract classes and extending them in subclasses.
+- Understand how to use inheritance to create a class hierarchy that models
       the relationship between objects in your program.
 
 ### Exception Handling:
 
-- [ ] Understand the concept of exceptions and how they are used in Java.
-- [ ] Practice writing try-catch blocks to handle exceptions in your code.
-- [ ] Understand how to use the throws keyword to declare that a method may
+- Understand the concept of exceptions and how they are used in Java.
+- Practice writing try-catch blocks to handle exceptions in your code.
+- Understand how to use the throws keyword to declare that a method may
       throw an exception.
-- [ ] Learn about different types of exceptions in Java, such as checked
+- Learn about different types of exceptions in Java, such as checked
       exceptions and unchecked exceptions.
 
 ### Collections:
 
-- [ ] Understand the concept of collections in Java and the difference between a
+- Understand the concept of collections in Java and the difference between a
       collection and an array.
-- [ ] Learn about the different types of collections in Java, such as lists,
+- Learn about the different types of collections in Java, such as lists,
       sets, and maps.
-- [ ] Practice using the Java Collections Framework to create and manipulate
+- Practice using the Java Collections Framework to create and manipulate
       collections in your code.
-- [ ] Understand the performance characteristics of different types of
+- Understand the performance characteristics of different types of
       collections and how to choose the right collection for your needs.
 
 By following this learning plan and practicing regularly, a software engineer

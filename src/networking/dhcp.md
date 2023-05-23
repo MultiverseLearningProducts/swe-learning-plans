@@ -24,28 +24,28 @@ By completing these tasks, you should have a good understanding of what DHCP is,
 
 1. Learn what DHCP is and how it works:
 
-   - [ ] Read introductory materials or watch videos to understand the basics of DHCP.
-   - [ ] Understand the role of DHCP in assigning IP addresses to devices on a network.
-   - [ ] Learn how DHCP can be used to manage IP address allocation on a network.
-   - [ ] Explore how DHCP simplifies the IP address management process for network administrators.
+   - Read introductory materials or watch videos to understand the basics of DHCP.
+   - Understand the role of DHCP in assigning IP addresses to devices on a network.
+   - Learn how DHCP can be used to manage IP address allocation on a network.
+   - Explore how DHCP simplifies the IP address management process for network administrators.
 
 2. Understand the benefits of using DHCP to automatically assign IP addresses to devices on a network:
 
-   - [ ] Identify the advantages of using DHCP, such as saving time and reducing errors in IP address assignment.
-   - [ ] Learn how DHCP can help with network scalability and flexibility.
-   - [ ] Understand how DHCP can be used to manage IP address conflicts.
+   - Identify the advantages of using DHCP, such as saving time and reducing errors in IP address assignment.
+   - Learn how DHCP can help with network scalability and flexibility.
+   - Understand how DHCP can be used to manage IP address conflicts.
 
 3. Explore the different types of DHCP messages and their purposes:
 
-   - [ ] Learn about the four main DHCP message types: DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, and DHCPACK.
-   - [ ] Understand the purpose of each message type in the DHCP process.
-   - [ ] Learn how DHCP messages are used to allocate IP addresses and other configuration information to network devices.
+   - Learn about the four main DHCP message types: DHCPDISCOVER, DHCPOFFER, DHCPREQUEST, and DHCPACK.
+   - Understand the purpose of each message type in the DHCP process.
+   - Learn how DHCP messages are used to allocate IP addresses and other configuration information to network devices.
 
 4. Additional tasks:
 
-   - [ ] Try setting up a simple DHCP server and client on a virtual network to see DHCP in action.
-   - [ ] Familiarize yourself with DHCP terminology, such as DHCP server, DHCP client, DHCP lease, and DHCP scope.
-   - [ ] Read about the limitations and disadvantages of using DHCP, such as the need for additional security measures.
+   - Try setting up a simple DHCP server and client on a virtual network to see DHCP in action.
+   - Familiarize yourself with DHCP terminology, such as DHCP server, DHCP client, DHCP lease, and DHCP scope.
+   - Read about the limitations and disadvantages of using DHCP, such as the need for additional security measures.
 
 ## 2. DHCP Configuration
 
@@ -59,28 +59,28 @@ By completing these tasks, you should have a good understanding of how to config
 
 1. Learn how to configure a DHCP server on a network:
 
-   - [ ] Research different DHCP server software options, such as ISC DHCP or Microsoft DHCP server, and choose one to work with.
-   - [ ] Install and configure the DHCP server software on a test network environment.
-   - [ ] Set up a DHCP scope with IP address ranges and other configuration settings.
-   - [ ] Configure DHCP server options such as DNS servers, gateway IP addresses, and subnet masks.
+   - Research different DHCP server software options, such as ISC DHCP or Microsoft DHCP server, and choose one to work with.
+   - Install and configure the DHCP server software on a test network environment.
+   - Set up a DHCP scope with IP address ranges and other configuration settings.
+   - Configure DHCP server options such as DNS servers, gateway IP addresses, and subnet masks.
 
 2. Understand the different configuration options available in DHCP:
 
-   - [ ] Learn about the different types of DHCP options, such as subnet mask, default gateway, and DNS server settings.
-   - [ ] Understand the role of DHCP options in configuring network devices automatically.
-   - [ ] Familiarize yourself with DHCP option codes and how to configure them on a DHCP server.
+   - Learn about the different types of DHCP options, such as subnet mask, default gateway, and DNS server settings.
+   - Understand the role of DHCP options in configuring network devices automatically.
+   - Familiarize yourself with DHCP option codes and how to configure them on a DHCP server.
 
 3. Explore the process of DHCP lease allocation and renewal:
 
-   - [ ] Learn how DHCP assigns IP addresses to clients through the DHCP lease process.
-   - [ ] Understand the different DHCP lease durations and how they affect IP address allocation.
-   - [ ] Explore the process of DHCP lease renewal and how it can impact network performance.
+   - Learn how DHCP assigns IP addresses to clients through the DHCP lease process.
+   - Understand the different DHCP lease durations and how they affect IP address allocation.
+   - Explore the process of DHCP lease renewal and how it can impact network performance.
 
 4. Additional tasks:
 
-   - [ ] Configure DHCP relay agents to enable DHCP requests to traverse multiple subnets.
-   - [ ] Set up DHCP failover and redundancy to ensure high availability of DHCP services.
-   - [ ] Troubleshoot DHCP configuration issues, such as IP address conflicts and misconfigured DHCP options.
+   - Configure DHCP relay agents to enable DHCP requests to traverse multiple subnets.
+   - Set up DHCP failover and redundancy to ensure high availability of DHCP services.
+   - Troubleshoot DHCP configuration issues, such as IP address conflicts and misconfigured DHCP options.
 
 ## 3. DHCPv6
 
@@ -94,27 +94,27 @@ By completing these tasks, you should have a good understanding of DHCPv6, its d
 
 1. Learn about DHCPv6, the DHCP protocol for IPv6 networks:
 
-   - [ ] Understand why DHCPv6 was developed and what it aims to accomplish.
-   - [ ] Learn about the role of DHCPv6 in IPv6 address allocation and configuration.
-   - [ ] Familiarize yourself with the key components of a DHCPv6 message.
+   - Understand why DHCPv6 was developed and what it aims to accomplish.
+   - Learn about the role of DHCPv6 in IPv6 address allocation and configuration.
+   - Familiarize yourself with the key components of a DHCPv6 message.
 
 2. Understand the differences between DHCPv6 and DHCPv4:
 
-   - [ ] Compare and contrast DHCPv6 and DHCPv4 in terms of their features and functionality.
-   - [ ] Understand the differences in how DHCPv6 and DHCPv4 handle IPv6 address assignment and configuration.
-   - [ ] Learn about the different options available in DHCPv6 that are not present in DHCPv4.
+   - Compare and contrast DHCPv6 and DHCPv4 in terms of their features and functionality.
+   - Understand the differences in how DHCPv6 and DHCPv4 handle IPv6 address assignment and configuration.
+   - Learn about the different options available in DHCPv6 that are not present in DHCPv4.
 
 3. Explore the different DHCPv6 messages and their purposes:
 
-   - [ ] Learn about the different DHCPv6 message types, including SOLICIT, ADVERTISE, REQUEST, REPLY, CONFIRM, RENEW, REBIND, RELEASE, DECLINE, and INFORMATION-REQUEST.
-   - [ ] Understand the purpose of each DHCPv6 message type and how they fit into the overall DHCPv6 message exchange process.
-   - [ ] Familiarize yourself with the format and structure of DHCPv6 messages.
+   - Learn about the different DHCPv6 message types, including SOLICIT, ADVERTISE, REQUEST, REPLY, CONFIRM, RENEW, REBIND, RELEASE, DECLINE, and INFORMATION-REQUEST.
+   - Understand the purpose of each DHCPv6 message type and how they fit into the overall DHCPv6 message exchange process.
+   - Familiarize yourself with the format and structure of DHCPv6 messages.
 
 4. Additional tasks:
 
-   - [ ] Set up a test network environment and configure a DHCPv6 server and client.
-   - [ ] Observe the DHCPv6 message exchange process and analyze the DHCPv6 message traffic using packet capture tools.
-   - [ ] Configure DHCPv6 options such as DNS server addresses and other network parameters.
+   - Set up a test network environment and configure a DHCPv6 server and client.
+   - Observe the DHCPv6 message exchange process and analyze the DHCPv6 message traffic using packet capture tools.
+   - Configure DHCPv6 options such as DNS server addresses and other network parameters.
 
 ## 4. DNS and DHCP
 
@@ -128,27 +128,27 @@ By completing these tasks, you should have a good understanding of the relations
 
 1. Learn about the relationship between DNS (Domain Name System) and DHCP:
 
-   - [ ] Understand the role of DNS in resolving domain names to IP addresses on a network.
-   - [ ] Learn about the relationship between DNS and DHCP in terms of automatic configuration of network devices.
-   - [ ] Familiarize yourself with the different types of DNS records and their purposes.
+   - Understand the role of DNS in resolving domain names to IP addresses on a network.
+   - Learn about the relationship between DNS and DHCP in terms of automatic configuration of network devices.
+   - Familiarize yourself with the different types of DNS records and their purposes.
 
 2. Understand how DHCP can be used to automatically assign DNS server information to devices on a network:
 
-   - [ ] Learn about the process of DNS server assignment through DHCP.
-   - [ ] Understand the advantages of using DHCP to automatically assign DNS server information.
-   - [ ] Familiarize yourself with the different types of DHCP options related to DNS server assignment.
+   - Learn about the process of DNS server assignment through DHCP.
+   - Understand the advantages of using DHCP to automatically assign DNS server information.
+   - Familiarize yourself with the different types of DHCP options related to DNS server assignment.
 
 3. Explore the different DHCP options related to DNS configuration:
 
-   - [ ] Learn about DHCP option 6 (DNS server option) and its use in assigning DNS server information to clients.
-   - [ ] Understand how DHCP option 15 (DNS domain name option) can be used to assign a DNS suffix to clients.
-   - [ ] Familiarize yourself with other DHCP options related to DNS configuration, such as option 81 (Fully Qualified Domain Name) and option 119 (Domain Search List).
+   - Learn about DHCP option 6 (DNS server option) and its use in assigning DNS server information to clients.
+   - Understand how DHCP option 15 (DNS domain name option) can be used to assign a DNS suffix to clients.
+   - Familiarize yourself with other DHCP options related to DNS configuration, such as option 81 (Fully Qualified Domain Name) and option 119 (Domain Search List).
 
 4. Additional tasks:
 
-   - [ ] Configure a test network environment with a DHCP server and client and configure DNS server information through DHCP.
-   - [ ] Observe the DHCP message exchange process and analyze the DNS configuration options included in DHCP messages.
-   - [ ] Troubleshoot DNS configuration issues, such as incorrect DNS server information or misconfigured DNS suffixes.
+   - Configure a test network environment with a DHCP server and client and configure DNS server information through DHCP.
+   - Observe the DHCP message exchange process and analyze the DNS configuration options included in DHCP messages.
+   - Troubleshoot DNS configuration issues, such as incorrect DNS server information or misconfigured DNS suffixes.
 
 ## 5. DHCP Security
 
@@ -162,27 +162,27 @@ By completing these tasks, you should have a good understanding of DHCP security
 
 1. Learn about DHCP security threats and how to mitigate them:
 
-   - [ ] Understand the different types of DHCP security threats, including rogue DHCP servers, DHCP spoofing, and denial-of-service attacks.
-   - [ ] Learn about the potential risks and consequences of DHCP security breaches.
-   - [ ] Familiarize yourself with common DHCP security mitigation strategies, such as DHCP snooping and DHCPv6 guard.
+   - Understand the different types of DHCP security threats, including rogue DHCP servers, DHCP spoofing, and denial-of-service attacks.
+   - Learn about the potential risks and consequences of DHCP security breaches.
+   - Familiarize yourself with common DHCP security mitigation strategies, such as DHCP snooping and DHCPv6 guard.
 
 2. Understand the different types of DHCP attacks, such as rogue DHCP servers and DHCP spoofing:
 
-   - [ ] Learn about rogue DHCP servers and how they can be used to provide false or malicious configuration information to network clients.
-   - [ ] Understand the concept of DHCP spoofing and how attackers can use it to intercept and modify DHCP messages.
-   - [ ] Familiarize yourself with other types of DHCP attacks, such as DHCP starvation and DHCP exhaustion.
+   - Learn about rogue DHCP servers and how they can be used to provide false or malicious configuration information to network clients.
+   - Understand the concept of DHCP spoofing and how attackers can use it to intercept and modify DHCP messages.
+   - Familiarize yourself with other types of DHCP attacks, such as DHCP starvation and DHCP exhaustion.
 
 3. Explore best practices for securing DHCP servers and clients on a network:
 
-   - [ ] Learn about the importance of secure DHCP server configuration, such as disabling unnecessary services and limiting access to DHCP server interfaces.
-   - [ ] Understand how to secure DHCP client devices, such as implementing MAC address filtering and disabling automatic network configuration.
-   - [ ] Familiarize yourself with other best practices for securing DHCP servers and clients, such as using IPsec to encrypt DHCP traffic and regularly monitoring DHCP server logs.
+   - Learn about the importance of secure DHCP server configuration, such as disabling unnecessary services and limiting access to DHCP server interfaces.
+   - Understand how to secure DHCP client devices, such as implementing MAC address filtering and disabling automatic network configuration.
+   - Familiarize yourself with other best practices for securing DHCP servers and clients, such as using IPsec to encrypt DHCP traffic and regularly monitoring DHCP server logs.
 
 4. Additional tasks:
 
-   - [ ] Configure a test network environment with a DHCP server and client and simulate various DHCP attacks.
-   - [ ] Implement DHCP security mitigation strategies, such as DHCP snooping and DHCPv6 guard, and observe their effects on DHCP traffic.
-   - [ ] Analyze DHCP server logs for suspicious activity and identify potential security threats.
+   - Configure a test network environment with a DHCP server and client and simulate various DHCP attacks.
+   - Implement DHCP security mitigation strategies, such as DHCP snooping and DHCPv6 guard, and observe their effects on DHCP traffic.
+   - Analyze DHCP server logs for suspicious activity and identify potential security threats.
 
 ## Resources
 
