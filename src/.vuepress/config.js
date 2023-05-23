@@ -57,6 +57,15 @@ export default defineUserConfig({
       {
         text: 'Cloud',
         children: [{ text: 'Terraform', link: '/cloud/terraform' }]
+      },
+      {
+        text: 'Testing',
+        children: [
+          { text: 'Cucumber', link: '/testing/cucumber.md' },
+          { text: 'Cypress', link: '/testing/cypress.md' },
+          { text: 'Jest', link: '/testing/jest.md' },
+          { text: 'Junit', link: '/testing/junit.md' }
+        ]
       }
     ]
   })
