@@ -11,6 +11,10 @@ export default defineUserConfig({
     md.use(taskLists)
   },
   theme: defaultTheme({
+    logo: '/mv-symbol.png',
+    logoDark: '/mv-symbol-dark.png',
+    repo: 'MultiverseLearningProducts/swe-learning-plans',
+    docsDir: '/src',
     navbar: [
       {
         text: 'Languages',
@@ -49,6 +53,10 @@ export default defineUserConfig({
           { text: 'IP', link: '/networking/ip' },
           { text: 'UDP-TCP', link: '/networking/udp-tcp' }
         ]
+      },
+      {
+        text: 'Cloud',
+        children: [{ text: 'Terraform', link: '/cloud/terraform' }]
       }
     ]
   })
