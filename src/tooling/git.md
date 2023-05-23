@@ -37,34 +37,34 @@ basic Git commands.
 
 1. Introduction to Git:
 
-   - [ ] Read about what is Git and why it is used. You can start with the
-         official Git website's documentation or other online resources like the
-         Git SCM book.
-   - [ ] Familiarize yourself with basic concepts like version control, commits,
-         branches, and repositories. Try to understand how these concepts work
-         together and how they enable developers to collaborate effectively.
+   - Read about what is Git and why it is used. You can start with the official
+     Git website's documentation or other online resources like the Git SCM
+     book.
+   - Familiarize yourself with basic concepts like version control, commits,
+     branches, and repositories. Try to understand how these concepts work
+     together and how they enable developers to collaborate effectively.
 
 2. Installation and Setup:
 
-   - [ ] Download and install Git on your system. You can find installation
-         instructions for different operating systems on the Git website.
-   - [ ] Set up your user name and email by running the following commands in
-         your terminal:
+   - Download and install Git on your system. You can find installation
+     instructions for different operating systems on the Git website.
+   - Set up your user name and email by running the following commands in your
+     terminal:
 
      ```sh
      $ git config --global user.name "Your Name"
      $ git config --global user.email "youremail@example.com"
      ```
 
-   - [ ] Configure your editor by running the following command and selecting
-         your preferred editor:
+   - Configure your editor by running the following command and selecting your
+     preferred editor:
 
      ```sh
      $ git config --global core.editor <your-editor>
      ```
 
-   - [ ] Create your first repository by navigating to a folder where you want
-         to store your project and running the following command:
+   - Create your first repository by navigating to a folder where you want to
+     store your project and running the following command:
 
      ```sh
      $ git init
@@ -72,12 +72,12 @@ basic Git commands.
 
 3. Basic Git Commands:
 
-   - [ ] Learn basic Git commands like `git init`, `git add`, `git commit`,
-         `git status`, and `git log`. These commands are essential to using Git
-         effectively.
-   - [ ] Practice using these commands by creating a small project, making some
-         changes to it, and committing your changes. Here are some example
-         commands you can run:
+   - Learn basic Git commands like `git init`, `git add`, `git commit`,
+     `git status`, and `git log`. These commands are essential to using Git
+     effectively.
+   - Practice using these commands by creating a small project, making some
+     changes to it, and committing your changes. Here are some example commands
+     you can run:
 
      ```sh
      $ touch README.md
@@ -115,29 +115,29 @@ repositories.
 
 1. Branching and Merging:
 
-   - [ ] Read about the concepts of branching and merging in Git. You can refer
-         to the Git SCM book or other online resources.
-   - [ ] Create a new branch using the following command:
+   - Read about the concepts of branching and merging in Git. You can refer to
+     the Git SCM book or other online resources.
+   - Create a new branch using the following command:
 
      ```sh
      $ git branch <branch-name>
      ```
 
-   - [ ] Switch to a different branch using the following command:
+   - Switch to a different branch using the following command:
 
      ```sh
      $ git checkout <branch-name>
      ```
 
-   - [ ] Make some changes on the new branch and commit them.
-   - [ ] Switch back to the main branch using the following command:
+   - Make some changes on the new branch and commit them.
+   - Switch back to the main branch using the following command:
 
      ```sh
      $ git checkout main
      ```
 
-   - [ ] Merge the changes from the new branch into the main branch using the
-         following command:
+   - Merge the changes from the new branch into the main branch using the
+     following command:
 
      ```sh
      $ git merge <branch-name>
@@ -145,25 +145,25 @@ repositories.
 
 2. Collaborating with Others:
 
-   - [ ] Read about remote repositories and how to work with them in Git. You
-         can refer to the Git SCM book or other online resources.
-   - [ ] Create a remote repository on a hosting service like GitHub, GitLab, or
-         Bitbucket.
-   - [ ] Add the remote repository as a Git remote using the following command:
+   - Read about remote repositories and how to work with them in Git. You can
+     refer to the Git SCM book or other online resources.
+   - Create a remote repository on a hosting service like GitHub, GitLab, or
+     Bitbucket.
+   - Add the remote repository as a Git remote using the following command:
 
      ```sh
      $ git remote add <remote-name> <remote-url>
      ```
 
-   - [ ] Push your local repository to the remote repository using the following
-         command:
+   - Push your local repository to the remote repository using the following
+     command:
 
      ```
      $ git push <remote-name> <branch-name>
      ```
 
-   - [ ] Collaborate with others by cloning the remote repository, making
-         changes, and pushing them to the remote repository.
+   - Collaborate with others by cloning the remote repository, making changes,
+     and pushing them to the remote repository.
 
 ## 3. Advanced Git
 
@@ -179,12 +179,12 @@ Git commands and be familiar with at least one Git GUI tool.
 
 1. Advanced Git Commands:
 
-   - [ ] Learn more advanced Git commands like `git diff`, `git reset`,
-         `git stash`, `git rebase`, and `git cherry-pick`. These commands can
-         help you manage your Git history more effectively and make complex
-         changes to your repository.
-   - [ ] Practice using these commands on a sample project. Here are some
-         example commands you can run:
+   - Learn more advanced Git commands like `git diff`, `git reset`, `git stash`,
+     `git rebase`, and `git cherry-pick`. These commands can help you manage
+     your Git history more effectively and make complex changes to your
+     repository.
+   - Practice using these commands on a sample project. Here are some example
+     commands you can run:
 
      ```sh
      $ git diff <commit1> <commit2>
@@ -201,15 +201,15 @@ Git commands and be familiar with at least one Git GUI tool.
 
 2. Working with Git GUI Tools:
 
-   - [ ] Explore Git GUI tools like GitHub Desktop, SourceTree, and GitKraken.
-         These tools provide a graphical interface for managing your Git
-         repositories and can help simplify your workflow.
-   - [ ] Install and set up a Git GUI tool of your choice. You can find
-         installation instructions on the tool's website.
-   - [ ] Try using the tool to perform basic Git tasks like committing changes,
-         switching branches, and pushing changes to a remote repository.
-   - [ ] Experiment with more advanced Git features in the GUI tool, like
-         visualizing your commit history or resolving merge conflicts.
+   - Explore Git GUI tools like GitHub Desktop, SourceTree, and GitKraken. These
+     tools provide a graphical interface for managing your Git repositories and
+     can help simplify your workflow.
+   - Install and set up a Git GUI tool of your choice. You can find installation
+     instructions on the tool's website.
+   - Try using the tool to perform basic Git tasks like committing changes,
+     switching branches, and pushing changes to a remote repository.
+   - Experiment with more advanced Git features in the GUI tool, like
+     visualizing your commit history or resolving merge conflicts.
 
 ## 4. Git Workflow
 
@@ -227,60 +227,59 @@ workflows and best practices, and be able to apply them to your own projects.
 
 1. Git Workflows:
 
-   - [ ] Learn about different Git workflows like Gitflow, GitHub Flow, and
-         GitLab Flow. These are popular workflows used by many teams and can
-         help you manage your Git repositories more effectively.
-   - [ ] Read about the advantages and disadvantages of each workflow and
-         consider which one might be the best fit for your project. You can find
-         information on these workflows on the Git SCM book or other online
-         resources.
-   - [ ] Practice implementing the workflow of your choice on a sample project.
-         Here are some general steps for each workflow:
+   - Learn about different Git workflows like Gitflow, GitHub Flow, and GitLab
+     Flow. These are popular workflows used by many teams and can help you
+     manage your Git repositories more effectively.
+   - Read about the advantages and disadvantages of each workflow and consider
+     which one might be the best fit for your project. You can find information
+     on these workflows on the Git SCM book or other online resources.
+   - Practice implementing the workflow of your choice on a sample project. Here
+     are some general steps for each workflow:
 
      #### Gitflow
 
      This workflow is based on two long-lived branches - master and develop -
      and uses feature branches for new work. Here are some steps to follow:
 
-     - [ ] Create a new feature branch for your work.
-     - [ ] Make changes to the feature branch and commit them.
-     - [ ] Merge the feature branch into the develop branch when it's ready.
-     - [ ] Release the code from the develop branch to the master branch when
-           it's stable.
+     - Create a new feature branch for your work.
+     - Make changes to the feature branch and commit them.
+     - Merge the feature branch into the develop branch when it's ready.
+     - Release the code from the develop branch to the master branch when it's
+       stable.
 
      #### GitHub Flow
 
      This workflow is based on a single branch - usually the main branch - and
      uses pull requests for new work. Here are some steps to follow:
 
-     - [ ] Create a new branch for your work.
-     - [ ] Make changes to the branch and commit them.
-     - [ ] Open a pull request to merge the branch into the main branch when
-           it's ready.
-     - [ ] Review and approve the pull request.
-     - [ ] Merge the branch into the main branch.
+     - Create a new branch for your work.
+     - Make changes to the branch and commit them.
+     - Open a pull request to merge the branch into the main branch when it's
+       ready.
+     - Review and approve the pull request.
+     - Merge the branch into the main branch.
 
      #### GitLab Flow
 
      This workflow is similar to GitHub Flow but uses environments for testing
      and deployment. Here are some steps to follow:
 
-     - [ ] Create a new branch for your work.
-     - [ ] Make changes to the branch and commit them.
-     - [ ] Open a merge request to merge the branch into the main branch when
-           it's ready.
-     - [ ] Review and approve the merge request.
-     - [ ] Deploy the code to a testing environment for testing.
-     - [ ] Merge the branch into the main branch and deploy to production.
+     - Create a new branch for your work.
+     - Make changes to the branch and commit them.
+     - Open a merge request to merge the branch into the main branch when it's
+       ready.
+     - Review and approve the merge request.
+     - Deploy the code to a testing environment for testing.
+     - Merge the branch into the main branch and deploy to production.
 
 2. Git Best Practices:
 
-   - [ ] Learn about Git best practices like writing clear commit messages,
-         using descriptive branch names, and avoiding committing directly to the
-         main branch. These practices can help you maintain a clean and
-         well-organized Git history.
-   - [ ] Practice implementing these best practices on a sample project. Here
-         are some general guidelines:
+   - Learn about Git best practices like writing clear commit messages, using
+     descriptive branch names, and avoiding committing directly to the main
+     branch. These practices can help you maintain a clean and well-organized
+     Git history.
+   - Practice implementing these best practices on a sample project. Here are
+     some general guidelines:
      - Write clear and concise commit messages that summarize your changes.
      - Use descriptive branch names that convey the purpose of the branch.
      - Avoid committing directly to the main branch or any other long-lived
@@ -305,24 +304,24 @@ files in your Git repositories.
 
 1. Troubleshooting Git:
 
-   - [ ] Learn about common Git errors like merge conflicts, Git repository
-         corruption, and Git clone issues, and how to troubleshoot them.
-   - [ ] Read through Git documentation and online resources to understand how
-         to fix these errors.
-   - [ ] Practice troubleshooting Git errors on a sample project. Here are some
-         steps to follow:
+   - Learn about common Git errors like merge conflicts, Git repository
+     corruption, and Git clone issues, and how to troubleshoot them.
+   - Read through Git documentation and online resources to understand how to
+     fix these errors.
+   - Practice troubleshooting Git errors on a sample project. Here are some
+     steps to follow:
      - Identify the error and the cause of the error.
      - Use Git commands and tools to fix the error.
      - Test that the error has been resolved.
 
 2. Git Extensions:
 
-   - [ ] Learn about Git extensions like Git LFS and Git Annex, which are used
-         for managing large files in Git repositories
-   - [ ] Understand the benefits and drawbacks of using Git extensions and how
-         to set them up.
-   - [ ] Practice using Git extensions on a sample project. Here are some
-         general steps to follow:
+   - Learn about Git extensions like Git LFS and Git Annex, which are used for
+     managing large files in Git repositories
+   - Understand the benefits and drawbacks of using Git extensions and how to
+     set them up.
+   - Practice using Git extensions on a sample project. Here are some general
+     steps to follow:
      - Install and configure the Git extension you want to use.
      - Add large files to your Git repository using the Git extension.
      - Commit and push the changes to the repository.
