@@ -64,8 +64,13 @@ export default defineUserConfig({
           { text: 'Cucumber', link: '/testing/cucumber.md' },
           { text: 'Cypress', link: '/testing/cypress.md' },
           { text: 'Jest', link: '/testing/jest.md' },
-          { text: 'Junit', link: '/testing/junit.md' }
+          { text: 'Junit', link: '/testing/junit.md' },
+          { text: 'REST Assured', link: '/testing/rest-assured.md' }
         ]
+      },
+      {
+        text: 'Low code',
+        children: [{ text: 'Power Platform', link: '/low-code/power-platform.md' }]
       }
     ]
   })
