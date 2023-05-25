@@ -26,17 +26,39 @@ This page contains all of the Learning Plans you can use throughout Bootcamp Par
 
 | Libraries & Frameworks |
 | --------- |
-| [Angular](./Libraries-and-Frameworks/angular.md) |
-| [.NET](./Libraries-and-Frameworks/dotnet.md) |
-| [Next.js](./Libraries-and-Frameworks/nextjs.md) |
-| [React](./Libraries-and-Frameworks/react.md) |
-| [Spring Boot](./Libraries-and-Frameworks/springboot.md)|
+| [Angular](./frameworks/angular.md) |
+| [.NET](./frameworks/dotnet.md) |
+| [Next.js](./frameworks/nextjs.md) |
+| [React](./frameworks/react.md) |
+| [Spring Boot](./frameworks/springboot.md)|
+
+| Cloud |
+| --------- |
+| [Terraform](./cloud/terraform.md) |
 
 | Databases |
 | --------- |
 | [SQL](./databases/sql.md) |
 
-| Cloud, Deployment, and Tooling |
+| Low Code |
 | --------- |
-| [Terraform](./cloud/terraform.md) |
+| [Power Platform](./low-code/power-platform.md) |
+
+| Networking |
+| --------- |
+| [DHCP](./networking/dhcp.md) |
+| [DNS](./networking/dns.md) |
+| [IP](./networking/ip.md) |
+| [UDP/TCP](./networking/udp-tcp.md) |
+
+| Testing |
+| --------- |
+| [Cucumber](./testing/cucumber.md) |
+| [Cypress](./testing/cypress.md) |
+| [Jest](./testing/jest.md) |
+| [JUnit](./testing/junit.md) |
+| [Rest Assured](./testing/rest-assured.md) |
+
+| Tooling |
+| --------- |
 | [git](./tooling/git.md) |
