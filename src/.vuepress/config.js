@@ -41,7 +41,8 @@ export default defineUserConfig({
         text: 'Databases',
         children: [
           { text: 'SQL', link: '/databases/sql' },
-          { text: 'Microsoft SQL Server', link: '/databases/microsoft-sql-server.md' },
+          { text: 'Redis', link: '/databases/redis' },
+          { text: 'Microsoft SQL Server', link: '/databases/microsoft-sql-server.md' }
         ]
       },
       {
