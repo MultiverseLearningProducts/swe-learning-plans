@@ -39,7 +39,10 @@ export default defineUserConfig({
       },
       {
         text: 'Databases',
-        children: [{ text: 'SQL', link: '/databases/sql' }]
+        children: [
+          { text: 'SQL', link: '/databases/sql' },
+          { text: 'Redis', link: '/databases/redis' }
+        ]
       },
       {
         text: 'Tooling',
