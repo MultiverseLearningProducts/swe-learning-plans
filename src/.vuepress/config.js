@@ -73,6 +73,12 @@ export default defineUserConfig({
         ]
       },
       {
+        text: 'Pub/Sub',
+        children: [
+          { text: 'Kafka', link: '/pub-sub/kafka.md' }
+        ]
+      },
+      {
         text: 'Low code',
         children: [{ text: 'Power Platform', link: '/low-code/power-platform.md' }]
       }
