@@ -39,7 +39,10 @@ export default defineUserConfig({
       },
       {
         text: 'Databases',
-        children: [{ text: 'SQL', link: '/databases/sql' }]
+        children: [
+          { text: 'SQL', link: '/databases/sql' },
+          { text: 'Microsoft SQL Server', link: '/databases/microsoft-sql-server.md' },
+        ]
       },
       {
         text: 'Tooling',
