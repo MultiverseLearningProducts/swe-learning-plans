@@ -60,7 +60,10 @@ export default defineUserConfig({
       },
       {
         text: 'Cloud',
-        children: [{ text: 'Terraform', link: '/cloud/terraform' }]
+        children: [
+          { text: 'Terraform', link: '/cloud/terraform' },
+          { text: 'Ansible', link: '/cloud/ansible' }
+        ]
       },
       {
         text: 'Testing',
