@@ -170,7 +170,7 @@ By completing these tasks, you'll gain valuable insights into Ansible best pract
 
 Here are some free online resources that can help you learn Ansible:
 
-**Ansible Documentation** -tThe official Ansible documentation is a comprehensive resource that covers all aspects of Ansible, from installation and basic concepts to advanced features and use cases. It includes detailed guides, modules documentation, and examples.
+**Ansible Documentation** - the official Ansible documentation is a comprehensive resource that covers all aspects of Ansible, from installation and basic concepts to advanced features and use cases. It includes detailed guides, modules documentation, and examples.
 
 **Ansible for DevOps** - this online book by Jeff Geerling provides a practical guide to learning Ansible. It covers Ansible basics, playbooks, roles, and more advanced topics.
 
@@ -178,7 +178,7 @@ Here are some free online resources that can help you learn Ansible:
 
 **Ansible Fundamentals course on Udemy** - Udemy offers a free introductory course called "Ansible Fundamentals" by the author of the Ansible for DevOps book, Jeff Geerling. This course provides an overview of Ansible and covers essential concepts.
 
-**Ansible YouTube Channels** - There are several YouTube channels dedicated to Ansible tutorials and demonstrations. Some notable channels include "Ansible Tutorial" by TheUrbanPenguin, "Ansible Automation" by NetworkChuck, and "The Open Source IT Automation Platform" by Ansible. You can find a variety of tutorials, tips, and demos on these channels.
+**Ansible YouTube Channels** - there are several YouTube channels dedicated to Ansible tutorials and demonstrations. Some notable channels include "Ansible Tutorial" by TheUrbanPenguin, "Ansible Automation" by NetworkChuck, and "The Open Source IT Automation Platform" by Ansible. You can find a variety of tutorials, tips, and demos on these channels.
 
 ## Projects
 
