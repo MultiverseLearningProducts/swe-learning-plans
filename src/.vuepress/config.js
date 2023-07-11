@@ -42,7 +42,8 @@ export default defineUserConfig({
         children: [
           { text: 'SQL', link: '/databases/sql' },
           { text: 'Redis', link: '/databases/redis' },
-          { text: 'Microsoft SQL Server', link: '/databases/microsoft-sql-server.md' }
+          { text: 'Microsoft SQL Server', link: '/databases/microsoft-sql-server.md' },
+          { text: 'Google BigQuery', link: '/databases/big-query.md' }
         ]
       },
       {
