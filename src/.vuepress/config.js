@@ -31,6 +31,7 @@ export default defineUserConfig({
         text: 'Frameworks',
         children: [
           { text: 'Angular', link: '/frameworks/angular' },
+          { text: 'Django', link: '/frameworks/django' },
           { text: '.Net', link: '/frameworks/dotnet' },
           { text: 'Next.js', link: '/frameworks/nextjs' },
           { text: 'React', link: '/frameworks/react' },
@@ -78,13 +79,13 @@ export default defineUserConfig({
       },
       {
         text: 'Pub/Sub',
-        children: [
-          { text: 'Kafka', link: '/pub-sub/kafka.md' }
-        ]
+        children: [{ text: 'Kafka', link: '/pub-sub/kafka.md' }]
       },
       {
         text: 'Low code',
-        children: [{ text: 'Power Platform', link: '/low-code/power-platform.md' }]
+        children: [
+          { text: 'Power Platform', link: '/low-code/power-platform.md' }
+        ]
       }
     ]
   })
