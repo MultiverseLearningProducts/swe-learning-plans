@@ -35,7 +35,8 @@ export default defineUserConfig({
           { text: '.Net', link: '/frameworks/dotnet' },
           { text: 'Next.js', link: '/frameworks/nextjs' },
           { text: 'React', link: '/frameworks/react' },
-          { text: 'Spring Boot', link: '/frameworks/springboot' }
+          { text: 'Spring Boot', link: '/frameworks/springboot' },
+          { text: 'Vue', link: '/frameworks/vue' }
         ]
       },
       {
