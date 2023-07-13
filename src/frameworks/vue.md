@@ -30,7 +30,7 @@
    - Learn about the Vue instance and how it acts as the root of a Vue
      application.
    - Understand the lifecycle hooks in Vue.js, such as `created`, `mounted`,
-     `updated`, and `destroyed`.
+     `updated`, and `unmounted`.
    - Create a simple Vue instance and experiment with different lifecycle hooks
      to observe their behavior.
 
@@ -48,9 +48,6 @@ and experiment on your own to solidify your understanding.
 
 ## Components and Reusability
 
-Certainly! Here's a breakdown of specific actions you can take for each bullet
-point on Day 2:
-
 1. Learn about Vue components and their role in building Vue applications:
 
    - Read the official Vue.js documentation on components to understand their
@@ -62,10 +59,10 @@ point on Day 2:
 
 2. Create and use components in Vue.js:
 
-   - Start by creating a simple Vue component in a Single Component File.
+   - Start by creating a simple Vue component in a Single File Component (SFC).
    - Learn how to define a component template, data, methods, and computed
      properties.
-   - Practice using components within other components and in the main Vue
+   - Practise using components within other components and in the main Vue
      instance.
    - Understand the `<style scoped>` tag in a Vue SFC.
 
@@ -81,7 +78,7 @@ point on Day 2:
 4. Explore component lifecycle hooks:
 
    - Study the various lifecycle hooks available in Vue components, such as
-     `created`, `mounted`, `updated`, and `destroyed`.
+     `created`, `mounted`, `updated`, and `unmounted`.
    - Understand when and how to use these hooks to perform tasks at different
      stages of a component's lifecycle.
    - Implement lifecycle hook methods in your components and observe their
@@ -146,7 +143,7 @@ and how to implement client-side routing in your Vue.js applications. Practice
 creating routes, navigating between pages, and implementing route guards to
 reinforce your learning.
 
-## State Management with Vuex
+## State Management with Pinia
 
 1. Understand how to create a Pinia store using the `defineStore` function. This
    involves defining the state, actions, mutations, and getters for your store.
@@ -207,8 +204,8 @@ knowledge of Vue.
 
 2. Learn about Vue Directives and Their Usage:
 
-   - Pick a few built-in directives like v-if, v-for, v-bind, or v-on and
-     practice using them in different scenarios.
+   - Pick a few built-in directives like `v-if`, `v-for`, `v-bind`, or `v-on`
+     and practice using them in different scenarios.
    - Experiment with the v-model directive to achieve two-way data binding in
      your components.
 
