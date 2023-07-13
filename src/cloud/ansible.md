@@ -21,7 +21,7 @@ Today, Ansible continues to evolve with regular updates and enhancements from th
 - Explore Ansible modules and how to use them for configuration management.
 - Practice running simple ad-hoc commands with Ansible.
 
-By completing these tasks, you'll have a solid understanding of Ansible's basics, including its architecture, inventory management, module usage, and running ad-hoc commands. This foundation will prepare you for the subsequent days of learning, where you'll dive deeper into Ansible playbooks and more advanced concepts.
+By completing these tasks, you'll have a solid understanding of Ansible's basics, including its architecture, inventory management, module usage, and running ad-hoc commands. This foundation will prepare you for the subsequent tasks, where you'll dive deeper into Ansible playbooks and more advanced concepts.
 
 ### Tasks
 
@@ -49,7 +49,7 @@ By completing these tasks, you'll have a solid understanding of Ansible's basics
 - Explore Ansible's core modules and their functionalities.
 - Create a playbook to perform common tasks like package installation, file management, and service management.
 
-By completing these tasks, you'll gain hands-on experience with Ansible playbooks, YAML syntax, and core modules. You'll be able to write playbooks to automate common tasks and manage configurations effectively. This foundation will serve as a starting point for exploring more advanced features and scenarios in Ansible in the following days.
+By completing these tasks, you'll gain hands-on experience with Ansible playbooks, YAML syntax, and core modules. You'll be able to write playbooks to automate common tasks and manage configurations effectively. This foundation will serve as a starting point for exploring more advanced features and scenarios in Ansible.
 
 ### Tasks
 
