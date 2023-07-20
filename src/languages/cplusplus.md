@@ -46,8 +46,8 @@ understanding and becoming proficient in C++.
 
    - Read introductory material or watch video tutorials on C++ to understand
      its purpose and key features
-   - Learn about the structure of a C++ program, which includes the inclusion of
-     header files, the main function, and program execution flow.
+   - Learn about the structure of a C++ program, which includes header files,
+     the main function, and program execution flow.
    - Understand the role of the preprocessor directives, such as `#include` and
      `#define`, in C++ programs.
 
@@ -79,8 +79,8 @@ your understanding.
 
 ## 2. Control Flow and Functions
 
-- Understand control flow statements such as if-else, switch-case, and loops
-  (for, while).
+- Understand control flow statements such as `if-else`, `switch-case`, and loops
+  (`for`, `while`).
 - Explore functions, including function declarations, parameters, return types,
   and calling functions.
 - Practice writing programs that involve decision-making and looping structures.
