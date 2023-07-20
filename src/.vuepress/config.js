@@ -20,7 +20,7 @@ export default defineUserConfig({
         text: "Languages",
         children: [
           { text: "Apex", link: "/languages/apex" },
-          { text: "C++", link: "/langauges/cplusplus" },
+          { text: "C++", link: "/languages/cplusplus" },
           { text: "C#", link: "/languages/csharp" },
           { text: "Go", link: "/languages/go" },
           { text: "Java", link: "/languages/java" },
