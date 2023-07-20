@@ -31,7 +31,7 @@ libraries, frameworks, and tools supporting its usage.
 
 By following this learning plan, you will gain a solid foundation in C++
 programming and develop the necessary skills to write efficient and maintainable
-code. Remember, practice and hands-on projects are crucial for reinforcing your
+code. Remember, practise and hands-on projects are crucial for reinforcing your
 understanding and becoming proficient in C++.
 
 ## 1. Introduction to C++ and Basic Syntax
