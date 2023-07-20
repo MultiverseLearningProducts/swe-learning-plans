@@ -20,7 +20,7 @@ export default defineUserConfig({
         text: "Languages",
         children: [
           { text: "Apex", link: "/languages/apex" },
-          { text: "C++", link: "/langauges/cplusplus" },
+          { text: "C++", link: "/languages/cplusplus" },
           { text: "C#", link: "/languages/csharp" },
           { text: "Go", link: "/languages/go" },
           { text: "Java", link: "/languages/java" },
@@ -31,14 +31,14 @@ export default defineUserConfig({
       {
         text: "Frameworks",
         children: [
-          { text: 'Angular', link: '/frameworks/angular' },
-          { text: 'Django', link: '/frameworks/django' },
-          { text: '.Net', link: '/frameworks/dotnet' },
-          { text: 'Next.js', link: '/frameworks/nextjs' },
-          { text: 'React', link: '/frameworks/react' },
-          { text: 'Spring Boot', link: '/frameworks/springboot' },
-          { text: 'Vue', link: '/frameworks/vue' }
-        ]
+          { text: "Angular", link: "/frameworks/angular" },
+          { text: "Django", link: "/frameworks/django" },
+          { text: ".Net", link: "/frameworks/dotnet" },
+          { text: "Next.js", link: "/frameworks/nextjs" },
+          { text: "React", link: "/frameworks/react" },
+          { text: "Spring Boot", link: "/frameworks/springboot" },
+          { text: "Vue", link: "/frameworks/vue" },
+        ],
       },
       {
         text: "Databases",
@@ -49,11 +49,14 @@ export default defineUserConfig({
             text: "Microsoft SQL Server",
             link: "/databases/microsoft-sql-server.md",
           },
-          { text: 'SQL', link: '/databases/sql' },
-          { text: 'Redis', link: '/databases/redis' },
-          { text: 'Microsoft SQL Server', link: '/databases/microsoft-sql-server.md' },
-          { text: 'Google BigQuery', link: '/databases/big-query.md' }
-        ]               
+          { text: "SQL", link: "/databases/sql" },
+          { text: "Redis", link: "/databases/redis" },
+          {
+            text: "Microsoft SQL Server",
+            link: "/databases/microsoft-sql-server.md",
+          },
+          { text: "Google BigQuery", link: "/databases/big-query.md" },
+        ],
       },
       {
         text: "Tooling",
@@ -70,12 +73,10 @@ export default defineUserConfig({
       },
       {
         text: "Cloud",
-        children: [{ text: "Terraform", link: "/cloud/terraform" }],
-        text: 'Cloud',
         children: [
-          { text: 'Terraform', link: '/cloud/terraform' },
-          { text: 'Ansible', link: '/cloud/ansible' }
-        ]
+          { text: "Terraform", link: "/cloud/terraform" },
+          { text: "Ansible", link: "/cloud/ansible" },
+        ],
       },
       {
         text: "Testing",
@@ -88,15 +89,15 @@ export default defineUserConfig({
         ],
       },
       {
-        text: 'Pub/Sub',
-        children: [{ text: 'Kafka', link: '/pub-sub/kafka.md' }]
+        text: "Pub/Sub",
+        children: [{ text: "Kafka", link: "/pub-sub/kafka.md" }],
       },
       {
-        text: 'Low code',
+        text: "Low code",
         children: [
-          { text: 'Power Platform', link: '/low-code/power-platform.md' }
-        ]
-      }
-    ]
-  })
-})
+          { text: "Power Platform", link: "/low-code/power-platform.md" },
+        ],
+      },
+    ],
+  }),
+});
