@@ -26,6 +26,7 @@ export default defineUserConfig({
           { text: "Java", link: "/languages/java" },
           { text: "Python", link: "/languages/python" },
           { text: "Typescript", link: "/languages/typescript" },
+          { text: "Ruby", link: "/languages/ruby" },
         ],
       },
       {
@@ -38,6 +39,7 @@ export default defineUserConfig({
           { text: "React", link: "/frameworks/react" },
           { text: "Spring Boot", link: "/frameworks/springboot" },
           { text: "Vue", link: "/frameworks/vue" },
+          { text: "Ruby on Rails", link: "/frameworks/ruby-on-rails" },
         ],
       },
       {
