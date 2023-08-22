@@ -43,14 +43,14 @@ export default defineUserConfig({
       {
         text: "Databases",
         children: [
-          { text: 'SQL', link: '/databases/sql' },
-          { text: 'Redis', link: '/databases/redis' },
+          { text: "SQL", link: "/databases/sql" },
+          { text: "Redis", link: "/databases/redis" },
           {
-            text: 'Microsoft SQL Server',
-            link: '/databases/microsoft-sql-server.md'
+            text: "Microsoft SQL Server",
+            link: "/databases/microsoft-sql-server.md",
           },
-          { text: 'Google BigQuery', link: '/databases/big-query.md' }
-        ]
+          { text: "Google BigQuery", link: "/databases/big-query.md" },
+        ],
       },
       {
         text: "Tooling",
@@ -89,13 +89,13 @@ export default defineUserConfig({
       {
         text: "Low code",
         children: [
-          { text: 'Power Platform', link: '/low-code/power-platform.md' }
-        ]
+          { text: "Power Platform", link: "/low-code/power-platform.md" },
+        ],
       },
       {
-        text: 'Analytics',
-        children: [{ text: 'Data Dog', links: '/analytics/datadog' }]
-      }
-    ]
-  })
-})
+        text: "Analytics",
+        children: [{ text: "Data Dog", link: "/analytics/datadog" }],
+      },
+    ],
+  }),
+});
