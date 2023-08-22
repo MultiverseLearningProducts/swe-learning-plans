@@ -17,6 +17,12 @@
           "semi": true,
           "singleQuote": false
         }
+      },
+      {
+        "files": "*.md",
+        "options": {
+          "proseWrap": "always"
+        }
       }
     ]
   },
