@@ -47,36 +47,36 @@ website.
 
 1. Familiarize yourself with Datadog's website and documentation:
 
-   - [ ] Visit the official [Datadog website](https://www.datadoghq.com/) and
-         explore the main sections.
-   - [ ] Take a look at the "Product" or "Features" page to get an overview of
-         what Datadog offers.
-   - [ ] Navigate to the "Solutions" or "Use Cases" section to understand how
-         Datadog can be applied to different scenarios.
-   - [ ] Explore the "Resources" or "Documentation" section to access the
-         official Datadog documentation.
+   - Visit the official [Datadog website](https://www.datadoghq.com/) and
+     explore the main sections.
+   - Take a look at the "Product" or "Features" page to get an overview of
+     what Datadog offers.
+   - Navigate to the "Solutions" or "Use Cases" section to understand how
+     Datadog can be applied to different scenarios.
+   - Explore the "Resources" or "Documentation" section to access the
+     official Datadog documentation.
 
 2. Understand the key features and benefits of Datadog:
 
-   - [ ] Read through the main features and benefits of Datadog as highlighted
-         on the website.
-   - [ ] Pay attention to areas such as infrastructure monitoring, application
-         performance monitoring (APM), log management, and user experience
-         monitoring.
-   - [ ] Note down the features that resonate with your specific use case or
-         learning goals.
+   - Read through the main features and benefits of Datadog as highlighted
+     on the website.
+   - Pay attention to areas such as infrastructure monitoring, application
+     performance monitoring (APM), log management, and user experience
+     monitoring.
+   - Note down the features that resonate with your specific use case or
+     learning goals.
 
 3. Learn about the different components of Datadog's monitoring and
    observability platform:
-   - [ ] Dig into the documentation to understand the different components of
-         Datadog's platform, such as agents, integrations, and APIs.
-   - [ ] Learn about the Datadog agent, which collects and sends data to the
-         Datadog platform. Familiarize yourself with the agent's installation
-         and configuration process.
-   - [ ] Explore the various integrations available for collecting data from
-         different technologies and services.
-   - [ ] Take note of the APIs and SDKs provided by Datadog for custom
-         integrations and data ingestion.
+   - Dig into the documentation to understand the different components of
+     Datadog's platform, such as agents, integrations, and APIs.
+   - Learn about the Datadog agent, which collects and sends data to the
+     Datadog platform. Familiarize yourself with the agent's installation
+     and configuration process.
+   - Explore the various integrations available for collecting data from
+     different technologies and services.
+   - Take note of the APIs and SDKs provided by Datadog for custom
+     integrations and data ingestion.
 
 ## 2. Setting Up Datadog
 
@@ -93,42 +93,42 @@ familiar with the main sections and features of the Datadog platform.
 
 1. Sign up for a free trial account on Datadog's website:
 
-   - [ ] Visit the Datadog website register for an account.
+   - Visit the Datadog website register for an account.
 
 2. Install the Datadog agent on your local machine or a test server:
 
-   - [ ] Log in to your Datadog account using the credentials you just created.
-   - [ ] Navigate to the "Infrastructure" section of the Datadog platform.
-   - [ ] Follow the instructions provided to download and install the Datadog
-         agent on your local machine or the test server you want to monitor.
-   - [ ] Choose the appropriate installation method based on your operating
-         system or infrastructure setup (e.g., Linux, Windows, Docker, etc.).
-   - [ ] Verify that the agent is running and connected to your Datadog account.
+   - Log in to your Datadog account using the credentials you just created.
+   - Navigate to the "Infrastructure" section of the Datadog platform.
+   - Follow the instructions provided to download and install the Datadog
+     agent on your local machine or the test server you want to monitor.
+   - Choose the appropriate installation method based on your operating
+     system or infrastructure setup (e.g., Linux, Windows, Docker, etc.).
+   - Verify that the agent is running and connected to your Datadog account.
 
 3. Configure the agent to collect basic metrics and logs:
 
-   - [ ] Explore the agent configuration file to understand the available
-         options.
-   - [ ] Enable the collection of basic system-level metrics, such as CPU usage,
-         memory utilization, and disk space.
-   - [ ] Configure the agent to collect logs from common log files or
-         directories.
-   - [ ] Save the changes to the configuration file and restart the agent to
-         apply the new settings.
-   - [ ] Verify that the agent is collecting metrics and logs by checking the
-         agent status or logs.
+   - Explore the agent configuration file to understand the available
+     options.
+   - Enable the collection of basic system-level metrics, such as CPU usage,
+     memory utilization, and disk space.
+   - Configure the agent to collect logs from common log files or
+     directories.
+   - Save the changes to the configuration file and restart the agent to
+     apply the new settings.
+   - Verify that the agent is collecting metrics and logs by checking the
+     agent status or logs.
 
 4. Explore the Datadog user interface and learn how to navigate the platform:
-   - [ ] Navigate to the Datadog website and log in to your account.
-   - [ ] Take a moment to explore the different sections and menus in the
-         Datadog user interface.
-   - [ ] Familiarize yourself with the main sections, such as "Dashboards,"
-         "Infrastructure," "APM," "Logs," and "Synthetics."
-   - [ ] Spend some time clicking through the different options and submenus to
-         get a sense of the available features.
-   - [ ] Consider watching introductory videos or reading guides available in
-         the Datadog documentation to understand how to navigate the platform
-         effectively.
+   - Navigate to the Datadog website and log in to your account.
+   - Take a moment to explore the different sections and menus in the
+     Datadog user interface.
+   - Familiarize yourself with the main sections, such as "Dashboards,"
+     "Infrastructure," "APM," "Logs," and "Synthetics."
+   - Spend some time clicking through the different options and submenus to
+     get a sense of the available features.
+   - Consider watching introductory videos or reading guides available in
+     the Datadog documentation to understand how to navigate the platform
+     effectively.
 
 ## 3. Metrics and Dashboards
 
@@ -148,46 +148,46 @@ case.
 
 1. Understand the concept of metrics and how they are collected in Datadog:
 
-   - [ ] Review the documentation or resources provided by Datadog to gain a
-         solid understanding of metrics and their importance in monitoring and
-         observability.
-   - [ ] Learn about the different types of metrics, such as infrastructure
-         metrics, application metrics, and custom metrics.
-   - [ ] Familiarize yourself with key concepts like metric names, tags, and
-         timestamps.
+   - Review the documentation or resources provided by Datadog to gain a
+     solid understanding of metrics and their importance in monitoring and
+     observability.
+   - Learn about the different types of metrics, such as infrastructure
+     metrics, application metrics, and custom metrics.
+   - Familiarize yourself with key concepts like metric names, tags, and
+     timestamps.
 
 2. Learn about different metric types, such as count, gauge, and histogram:
 
-   - [ ] Explore the Datadog documentation to understand the various metric
-         types supported by Datadog.
-   - [ ] Read about the characteristics and use cases of metrics like counts,
-         gauges, histograms, and more.
-   - [ ] Gain an understanding of how these metric types can be used to monitor
-         different aspects of your infrastructure and applications.
+   - Explore the Datadog documentation to understand the various metric
+     types supported by Datadog.
+   - Read about the characteristics and use cases of metrics like counts,
+     gauges, histograms, and more.
+   - Gain an understanding of how these metric types can be used to monitor
+     different aspects of your infrastructure and applications.
 
 3. Configure custom metrics and collect them using the Datadog agent:
 
-   - [ ] Identify specific metrics that are relevant to your application or
-         infrastructure.
-   - [ ] Use the Datadog agent's configuration file (`datadog.yaml`) to define
-         custom metrics.
-   - [ ] Follow the documentation to understand the syntax and structure of
-         defining custom metrics in the agent configuration.
-   - [ ] Restart the agent to apply the changes and start collecting the custom
-         metrics.
+   - Identify specific metrics that are relevant to your application or
+     infrastructure.
+   - Use the Datadog agent's configuration file (`datadog.yaml`) to define
+     custom metrics.
+   - Follow the documentation to understand the syntax and structure of
+     defining custom metrics in the agent configuration.
+   - Restart the agent to apply the changes and start collecting the custom
+     metrics.
 
 4. Create custom dashboards to visualize metrics and monitor key performance
    indicators:
-   - [ ] Navigate to the "Dashboards" section of the Datadog platform.
-   - [ ] Click on "New Dashboard" or "Create Dashboard" to create a new
-         dashboard.
-   - [ ] Choose a suitable layout and structure for your dashboard.
-   - [ ] Add widgets to the dashboard to display the desired metrics.
-   - [ ] Configure each widget to show the relevant metrics, apply filters, and
-         set appropriate time windows.
-   - [ ] Customize the appearance and layout of the dashboard to fit your
-         preferences.
-   - [ ] Save the dashboard and give it a meaningful name.
+   - Navigate to the "Dashboards" section of the Datadog platform.
+   - Click on "New Dashboard" or "Create Dashboard" to create a new
+     dashboard.
+   - Choose a suitable layout and structure for your dashboard.
+   - Add widgets to the dashboard to display the desired metrics.
+   - Configure each widget to show the relevant metrics, apply filters, and
+     set appropriate time windows.
+   - Customize the appearance and layout of the dashboard to fit your
+     preferences.
+   - Save the dashboard and give it a meaningful name.
 
 ## 4. Logs and Traces
 
@@ -208,45 +208,45 @@ your applications to collect and visualize traces in the Datadog platform.
 1. Explore the logging capabilities of Datadog and understand how to collect
    logs:
 
-   - [ ] Familiarize yourself with the logging features offered by Datadog, such
-         as log collection, storage, and analysis.
-   - [ ] Read the documentation to understand how to collect logs from different
-         sources, such as files, syslog, Docker containers, cloud platforms, and
-         more.
-   - [ ] Learn about the supported log formats and protocols, including JSON,
-         syslog, and Logfmt.
+   - Familiarize yourself with the logging features offered by Datadog, such
+     as log collection, storage, and analysis.
+   - Read the documentation to understand how to collect logs from different
+     sources, such as files, syslog, Docker containers, cloud platforms, and
+     more.
+   - Learn about the supported log formats and protocols, including JSON,
+     syslog, and Logfmt.
 
 2. Configure log pipelines to ingest logs from different sources:
 
-   - [ ] Navigate to the "Logs" section in the Datadog platform.
-   - [ ] Explore the options available to set up log pipelines.
-   - [ ] Follow the documentation to configure log pipelines for different log
-         sources you want to collect.
-   - [ ] Learn about log processing options, such as parsing, filtering, and
-         enriching logs.
+   - Navigate to the "Logs" section in the Datadog platform.
+   - Explore the options available to set up log pipelines.
+   - Follow the documentation to configure log pipelines for different log
+     sources you want to collect.
+   - Learn about log processing options, such as parsing, filtering, and
+     enriching logs.
 
 3. Learn how to search and filter logs effectively:
 
-   - [ ] Understand the query syntax and search operators used in Datadog's log
-         search functionality.
-   - [ ] Practice using search filters to narrow down log results based on
-         specific criteria, such as time range, log level, host, or custom tags.
-   - [ ] Experiment with different search queries and learn how to combine
-         filters for more precise log searches.
-   - [ ] Explore features like log facets and log patterns to further analyze
-         and extract insights from logs.
+   - Understand the query syntax and search operators used in Datadog's log
+     search functionality.
+   - Practice using search filters to narrow down log results based on
+     specific criteria, such as time range, log level, host, or custom tags.
+   - Experiment with different search queries and learn how to combine
+     filters for more precise log searches.
+   - Explore features like log facets and log patterns to further analyze
+     and extract insights from logs.
 
 4. Understand distributed tracing and how to instrument your applications to
    collect traces in Datadog:
-   - [ ] Learn about the concept of distributed tracing and its benefits in
-         understanding complex microservices architectures.
-   - [ ] Review the documentation on how to instrument your applications to
-         generate and collect traces using the Datadog tracing libraries or
-         SDKs.
-   - [ ] Understand the different tracing libraries and frameworks supported by
-         Datadog, such as OpenTracing, OpenTelemetry, and Datadog APM libraries.
-   - [ ] Follow the instructions provided to instrument a sample application or
-         service with tracing and collect traces in Datadog.
+   - Learn about the concept of distributed tracing and its benefits in
+     understanding complex microservices architectures.
+   - Review the documentation on how to instrument your applications to
+     generate and collect traces using the Datadog tracing libraries or
+     SDKs.
+   - Understand the different tracing libraries and frameworks supported by
+     Datadog, such as OpenTracing, OpenTelemetry, and Datadog APM libraries.
+   - Follow the instructions provided to instrument a sample application or
+     service with tracing and collect traces in Datadog.
 
 ## 5. Alerts and Collaboration
 
@@ -268,48 +268,48 @@ dashboards with teammates.
 1. Configure alert policies to proactively monitor your infrastructure and
    applications:
 
-   - [ ] Navigate to the "Monitors" or "Alerts" section in the Datadog platform.
-   - [ ] Learn about the concept of alert policies and how they help monitor and
-         notify you about important events.
-   - [ ] Review the different types of alert conditions available, such as
-         threshold-based, anomaly detection, and composite alerts.
-   - [ ] Follow the documentation to create and configure alert policies based
-         on your specific monitoring requirements.
-   - [ ] Specify the desired thresholds, time windows, and other parameters to
-         trigger alerts when certain conditions are met.
+   - Navigate to the "Monitors" or "Alerts" section in the Datadog platform.
+   - Learn about the concept of alert policies and how they help monitor and
+     notify you about important events.
+   - Review the different types of alert conditions available, such as
+     threshold-based, anomaly detection, and composite alerts.
+   - Follow the documentation to create and configure alert policies based
+     on your specific monitoring requirements.
+   - Specify the desired thresholds, time windows, and other parameters to
+     trigger alerts when certain conditions are met.
 
 2. Understand the different types of alert conditions and thresholds:
 
-   - [ ] Explore the various types of conditions available for alerting, such as
-         simple numeric thresholds, rate of change, percentiles, and more.
-   - [ ] Learn about advanced options like anomaly detection and forecasting for
-         proactive alerting.
-   - [ ] Gain an understanding of how to configure multi-threshold alerts or
-         composite alerts that combine multiple conditions.
+   - Explore the various types of conditions available for alerting, such as
+     simple numeric thresholds, rate of change, percentiles, and more.
+   - Learn about advanced options like anomaly detection and forecasting for
+     proactive alerting.
+   - Gain an understanding of how to configure multi-threshold alerts or
+     composite alerts that combine multiple conditions.
 
 3. Learn how to configure notification channels to receive alerts via various
    methods:
 
-   - [ ] Explore the available notification channels in Datadog, such as email,
-         Slack, PagerDuty, webhooks, and more.
-   - [ ] Follow the documentation to configure and set up your preferred
-         notification channels.
-   - [ ] Understand how to customize and fine-tune the alert notifications,
-         including escalation policies and suppression rules.
-   - [ ] Test the configured notification channels to ensure you receive alerts
-         through the desired methods.
+   - Explore the available notification channels in Datadog, such as email,
+     Slack, PagerDuty, webhooks, and more.
+   - Follow the documentation to configure and set up your preferred
+     notification channels.
+   - Understand how to customize and fine-tune the alert notifications,
+     including escalation policies and suppression rules.
+   - Test the configured notification channels to ensure you receive alerts
+     through the desired methods.
 
 4. Explore collaboration features in Datadog, such as creating and sharing
    dashboards with teammates:
-   - [ ] Navigate to the "Dashboards" section in the Datadog platform.
-   - [ ] Learn how to create and customize dashboards for specific use cases or
-         teams.
-   - [ ] Explore options to share dashboards with teammates or specific user
-         groups.
-   - [ ] Understand how to set up permissions and access controls to control who
-         can view and edit the shared dashboards.
-   - [ ] Consider collaborating with your teammates by sharing dashboards and
-         collecting feedback on monitoring and observability.
+   - Navigate to the "Dashboards" section in the Datadog platform.
+   - Learn how to create and customize dashboards for specific use cases or
+     teams.
+   - Explore options to share dashboards with teammates or specific user
+     groups.
+   - Understand how to set up permissions and access controls to control who
+     can view and edit the shared dashboards.
+   - Consider collaborating with your teammates by sharing dashboards and
+     collecting feedback on monitoring and observability.
 
 ## Resources
 
