@@ -24,8 +24,10 @@ export default defineUserConfig({
           { text: "C#", link: "/languages/csharp" },
           { text: "Go", link: "/languages/go" },
           { text: "Java", link: "/languages/java" },
+          { text: "PHP", link: "/languages/php" },
           { text: "Python", link: "/languages/python" },
           { text: "Typescript", link: "/languages/typescript" },
+          { text: "Ruby", link: "/languages/ruby" },
         ],
       },
       {
@@ -38,12 +40,14 @@ export default defineUserConfig({
           { text: "React", link: "/frameworks/react" },
           { text: "Spring Boot", link: "/frameworks/springboot" },
           { text: "Vue", link: "/frameworks/vue" },
+          { text: "Ruby on Rails", link: "/frameworks/ruby-on-rails" },
         ],
       },
       {
         text: "Databases",
         children: [
           { text: "SQL", link: "/databases/sql" },
+          { text: "PLSQL", link: "/databases/plsql" },
           { text: "Redis", link: "/databases/redis" },
           {
             text: "Microsoft SQL Server",
