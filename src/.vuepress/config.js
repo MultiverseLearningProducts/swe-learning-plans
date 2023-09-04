@@ -41,6 +41,7 @@ export default defineUserConfig({
           { text: "Spring Boot", link: "/frameworks/springboot" },
           { text: "Vue", link: "/frameworks/vue" },
           { text: "Ruby on Rails", link: "/frameworks/ruby-on-rails" },
+          { text: "Symfony", link: "/frameworks/symfony" },
         ],
       },
       {
