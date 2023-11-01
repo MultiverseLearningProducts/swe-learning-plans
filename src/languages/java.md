@@ -27,7 +27,7 @@ to becoming a skilled Java developer.
 ## Learning Plan Tasks
 
 1. [Java Basics](#1-getting-started-with-java)
-2. [Objects Oriented Programming](#2-object-oriented-programming-in-java)
+2. [Object Oriented Programming](#2-object-oriented-programming-in-java)
 3. [Advanced Java Concepts](#3-advanced-java-concepts)
 4. [Input and Output in Java](#4-inputoutput-in-java)
 5. [Java Best Practices](#5-java-best-practices)
