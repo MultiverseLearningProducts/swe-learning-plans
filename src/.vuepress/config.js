@@ -24,10 +24,12 @@ export default defineUserConfig({
           { text: "C#", link: "/languages/csharp" },
           { text: "Go", link: "/languages/go" },
           { text: "Java", link: "/languages/java" },
+          { text: "Kotlin", link: "/languages/kotlin" },
           { text: "PHP", link: "/languages/php" },
           { text: "Python", link: "/languages/python" },
-          { text: "Typescript", link: "/languages/typescript" },
           { text: "Ruby", link: "/languages/ruby" },
+          { text: "Swift", link: "/languages/swift" },
+          { text: "Typescript", link: "/languages/typescript" },
         ],
       },
       {
