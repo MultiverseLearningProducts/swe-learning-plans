@@ -1,6 +1,6 @@
 # Kotlin
 
-Kotlin is a modern, statically typed programming language developed by JetBrains. It is known for its concise syntax, safety features, and interoperability with Java. Kotlin can be used for a wide range of applications, from Android app development to backend web services. In this learning plan, you'll progress from the basics to more advanced topics in Kotlin programming. A brilliant resource for Kotling is [Android's Kotlin Course](https://developer.android.com/courses/android-basics-compose/course)
+Kotlin is a modern, statically typed programming language developed by JetBrains. It is known for its concise syntax, safety features, and interoperability with Java. Kotlin can be used for a wide range of applications, from Android app development to backend web services. In this learning plan, you'll progress from the basics to more advanced topics in Kotlin programming. A brilliant resource for Kotlin is [Android's Kotlin Course](https://developer.android.com/courses/android-basics-compose/course)
 
 ## Learning Plan Tasks
 
