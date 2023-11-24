@@ -77,7 +77,7 @@ export default defineUserConfig({
           { text: "Protobuf", link: "/tooling/protobuf" },
           { text: "REST Assured", link: "/tooling/rest-assured.md" },
           { text: "VS Code", link: "/ides/vscode" },
-          { text: "Visual Studio", link: "/ides/vscode" }
+          { text: "Visual Studio", link: "/ides/visual-studio" }
         ],
       },
       {
