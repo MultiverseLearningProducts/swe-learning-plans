@@ -76,6 +76,8 @@ export default defineUserConfig({
           { text: "Kafka", link: "/tooling/kafka.md" },
           { text: "Protobuf", link: "/tooling/protobuf" },
           { text: "REST Assured", link: "/tooling/rest-assured.md" },
+          { text: "VS Code", link: "/ides/vscode" },
+          { text: "Visual Studio", link: "/ides/vscode" }
         ],
       },
       {
