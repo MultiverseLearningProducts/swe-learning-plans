@@ -28,17 +28,24 @@ This learning plan is designed to introduce you to the basics of programming wit
 
 ## 1. Introduction to Ruby
 
+This section covers the following topics:
+
+- **Installing Ruby**: Installing the latest version of Ruby to ensure you are ready to create powerful programs using Ruby.
+- **Basics of Ruby Syntax**: Learn how to create variables, data types, and basic operations in Ruby.
+- **Control Flow**: Create conditional statements using Ruby.
+
+By completing these tasks you should have a good understanding of what Ruby is, how to install and configure the Ruby, and how to write basic Ruby programs using variables, data types, operators, and control structures.
 
 ### Tasks
 
 1. Installing Ruby
    - **Install Ruby**: You can
       [download the latest version of Ruby from the official Ruby website](https://www.ruby-lang.org/en/downloads/). Follow the instructions to install based on the type of machine you have.
-2. Basics of Ruby Syntax:
+2. Basics of Ruby Syntax
    - Understand variables, data types, and basic operations in Ruby.
    - Learn about strings, numbers, and boolean values.
    - Familiarize yourself with basic operators (`+`, `-`, `\*`, `/`, and `%`).
-3. Control Flow:
+3. Control Flow
    - Learn about if statements and conditional expressions.
    - Explore different types of loops (while, for).
 4. Build Something 🔨
@@ -46,13 +53,20 @@ This learning plan is designed to introduce you to the basics of programming wit
 
 ## 2. Functions and Methods
 
+This section covers the following topics:
+
+- **Functions and Methods**: Create functions/methods in Ruby and learn how to both define and call them. 
+- **Scope and Variables**: Learn about variable scoping and how scoping relates to functions that you have crated.
+
+By completing these tasks, you will begin to deepen the complexity of your Ruby programs and be able to create more abstracted solutions to common programming problems.
+
 ### Tasks
 
-1. Functions and Methods:
+1. Functions and Methods
    - Understand the concept of functions (methods in Ruby).
    - Learn how to define and call functions.
    - Explore parameter passing and return values.
-2. Scope and Variables:
+2. Scope and Variables
    - Learn about local and global variables.
    - Understand variable scope within functions.
 3. Build Something 🔨
@@ -63,11 +77,19 @@ This learning plan is designed to introduce you to the basics of programming wit
 
 ## 3. Data Structures
 
+This section covers the following topics:
+
+- **Arrays**: Create and manipulate arrays in.
+- **Hashes**: Learn how to create hashes (dictionaries) and how to manipulate/update hashes.
+- **Iteration and Enumerators**: Learn about iterators like `each`, `map`, and `select` to iterate over arrays and hashes.
+
+By completing these tasks, you will have an understanding of core data structures used by Ruby developers and be able to manipulate these structures through the use of iteration.
+
 ### Tasks
-1. Arrays:
+1. Arrays
    - Learn how to create and manipulate arrays.
    - Understand common array methods (`push`, `pop`, `shift`, `unshift`).
-2. Hashes (Dictionaries):
+2. Hashes (Dictionaries)
    - Explore how to create and work with hashes.
    - Learn about hash methods for manipulation.
 3. Iteration and Enumerators:
@@ -79,11 +101,19 @@ This learning plan is designed to introduce you to the basics of programming wit
 
 ## 4. Object-Oriented Programming (OOP) Basics
 
+This section covers the following topics:
+
+- **Introduction Object-Oriented Programming**: Understanding the basic concepts of OOP, such as classes, objects, inheritance, and polymorphism.
+- **Creating Classes**: Creating custom classes and instantiating objects from them.
+- **Inheritance and Polymorphism**: Understanding inheritance and how to use it to create subclasses and implement polymorphism.
+
+By completing these tasks you should have a good understanding of Object-Oriented Programming concepts, how to create custom classes and instantiate objects from them, how to use access modifiers to control access to class members, and how to use inheritance and polymorphism to create subclasses and implement polymorphism.
+
 ### Tasks
-1. Introduction to OOP:
+1. Introduction to OOP
    - Understand the concepts of classes and objects.
    - Learn about attributes (instance variables) and methods (instance methods).
-2. Creating Classes:
+2. Creating Classes
    - Learn how to define classes in Ruby.
    - Understand constructor methods (initialize).
 3. Inheritance and Polymorphism:
@@ -110,14 +140,22 @@ This learning plan is designed to introduce you to the basics of programming wit
 
 ## 5. File I/O and Further Exploration
 
+This section covers the following topics:
+
+- **Reading and Writing Files**: Understanding how to read and write files in Ruby, including text and binary files.
+- **Modules and Libraries**: Explore the use of modules and libraries to organize code.
+- **Exception Handling**: Construct programs that gracefully handles errors.
+
+By completing these tasks you should have a good understanding of how to read and write files in Ruby, how to expand your program with modules/libraries, and how to gracefully handle errors.
+
 ### Tasks
-1. Reading and Writing Files:
+1. Reading and Writing Files
    - Learn how to read from and write to files in Ruby.
    - Understand file modes and handling exceptions.
-2. Modules and Libraries:
+2. Modules and Libraries
    - Explore the use of modules to organize code.
    - Learn how to import and use libraries.
-3. Exception Handling:
+3. Exception Handling
    - Understand how to handle errors using try-catch blocks.
    - Learn about raising and handling custom exceptions.
 4. Build Something 🔨
