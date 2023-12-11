@@ -41,19 +41,12 @@ to becoming a skilled Java developer.
 
 This section covers the following topics:
 
-- **Introduction to Java**: Understanding what Java is, why it's popular, and
-  its benefits.
-- **Installing Java**: Installing the latest version of Java SE Development Kit
-  (JDK) and an Integrated Development Environment (IDE), such as Eclipse or
-  IntelliJ IDEA.
-- **Writing Your First Java Program**: Creating a "Hello, World!" program in
-  Java using your IDE.
-- **Basic Java Syntax**: Understanding the syntax and structure of Java code,
-  including variables, data types, operators, and control structures.
+- **Introduction to Java**: Understanding what Java is, why it's popular, and its benefits.
+- **Installing Java**: Installing the latest version of Java SE Development Kit (JDK) and an Integrated Development Environment (IDE), such as Eclipse or IntelliJ IDEA.
+- **Writing Your First Java Program**: Creating a "Hello, World!" program in Java using your IDE.
+- **Basic Java Syntax**: Understanding the syntax and structure of Java code, including variables, data types, operators, and control structures.
 
-By completing these tasks you should have a good understanding of what Java is,
-how to install and configure the Java Development Kit and an IDE, and how to
-write basic Java programs using variables, data types, operators, and control
+By completing these tasks you should have a good understanding of what Java is, how to install and configure the Java Development Kit and an IDE, and how to write basic Java programs using variables, data types, operators, and control
 structures.
 
 ### Tasks

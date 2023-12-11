@@ -1,38 +1,16 @@
 # C++
 
-C++ is a powerful and widely used programming language known for its efficiency,
-flexibility, and performance. It is an extension of the C programming language
-with added features and object-oriented programming (OOP) capabilities. Learning
-C++ can open up a world of opportunities in software development, ranging from
-systems programming to game development, scientific computing, and more.
+C++ is a powerful and widely used programming language known for its efficiency, flexibility, and performance. It is an extension of the C programming language with added features and object-oriented programming (OOP) capabilities. Learning C++ can open up a world of opportunities in software development, ranging from systems programming to game development, scientific computing, and more.
 
-C++ was created by Bjarne Stroustrup, a Danish computer scientist, in the early
-1980s at Bell Labs. Stroustrup wanted to enhance the C programming language to
-support object-oriented programming while retaining its low-level system
-programming capabilities. He named the language "C++" to represent the
-incremental nature of its development, as "++" is the increment operator in C.
+C++ was created by Bjarne Stroustrup, a Danish computer scientist, in the early 1980s at Bell Labs. Stroustrup wanted to enhance the C programming language to support object-oriented programming while retaining its low-level system programming capabilities. He named the language "C++" to represent the incremental nature of its development, as "++" is the increment operator in C.
 
-C++ builds upon the foundations of C and adds several key features, including
-classes, objects, inheritance, polymorphism, and templates. These additions
-allow developers to design and create complex software systems using modular and
-reusable components.
+C++ builds upon the foundations of C and adds several key features, including classes, objects, inheritance, polymorphism, and templates. These additions allow developers to design and create complex software systems using modular and reusable components.
 
-Over the years, C++ has undergone several revisions and enhancements. The first
-standardized version of the language, known as "C++98," was published in 1998 as
-an international standard (ISO/IEC 14882:1998). Subsequent revisions, such as
-"C++03," "C++11," "C++14," "C++17," and "C++20," introduced new features,
-improved the language's expressiveness, and enhanced its performance.
+Over the years, C++ has undergone several revisions and enhancements. The first standardized version of the language, known as "C++98," was published in 1998 as an international standard (ISO/IEC 14882:1998). Subsequent revisions, such as "C++03," "C++11," "C++14," "C++17," and "C++20," introduced new features, improved the language's expressiveness, and enhanced its performance.
 
-C++ has gained widespread popularity and is widely used in various domains,
-including systems programming, embedded systems, game development,
-high-performance computing, and financial applications. It remains a vital
-language in the software development industry, with a rich ecosystem of
-libraries, frameworks, and tools supporting its usage.
+C++ has gained widespread popularity and is widely used in various domains, including systems programming, embedded systems, game development, high-performance computing, and financial applications. It remains a vital language in the software development industry, with a rich ecosystem of libraries, frameworks, and tools supporting its usage.
 
-By following this learning plan, you will gain a solid foundation in C++
-programming and develop the necessary skills to write efficient and maintainable
-code. Remember, practice and hands-on projects are crucial for reinforcing your
-understanding and becoming proficient in C++.
+By following this learning plan, you will gain a solid foundation in C++ programming and develop the necessary skills to write efficient and maintainable code. Remember, practice and hands-on projects are crucial for reinforcing your understanding and becoming proficient in C++.
 
 ## 1. Introduction to C++ and Basic Syntax
 
