@@ -28,6 +28,7 @@ export default defineUserConfig({
           { text: "PHP", link: "/languages/php" },
           { text: "Python", link: "/languages/python" },
           { text: "Ruby", link: "/languages/ruby" },
+          { text: "Rust", link: "/languages/rust" },
           { text: "Swift", link: "/languages/swift" },
           { text: "Typescript", link: "/languages/typescript" },
         ],
