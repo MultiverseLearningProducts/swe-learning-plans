@@ -30,7 +30,7 @@ to becoming a skilled Java developer.
 - **Oracle**: [The Java Tutorials](https://docs.oracle.com/javase/tutorial/)
 - **Oracle**:
   [Installing Java](https://www.oracle.com/java/technologies/downloads/#jdk20-linux)
-- **Udamy**:
+- **Udemy**:
   [Java Tutorial](https://www.udemy.com/course/java-tutorial/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-UfB4ehpx3sT93US_xK8IFg)
 - **Baeldung**: [Java Tutorial](https://www.baeldung.com/java-tutorial)
 - **CodeAcademy**:
