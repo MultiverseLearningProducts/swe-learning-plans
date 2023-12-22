@@ -21,10 +21,10 @@ Oracle SQL is a powerful database query language used to interact with Oracle Da
 ## 1. Introduction to Databases & Getting Started with Oracle SQL
 
 This section covers the following topics:
-- **Understand Databases and SQL**: Learn about the fundamental concepts of databases, including what they are, their purpose, and the role of SQL in interacting with them.
-- **Install Oracle Database**: Install Oracle Database on your machine.
-- **Setup SQL Developer**: Download and install Oracle SQL Developer, a free integrated development environment (IDE) for Oracle Database.
-- **Connect to a Database**: Learn how to connect to an Oracle Database using SQL Developer.
+- Learn about the fundamental concepts of databases, including what they are, their purpose, and the role of SQL in interacting with them.
+- Install Oracle Database on your machine.
+- Download and install Oracle SQL Developer, a free integrated development environment (IDE) for Oracle Database.
+- Learn how to connect to an Oracle Database using SQL Developer.
 
 By completing these tasks you should have a good understanding of why developers utilize databases, how to install Oracle Database, how to setup Oracle SQL Developer, and connect to your first database.
 
@@ -92,19 +92,19 @@ By completing these tasks you should be comfortable with joining tables and grou
 
 1. Learn how to join tables using `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN`
 
-   - Understand the concept of table joins and the different types of joins available in SQL
-   - Practice joining two tables using `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN` clauses
-   - Learn how to join more than two tables using nested joins
+   - **Table Joins**: Understand the concept of table joins and the different types of joins available in SQL
+   - **Join Commands**: Practice joining two tables using `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN` clauses
+   - **Nested Joins**: Learn how to join more than two tables using nested joins
 
 2. Understand how to group data using `GROUP BY`
 
-   - Understand the concept of grouping data in SQL
-   - Practice using the `GROUP BY` clause to group data based on one or more columns
-   - Learn how to use aggregate functions such as `SUM`, `COUNT`, `AVG`, `MIN`, and `MAX` to summarize data within groups
+   - **Data Grouping**: Understand the concept of grouping data in SQL
+   - **`GROUP BY`**: Practice using the `GROUP BY` clause to group data based on one or more columns
+   - **Aggregate Functions** Learn how to use aggregate functions such as `SUM`, `COUNT`, `AVG`, `MIN`, and `MAX` to summarize data within groups
 3. Learn how to filter grouped data using `HAVING`
 
-   - Understand how to use the `HAVING` clause to filter data based on aggregate functions
-   - Practice combining `GROUP BY` and `HAVING` clauses to filter and summarize data
+   - **`HAVING`**: Understand how to use the `HAVING` clause to filter data based on aggregate functions
+   - **Combining `GROUP BY` and `HAVING`**: Practice combining `GROUP BY` and `HAVING` clauses to filter and summarize data
 
 ## 4. Subqueries, Views, and Indexes
 
@@ -118,18 +118,18 @@ By completing these tasks you should be comfortable with creating subqueries, vi
 ### Tasks
 
 1. Subqueries
-    - Research what SQL subqueries are and be able to explain the use cases for single-row, multi-row, and correlated subqueries.
-    - Create single-row subqueries to retrieve data from one table and use it in the main query.
-    - Create multi-row subqueries that return multiple rows for comparison.
-    - Create correlated subqueries that reference columns from the outer query.
+    - **SQL Subqueries**: Research what SQL subqueries are and be able to explain the use cases for single-row, multi-row, and correlated subqueries.
+    - **Single-Row Subqueries**: Create single-row subqueries to retrieve data from one table and use it in the main query.
+    - **Multi-Row Subqueries**: Create multi-row subqueries that return multiple rows for comparison.
+    - **Correlated Subqueries**: Create correlated subqueries that reference columns from the outer query.
 
 2. Create Views
-    - Research the concept of views in SQL and their utility when working with a SQL database.
-    - Create a virtual table using the `CREATE VIEW` statement.
+    - **Using Views in SQL**: Research the concept of views in SQL and their utility when working with a SQL database.
+    - **`CREATE VIEW`**: Create a virtual table using the `CREATE VIEW` statement.
 
 3. Indexes
-    - Research what SQL indexes are and be able to explain their utility when working with SQL databases
-    - Create indexes in a table using the `CREATE INDEX` command and query data in a table using these index values.
+    - **SQL Indexes**: Research what SQL indexes are and be able to explain their utility when working with SQL databases
+    - **`CREATE INDEX`**: Create indexes in a table using the `CREATE INDEX` command and query data in a table using these index values.
 
 ## 5. Advanced SQL Concepts
 
@@ -143,15 +143,15 @@ By completing these tasks you should have a good understanding of some advanced 
 ### Tasks
 
 1. Analytic Functions
-    - Research [analytic functions](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Analytic-Functions.html#GUID-527832F7-63C0-4445-8C16-307FA5084056) and understand their use cases.
-    - Create analytic functions to compute an aggregate value based on a group of rows.
+    - **Analytic Function Use Cases**: Research [analytic functions](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Analytic-Functions.html#GUID-527832F7-63C0-4445-8C16-307FA5084056) and understand their use cases.
+    - **Create Analytic Functions**: Create analytic functions to compute an aggregate value based on a group of rows.
 
 2. Partitioning Data
-    - Research [Oracle Partitioning](https://www.oracle.com/database/technologies/partitioning.html) and explain how it can be used to improve query performance.
+    - **Oracle Partitioning**: Research [Oracle Partitioning](https://www.oracle.com/database/technologies/partitioning.html) and explain how it can be used to improve query performance.
 
 3. Materialized Viewed
-    - Learn about materialized views and their use in storing precomputed results.
-    - Create a materialized view in an an Oracle database using [`CREATE MATERIALIZED VIEW`](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/CREATE-MATERIALIZED-VIEW.html#GUID-EE262CA4-01E5-4618-B659-6165D993CA1B)
+    - **Why Materialized Views**: Learn about materialized views and their use in storing precomputed results.
+    - **Creating Materialized Views**:Create a materialized view in an an Oracle database using [`CREATE MATERIALIZED VIEW`](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/CREATE-MATERIALIZED-VIEW.html#GUID-EE262CA4-01E5-4618-B659-6165D993CA1B)
 
 ## 6. Optimizing Queries & Best Practices
 
@@ -165,17 +165,17 @@ By completing these tasks you should have a good understanding of techniques to 
 ### Tasks
 
 1. Query Optimization Techniques
-    - Research why query optimization is important for programmers working in SQL databases
-    - Understand techniques for optimizing SQL queries, including
+    - **Why Query Optimization**:Research why query optimization is important for programmers working in SQL databases
+    - **Query Optimization Techniques**: Understand techniques for optimizing SQL queries, including
         - Indexing
         - Query rewriting
         - Analyzing execution plans
 2. SQL Coding Standards
-    - Research SQL coding standards including how to write clean, efficient, and maintainable SQL code.
-    - Analyze SQL code you have previously written and align this code to SQL coding standards.
+    - **SQL Coding Standards**: Research SQL coding standards including how to write clean, efficient, and maintainable SQL code.
+    - **Analyze Previous Code**: Analyze SQL code you have previously written and align this code to SQL coding standards.
 3. Database Design Principles
-    - Understand the principles of good database design to create efficient and scalable databases.
-    - Design a database using these database design principles 
+    - **Database Design Principles**: Understand the principles of good database design to create efficient and scalable databases.
+    - **Design a Database**: Design a database using these database design principles 
 
 ## 7. Build Something Using Oracle SQL! 🔨
 
