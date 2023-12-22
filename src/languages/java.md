@@ -46,8 +46,7 @@ This section covers the following topics:
 - **Writing Your First Java Program**: Creating a "Hello, World!" program in Java using your IDE.
 - **Basic Java Syntax**: Understanding the syntax and structure of Java code, including variables, data types, operators, and control structures.
 
-By completing these tasks you should have a good understanding of what Java is, how to install and configure the Java Development Kit and an IDE, and how to write basic Java programs using variables, data types, operators, and control
-structures.
+By completing these tasks you should have a good understanding of what Java is, how to install and configure the Java Development Kit and an IDE, and how to write basic Java programs using variables, data types, operators, and control structures.
 
 ### Tasks
 
@@ -67,15 +66,8 @@ structures.
    - **Install Java SE Development Kit (JDK)**: You can
      [download the latest version of JDK from the official Oracle website](https://www.oracle.com/java/technologies/downloads/#jdk20-linux).
      Follow the instructions to install the JDK on your computer.
-   - **Install An IDE**: An IDE is a software application that provides a
-     comprehensive environment for Java programming. Popular Java IDEs include
-     [Eclipse](https://www.eclipse.org/),
-     [IntelliJ IDEA](https://www.jetbrains.com/idea/), and
-     [NetBeans](https://netbeans.apache.org/). Download and install an IDE of
-     your choice on your computer.
-   - **Configure Your IDE**: Once you have installed your IDE, you will need to
-     configure it to use the JDK that you installed earlier. Follow the
-     instructions provided by your IDE to configure it.
+   - **Install An IDE**: An IDE is a software application that provides a comprehensive environment for Java programming. Popular Java IDEs include [Eclipse](https://www.eclipse.org/),  [IntelliJ IDEA](https://www.jetbrains.com/idea/), and [NetBeans](https://netbeans.apache.org/). Download and install an IDE of your choice on your computer.
+   - **Configure Your IDE**: Once you have installed your IDE, you will need to configure it to use the JDK that you installed earlier. Follow the instructions provided by your IDE to configure it.
 
 3. Writing Your First Java Program
 

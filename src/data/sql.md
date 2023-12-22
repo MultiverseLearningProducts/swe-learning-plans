@@ -246,23 +246,11 @@ practice exercises and applying what you have learned in real-world scenarios.
 
 Here are a few project ideas that you can work on to practice your SQL skills:
 
-- **Movie or Book Database**: Create a database of your favorite movies or books
-  with details such as title, author/ director, release year, genre, and rating.
-  Write SQL queries to retrieve specific data, such as all the movies released
-  in a particular year or all the books in a specific genre.
-- **E-Commerce Database**: Build a simple e-commerce website database that
-  stores information about customers, orders, and products. Write SQL queries to
-  retrieve customer order history or to track inventory levels.
-- **News Database**: Design a database for a blog or news website that stores
-  articles, authors, and comments. Write SQL queries to display the most popular
-  articles, show recent comments, or retrieve articles by a specific author.
-- **Social Media Member Management**: Create a social media database that stores
-  information about users, posts, and comments. Write SQL queries to display a
-  user's posts, retrieve all comments on a post, or show the most active users.
-- **Sports Information Database**: Build a database for a sports team or league
-  that stores information about players, games, and scores. Write SQL queries to
-  retrieve information about a specific game, show the top-scoring players, or
-  display a team's win-loss record.
+- **Movie or Book Database**: Create a database of your favorite movies or books with details such as title, author/ director, release year, genre, and rating. Write SQL queries to retrieve specific data, such as all the movies released in a particular year or all the books in a specific genre.
+- **E-Commerce Database**: Build a simple e-commerce website database that stores information about customers, orders, and products. Write SQL queries to retrieve customer order history or to track inventory levels.
+- **News Database**: Design a database for a blog or news website that stores articles, authors, and comments. Write SQL queries to display the most popular articles, show recent comments, or retrieve articles by a specific author.
+- **Social Media Member Management**: Create a social media database that stores information about users, posts, and comments. Write SQL queries to display a user's posts, retrieve all comments on a post, or show the most active users.
+- **Sports Information Database**: Build a database for a sports team or league that stores information about players, games, and scores. Write SQL queries to retrieve information about a specific game, show the top-scoring players, or display a team's win-loss record.
 
 ## Next Steps
 
