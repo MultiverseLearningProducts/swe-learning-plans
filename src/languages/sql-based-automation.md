@@ -31,28 +31,25 @@ By completing these tasks you should have a basic understanding of SQL and be ab
 
 1. Learn what SQL is and why it's used
 
-   - Research and read about SQL to understand what it is and why it's used
-   - Watch introductory videos or tutorials that explain SQL and its uses
-   - Learn about the history of SQL and how it has evolved over time
+   - **Why SQL?**: Research and read about SQL to understand what it is and why it's used
+   - **Introduction to SQL**: Watch introductory videos or tutorials that explain SQL and its uses
+   - **SQL History**: Learn about the history of SQL and how it has evolved over time
 
 2. Download your companies SQL IDE and software
 
-   - Coordinate with your apprentice manager and coach to determine what SQL IDE
-     and software you will be using on the job.
-   - Download this IDE and/or software onto your machine.
+   - **Company Tech Stack**: Coordinate with your apprentice manager and coach to determine what SQL IDE and software you will be using on the job.
+   -**SQL IDE**: Download this IDE and/or software onto your machine.
 
 3. Understand basic concepts such as tables, rows, columns, and databases
 
-   - Research and read about the basic concepts of SQL such as tables, rows, columns, and databases
-   - Watch videos or tutorials that explain these concepts and how they relate to each other
-   - Practice creating a simple database and table using a tool such as MySQL Workbench
+   - **Tables, Rows, Columns, and Databases**: Research and read about the basic concepts of SQL such as tables, rows, columns, and databases
+   - **Create a Simple Database**: Practice creating a simple database and table using a tool such as MySQL Workbench
 
 4. Learn how to write basic queries using `SELECT`, `FROM`, and `WHERE` clauses
 
-   - Research and read about the basic syntax of SQL queries, including `SELECT`, `FROM`, and `WHERE` clauses
-   - Practice writing basic queries to retrieve data from a table
-   - Experiment with different query conditions using operators such as `=`, `<>`, `>`, `<`, `>=`, and `<=`
-   - Practice ordering the results using ORDER BY clause
+   - **SQL Syntax**: Research and read about the basic syntax of SQL queries, including `SELECT`, `FROM`, and `WHERE` clauses
+   - **SQL Queries**: Practice writing basic queries to retrieve data from a table
+   - **SQL Operators**: Experiment with different query conditions using operators such as `=`, `<>`, `>`, `<`, `>=`, and `<=`
 
 ## 2. Working with Data
 
@@ -68,20 +65,20 @@ By completing these tasks you should be comfortable with filtering, sorting, and
 
 1. Learn how to filter data using `WHERE`, `AND`, `OR`, and `IN` clauses
 
-   - Review and practice using the `WHERE` clause to filter data based on a condition
-   - Learn how to use logical operators such as AND and `OR` to filter data based on multiple conditions
-   - Understand how to use the `IN` clause to filter data based on a list of possible values
+   - **Filtering with `WHERE`**: Review and practice using the `WHERE` clause to filter data based on a condition
+   - **Logical Operators**: Learn how to use logical operators such as `AND` and `OR` to filter data based on multiple conditions
+   - **Filtering with `IN`**: Understand how to use the `IN` clause to filter data based on a list of possible values
 
 2. Understand how to sort data using `ORDER BY`
 
-   - Review and practice using the `ORDER BY` clause to sort data in ascending or descending order
-   - Learn how to sort data by multiple columns by specifying multiple fields in the `ORDER BY` clause
+   - **Sorting with `ORDER BY`**: Practice using the `ORDER BY` clause to sort data in ascending or descending order
+   - **Sorting Multiple Columns**: Learn how to sort data by multiple columns by specifying multiple fields in the `ORDER BY` clause
 
 3. Learn how to limit and paginate data using `LIMIT` and `OFFSET`
 
-   - Understand how to use the `LIMIT` clause to limit the number of rows returned by a query
-   - Learn how to use the `OFFSET` clause to skip a specified number of rows before returning results
-   - Practice combining the `LIMIT` and `OFFSET` clauses to paginate data in your queries
+   - **`LIMIT`**: Understand how to use the `LIMIT` clause to limit the number of rows returned by a query
+   - **`OFFSET`**: Learn how to use the `OFFSET` clause to skip a specified number of rows before returning results
+   - **Paginating Data**: Practice combining the `LIMIT` and `OFFSET` clauses to paginate data in your queries
 
 ## 3. Automation with Stored Procedures and SQL Agent
 
@@ -95,15 +92,15 @@ By completing these tasks you should be comfortable with the basics of automatio
 ### Tasks
 
 1. Stored Procedures
-    - Research and be able to explain the concept of stored procedures. 
-    - Create and execute stored procedures for automating repetitive tasks.
+    - **Stored Procedures**: Research and be able to explain the concept of stored procedures. 
+    - **Automating with Stored Procedures**: Create and execute stored procedures for automating repetitive tasks.
 2. SQL Agent Jobs
-    - Research SQL Agent and explain its utility in automating tasks.
-    - Schedule a SQL job to run ata specified interval.
+    - **SQL Agent**: Research SQL Agent and explain its utility in automating tasks.
+    - **Scheduling SQL Jobs**: Schedule a SQL job to run at a specified interval.
 3. Error Handling and Logging
-    - Learn to handle errors in SQL scripts and procedures.
-    - Explore methods for logging information and errors during SQL automation.
-    - Create a SQL script that handles errors and logs information properly when an error occurs.
+    - **Handle Errors**: Learn to handle errors in SQL scripts and procedures.
+    - **Logging Information**: Explore methods for logging information and errors during SQL automation.
+    - **Practice Error Handling**: Create a SQL script that handles errors and logs information properly when an error occurs.
 
 ## 4. Data Migration, ETL Automation, and Integration with External Tools
 
@@ -117,13 +114,13 @@ By completing these tasks you should be comfortable with explaining ETL processe
 ### Tasks
 
 1. Understanding ETL Processes
-    - Research different data pipeline designs (ETL, ELT, ETLT) and explain the utility of each.
-    - Learn about Extract, Transform, Load (ETL) processes and understand why this is the most common data pipeline design utilized.
+    - **Data Pipelines**: Research different data pipeline designs (ETL, ELT, ETLT) and explain the utility of each.
+    - **ETL**: Learn about Extract, Transform, Load (ETL) processes and understand why this is the most common data pipeline design utilized.
 2. Automating Data Migration 
-    - Implement automation scripts for data migration and transformation.
+    - **Automation Scripts**: Implement automation scripts for data migration and transformation.
 3. Integration with External Tools
-    - Explore how SQL scripts can be integrated with external programming languages (e.g., Python, PowerShell).
-    - Learn to use APIs for integrating SQL tasks with other applications.
+    - **SQL Scripts and Programming Languages**: Explore how SQL scripts can be integrated with external programming languages (e.g., Python, PowerShell).
+    - **SQL Scripts and APIs**: Learn to use APIs for integrating SQL tasks with other applications.
 
 ## 5. Version Control, Testing, and Documentation for SQL Automation 
 
@@ -136,16 +133,16 @@ By completing these tasks you should be comfortable with using version control w
 
 ### Tasks
 1. Version Control for SQL
-    - Understand the importance of version control for SQL scripts.
-    - Learn to use Git for version controlling SQL scripts.
+    - **Version Control**: Understand the importance of version control for SQL scripts.
+    - **Git and SQL Scripts**: Learn to use Git for version controlling SQL scripts.
 
 2. Unit Testing SQL and SQL Automation
-    - Explore unit testing frameworks for SQL.
-    - Learn about tools and frameworks for automating database testing.
+    - **Unit Testing Frameworks**: Explore unit testing frameworks for SQL.
+    - **Automating Database Testing**: Learn about tools and frameworks for automating database testing.
 
 3. Documentation and Reporting
-    - Understand the importance of documentation.
-    - Learn to generate reports using SQL queries.
+    - **Documentation**: Understand the importance of documentation.
+    - **Generating Reports**: Learn to generate reports using SQL queries.
 
 ## 6. Build Something Using SQL Automation! 🔨
 

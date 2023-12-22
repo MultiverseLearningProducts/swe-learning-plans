@@ -47,15 +47,15 @@ By completing these tasks you should have an understanding of Terraform configur
 ### Tasks
 
 1. Terraform Configuration Files
-    - Understand the structure and syntax of Terraform configuration files.
-    - Create a Terraform configuration file
+    - **Configuration File Structure**: Understand the structure and syntax of Terraform configuration files.
+    - **Create a Configuration File**: Create a Terraform configuration file
 2. Providers and Resources
-    - Research what [providers](https://developer.hashicorp.com/terraform/language/providers) and [resources](https://developer.hashicorp.com/terraform/language/resources) are in Terraform
-    - Learn how to define providers and resources in Terraform.
+    - **Providers vs. Resources**: Research what [providers](https://developer.hashicorp.com/terraform/language/providers) and [resources](https://developer.hashicorp.com/terraform/language/resources) are in Terraform
+    - **Define Providers and Resources**: Learn how to define providers and resources in Terraform.
 3. Provider Configuration
-    - Explore different providers in Terraform (e.g.,AWS, Azure, Google Cloud).
-    - Determine which provider your company utilizes.
-    - Set up authentication for the provider that your company uses.
+    - **Providers in Terraform**: Explore different providers in Terraform (e.g.,AWS, Azure, Google Cloud).
+    - **Company Provider(s)**: Determine which provider your company utilizes.
+    - **Authentication**: Set up authentication for the provider that your company uses.
 
 ## 3. Managing Resources
 
@@ -73,8 +73,8 @@ By completing these tasks you should have an understanding of Terraform resource
     - Create a Terraform program that has resources.
 
 2. Lifecycle Configuration
-    - Understand the [lifecycle configuration](https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle) for resources.
-    - Create a lifecycle configuration for a Terraform program.
+    - **Lifecycle Configuration**: Understand the [lifecycle configuration](https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle) for resources.
+    - **Create Lifecycle Configuration**: Create a lifecycle configuration for a Terraform program.
 
 ## 4. Input Variables and Output in Terraform
 
@@ -88,11 +88,11 @@ By completing these tasks you should have an understanding of Terraform input va
 ### Tasks
 
 1. Input Variables
-    - Use variables to parameterize your Terraform configurations.
-    - Explore different types of variables and their usage.
+    - **Variables**: Use variables to parameterize your Terraform configurations.
+    - **Variable Types**: Explore different types of variables and their usage.
 2. Output
-    - Learn how to define outputs in Terraform.
-    - Understand how to use outputs from one Terraform module in another.
+    - **Define Outputs**: Learn how to define outputs in Terraform.
+    - **Outputs and Modules**: Understand how to use outputs from one Terraform module in another.
 
 ## 5. Modules and State Management in Terraform
 
@@ -106,12 +106,12 @@ By completing these tasks you should have an understanding of how to organize yo
 ### Tasks
 
 1. Modules
-    - Understand the structure of Terraform modules.
-    - Create and use modules for better code organization.
+    - **Why Modules?**: Understand the structure of Terraform modules.
+    - **Create Modules**: Create and use modules for better code organization.
 2. State Management
-    - Understand the importance of Terraform state files.
-    - Create Terraform state files
-    - Explore options for remote state management.
+    - **Why State?**: Understand the importance of Terraform state files.
+    - **Creating State Files**: Create Terraform state files
+    - **Remote State Management**: Explore options for remote state management.
 
 ## 6. Workspaces in Terraform, Terraform Cloud, and Best Practices
 
@@ -126,18 +126,18 @@ By completing these tasks you should be able to manage multiple environment thro
 ### Tasks
 
 1. Workspace in Terraform
-    - Learn about workspaces in Terraform.
-    - Explore how to use workspaces for managing multiple environments.
-    - Create a workspace tht allows for you to manage multiple environments.
+    - **Workspaces**: Learn about workspaces in Terraform.
+    - **Workspaces with Multiple Environments**: Explore how to use workspaces for managing multiple environments.
+    - **Create a Workspaces**: Create a workspace tht allows for you to manage multiple environments.
 
 2. Terraform Cloud
-    - Understand the benefits of using Terraform Cloud.
-    - Set up and use Terraform Cloud.
+    - **Why Terraform Cloud?**: Understand the benefits of using Terraform Cloud.
+    - **Setup Terraform Cloud**: Setup and use Terraform Cloud.
 
 3. Terraform Best Practices
-    - Research best practices for organizing Terraform code.
-    - Analyze previously written Terraform code and update it to conform to these best practices.
-    - Learn about security best practices when using Terraform.
+    - **Terraform Code Best Practices**: Research best practices for organizing Terraform code.
+    - **Security Best Practices**: Learn about security best practices when using Terraform.
+    - **Implement Best Practices**: Analyze previously written Terraform code and update it to conform to these best practices.
 
 ## 7. Build Something Using Terraform! 🔨
 
