@@ -1,17 +1,9 @@
 # Java
 
-Java is a popular programming language that was first introduced by Sun
-Microsystems in 1995. It was designed to be portable, secure, and easy to use,
-and it quickly gained popularity among developers. Today, Java is used to build
-a wide variety of applications, from desktop and mobile apps to large-scale
+Java is a popular programming language that was first introduced by Sun Microsystems in 1995. It was designed to be portable, secure, and easy to use, and it quickly gained popularity among developers. Today, Java is used to build a wide variety of applications, from desktop and mobile apps to large-scale
 enterprise systems.
 
-This learning plan is designed to introduce you to the basics of Java
-programming and help you build a solid foundation in the language. Over the
-course of five days, you will learn about topics such as basic syntax,
-object-oriented programming, exception handling, file I/O, and more. By the end
-of the learning plan, you should have a good understanding of the key concepts
-and tools used in Java programming.
+This learning plan is designed to introduce you to the basics of Java programming and help you build a solid foundation in the language. Over the course of five days, you will learn about topics such as basic syntax, object-oriented programming, exception handling, file I/O, and more. By the end of the learning plan, you should have a good understanding of the key concepts and tools used in Java programming.
 
 Java has evolved significantly since its inception, with new versions and
 updates being released regularly. The language is maintained by Oracle
@@ -38,7 +30,7 @@ to becoming a skilled Java developer.
 - **Oracle**: [The Java Tutorials](https://docs.oracle.com/javase/tutorial/)
 - **Oracle**:
   [Installing Java](https://www.oracle.com/java/technologies/downloads/#jdk20-linux)
-- **Udamy**:
+- **Udemy**:
   [Java Tutorial](https://www.udemy.com/course/java-tutorial/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-UfB4ehpx3sT93US_xK8IFg)
 - **Baeldung**: [Java Tutorial](https://www.baeldung.com/java-tutorial)
 - **CodeAcademy**:
@@ -49,19 +41,12 @@ to becoming a skilled Java developer.
 
 This section covers the following topics:
 
-- **Introduction to Java**: Understanding what Java is, why it's popular, and
-  its benefits.
-- **Installing Java**: Installing the latest version of Java SE Development Kit
-  (JDK) and an Integrated Development Environment (IDE), such as Eclipse or
-  IntelliJ IDEA.
-- **Writing Your First Java Program**: Creating a "Hello, World!" program in
-  Java using your IDE.
-- **Basic Java Syntax**: Understanding the syntax and structure of Java code,
-  including variables, data types, operators, and control structures.
+- **Introduction to Java**: Understanding what Java is, why it's popular, and its benefits.
+- **Installing Java**: Installing the latest version of Java SE Development Kit (JDK) and an Integrated Development Environment (IDE), such as Eclipse or IntelliJ IDEA.
+- **Writing Your First Java Program**: Creating a "Hello, World!" program in Java using your IDE.
+- **Basic Java Syntax**: Understanding the syntax and structure of Java code, including variables, data types, operators, and control structures.
 
-By completing these tasks you should have a good understanding of what Java is,
-how to install and configure the Java Development Kit and an IDE, and how to
-write basic Java programs using variables, data types, operators, and control
+By completing these tasks you should have a good understanding of what Java is, how to install and configure the Java Development Kit and an IDE, and how to write basic Java programs using variables, data types, operators, and control
 structures.
 
 ### Tasks
@@ -94,55 +79,33 @@ structures.
 
 3. Writing Your First Java Program
 
-   - **Create a New Java Project In Your IDE**: Open your IDE and create a new
-     Java project.
-   - **Create a New Java Class**: Inside your project, create a new Java class
-     and name it `Greeter`.
+   - **Create a New Java Project In Your IDE**: Open your IDE and create a new Java project.
+   - **Create a New Java Class**: Inside your project, create a new Java class and name it `Greeter`.
    - In the `Greeter` class, write the code for a "Hello, World!" program.
-   - Save your program and run it. You should see the message "Hello, World!"
-     printed to the console.
+   - Save your program and run it. You should see the message "Hello, World!" printed to the console.
 
 4. Basic Java Syntax
 
-   - **Variables and Data Types**: Understand what variables and data types are
-     in Java, how to declare and use them, and how to convert between data types
-     with casting.
-   - **Operators**: Understand what operators are in Java, and how to use them
-     to perform operations on variables and values.
-   - **Control Structures**: Understand what control structures are in Java, and
-     how to use them to control the flow of your code. Learn about if-else
-     statements, loops, and switch statements.
+   - **Variables and Data Types**: Understand what variables and data types are in Java, how to declare and use them, and how to convert between data types with casting.
+   - **Operators**: Understand what operators are in Java, and how to use them to perform operations on variables and values.
+   - **Control Structures**: Understand what control structures are in Java, and how to use them to control the flow of your code. Learn about if-else statements, loops, and switch statements.
 
 5. Build Something 🔨
-   - **Rock, Paper, Scissors**: You now know enough to rebuild your Rock, Paper,
-     Scissors project! Your project should include the following:
-     - Randomly selects rock, paper, or scissors for each player in the game.
-       You should explore how to use `Math.random()` and `Math.round()` to
-       achieve this.
-     - Determines the winner of the game based on the random values that were
-       selected.
-     - **BONUS**: Explore how to accept user input with a
-       [`Scanner` class](https://www.w3schools.com/java/java_user_input.asp) and
-       use this to play the computer.
+   - **Rock, Paper, Scissors**: You now know enough to rebuild your Rock, Paper, Scissors project! Your project should include the following:
+     - Randomly selects rock, paper, or scissors for each player in the game. You should explore how to use `Math.random()` and `Math.round()` to achieve this.
+     - Determines the winner of the game based on the random values that were selected.
+     - **BONUS**: Explore how to accept user input with a [`Scanner` class](https://www.w3schools.com/java/java_user_input.asp) and use this to play the computer.
 
 ## 2. Object-Oriented Programming in Java
 
 This section covers the following topics:
 
-- **Understanding Object-Oriented Programming**: Understanding the basic
-  concepts of OOP, such as classes, objects, inheritance, and polymorphism.
-- **Creating Classes and Objects**: Creating custom classes and instantiating
-  objects from them.
-- **Encapsulation and Access Modifiers**: Understanding encapsulation and how to
-  use access modifiers to control access to class members.
-- **Inheritance and Polymorphism**: Understanding inheritance and how to use it
-  to create subclasses and implement polymorphism.
+- **Understanding Object-Oriented Programming**: Understanding the basic concepts of OOP, such as classes, objects, inheritance, and polymorphism.
+- **Creating Classes and Objects**: Creating custom classes and instantiating objects from them.
+- **Encapsulation and Access Modifiers**: Understanding encapsulation and how to use access modifiers to control access to class members.
+- **Inheritance and Polymorphism**: Understanding inheritance and how to use it to create subclasses and implement polymorphism.
 
-By completing these tasks you should have a good understanding of
-Object-Oriented Programming concepts, how to create custom classes and
-instantiate objects from them, how to use access modifiers to control access to
-class members, and how to use inheritance and polymorphism to create subclasses
-and implement polymorphism.
+By completing these tasks you should have a good understanding of Object-Oriented Programming concepts, how to create custom classes and instantiate objects from them, how to use access modifiers to control access to class members, and how to use inheritance and polymorphism to create subclasses and implement polymorphism.
 
 ### Tasks
 
@@ -425,9 +388,7 @@ programming skills and efficiency. Good luck!
 
 ## Build Something Using Java! 🔨
 
-You have already built some very powerful initial applications. After completing
-your Java learning plan, try to build out at least one of the applications below
-(or something else that you want to build!):
+You have already built some very powerful initial applications. After completing your Java learning plan, try to build out at least one of the applications below (or something else that you want to build!):
 
 - **Todo List Application** - Create a simple application that allows users to
   create, edit, and delete todo items. You could also add features such as due
