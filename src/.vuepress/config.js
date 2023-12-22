@@ -61,8 +61,10 @@ export default defineUserConfig({
             text: "Microsoft SQL Server",
             link: "/data/microsoft-sql-server.md",
           },
+          { text: "Oracle SQL", link: "/data/oracle-sql.md" },
           { text: "Google BigQuery", link: "/data/big-query.md" },
           { text: "Data Dog", link: "/data/datadog" },
+          { text: "SQL Based Automation", link: "/languages/sql-based-automation.md" },
         ],
       },
       {
@@ -75,10 +77,12 @@ export default defineUserConfig({
           { text: "Jest", link: "/tooling/jest.md" },
           { text: "Junit", link: "/tooling/junit.md" },
           { text: "Kafka", link: "/tooling/kafka.md" },
+          { text: "Linux Administration", link: "/tooling/linux-administration.md" },
+          { text: "Selenium", link: "/tooling/selenium.md" },
           { text: "Protobuf", link: "/tooling/protobuf" },
           { text: "REST Assured", link: "/tooling/rest-assured.md" },
           { text: "VS Code", link: "/ides/vscode" },
-          { text: "Visual Studio", link: "/ides/visual-studio" }
+          { text: "Visual Studio", link: "/ides/visual-studio" },
         ],
       },
       {
