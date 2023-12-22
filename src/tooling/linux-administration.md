@@ -27,8 +27,7 @@ administrative tasks.
 
 ## #checkoutTheDocs 🔍
 
-- **edX Linux Foundation**:
-  [Linux Courses](https://www.edx.org/school/linuxfoundationx)
+- **edX Linux Foundation**: [Linux Courses](https://www.edx.org/school/linuxfoundationx)
 - **Linux Documentation**: [Linux Documentation Project](https://tldp.org/)
 
 ## 1. Introduction to Linux

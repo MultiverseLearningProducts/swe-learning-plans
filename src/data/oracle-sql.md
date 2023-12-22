@@ -1,7 +1,6 @@
 # Oracle SQL
 
-Oracle SQL is a powerful database query language used to interact with Oracle Database. It allows users to retrieve, manipulate, and manage data stored in relational databases. This learning plan is designed to guide you through the fundamental concepts of Oracle SQL over the course of several sessions. By the end of this plan, you should have a solid foundation in querying databases using
-Oracle SQL.
+Oracle SQL is a powerful database query language used to interact with Oracle Database. It allows users to retrieve, manipulate, and manage data stored in relational databases. This learning plan is designed to guide you through the fundamental concepts of Oracle SQL over the course of several sessions. By the end of this plan, you should have a solid foundation in querying databases using Oracle SQL.
 
 ## Learning Plan Tasks
 
@@ -116,6 +115,8 @@ This section covers the following topics:
 
 By completing these tasks you should be comfortable with creating subqueries, views, and indexes in SQL. You can continue to practice and reinforce your understanding by working through practice exercises and applying what you have learned in real-world scenarios.
 
+### Tasks
+
 1. Subqueries
     - Research what SQL subqueries are and be able to explain the use cases for single-row, multi-row, and correlated subqueries.
     - Create single-row subqueries to retrieve data from one table and use it in the main query.
@@ -139,6 +140,8 @@ This section covers the following topics:
 
 By completing these tasks you should have a good understanding of some advanced SQL concepts and understand the use cases for analytic functions, data partition, and materialized views.
 
+### Tasks
+
 1. Analytic Functions
     - Research [analytic functions](https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Analytic-Functions.html#GUID-527832F7-63C0-4445-8C16-307FA5084056) and understand their use cases.
     - Create analytic functions to compute an aggregate value based on a group of rows.
@@ -158,6 +161,8 @@ This section covers the following topics:
 - Learn about database design principles and apply these principles in new database creation.
 
 By completing these tasks you should have a good understanding of techniques to optimize SQL queries, how to align SQL queries to coding best practices, and how to design SQL databases that are both efficient and scalable.
+
+### Tasks
 
 1. Query Optimization Techniques
     - Research why query optimization is important for programmers working in SQL databases

@@ -1,10 +1,6 @@
 # Selenium Learning Plan
 
-Selenium is a powerful open-source framework for automating web browsers. It is
-widely used for testing web applications but can also be utilized for web
-scraping and other automation tasks. This learning plan is designed to guide you
-through the fundamental concepts and skills needed to become proficient in
-Selenium.
+Selenium is a powerful open-source framework for automating web browsers. It is widely used for testing web applications but can also be utilized for web scraping and other automation tasks. This learning plan is designed to guide you through the fundamental concepts and skills needed to become proficient in Selenium.
 
 ## Learning Plan Tasks
 
@@ -24,18 +20,14 @@ Selenium.
 
 ## #checkoutTheDocs 🔍
 
-- **Selenium Documentation**:
-  [Official Documentation](https://www.selenium.dev/documentation/en/)
+- **Selenium Documentation**: [Official Documentation](https://www.selenium.dev/documentation/en/)
 
-## 1. Introduction to Selenium
+## 1. Introduction and Setting Up  Selenium
 
 - **What is Selenium?**: Understand the basics of Selenium and its role in web
   automation.
 - **Selenium Components**: Learn about Selenium WebDriver, Selenium Grid, and
   Selenium IDE.
-
-## 2. Setting Up Selenium
-
 - **Setting Up WebDriver**: Install and configure Selenium WebDriver for your
   preferred programming language (e.g., Java, Python).
 - **IDE Setup**: Set up an Integrated Development Environment (IDE) for Selenium
@@ -45,8 +37,7 @@ Selenium.
 
 - **First Selenium Script**: Write a basic Selenium script to open a browser and
   navigate to a website.
-- **Understanding WebDriver Commands**: Learn common WebDriver commands (e.g.,
-  `get`, `findElement`, `click`).
+- **Understanding WebDriver Commands**: Learn common WebDriver commands (e.g. `get`, `findElement`, `click`).
 
 ## 4. Locators in Selenium
 
@@ -64,10 +55,8 @@ Selenium.
 
 ## 6. Selenium WebDriver Commands
 
-- **Navigation Commands**: Explore navigation commands like `navigate().to()`,
-  `navigate().back()`, and `navigate().forward()`.
-- **Window Handling**: Learn how to handle browser windows using Selenium
-  WebDriver.
+- **Navigation Commands**: Explore navigation commands like `navigate().to()`, `navigate().back()`, and `navigate().forward()`.
+- **Window Handling**: Learn how to handle browser windows using Selenium WebDriver.
 
 ## 7. Working with Frames and Alerts
 
@@ -79,8 +68,7 @@ Selenium.
 
 - **Introduction to Synchronization**: Understand the need for synchronization
   in Selenium.
-- **Implicit and Explicit Waits**: Implement implicit and explicit waits for
-  better synchronization.
+- **Implicit and Explicit Waits**: Implement implicit and explicit waits for better synchronization.
 
 ## 9. Handling Dropdowns and Multiple Windows
 
