@@ -1,45 +1,26 @@
 # SQL
 
-Structured Query Language (SQL) is a programming language used to manage and
-manipulate relational databases. It was first developed in the 1970s by IBM
-researchers, who were looking for a way to query and manage data stored in
-relational databases.
+Structured Query Language (SQL) is a programming language used to manage and manipulate relational databases. It was first developed in the 1970s by IBM researchers, who were looking for a way to query and manage data stored in relational databases.
 
-SQL has since become the standard language for relational database management
-systems (RDBMS), and is used by many popular database systems, including MySQL,
-Oracle, Microsoft SQL Server, and PostgreSQL.
+SQL has since become the standard language for relational database management systems (RDBMS), and is used by many popular database systems, including MySQL, Oracle, Microsoft SQL Server, and PostgreSQL.
 
-Learning SQL is an important skill for anyone who works with data, including
-analysts, developers, and data scientists. It allows you to extract insights
-from large sets of data and to manipulate and manage databases efficiently.
+Learning SQL is an important skill for anyone who works with data, including analysts, developers, and data scientists. It allows you to extract insights from large sets of data and to manipulate and manage databases efficiently.
 
-In this learning plan, you will be introduced to SQL through a step-by-step
-process that covers the basics of SQL, filtering and sorting data, advanced
-queries, modifying data, and advanced topics like subqueries, aggregate
-functions, and views.
+In this learning plan, you will be introduced to SQL through a step-by-step process that covers the basics of SQL, filtering and sorting data, advanced queries, modifying data, and advanced topics like subqueries, aggregate functions, and views.
 
-By the end of this learning plan, you will have a solid foundation in SQL and
-the ability to write SQL queries to manipulate and manage data in a variety of
-contexts. With SQL being such an essential tool for data management and
-analysis, mastering it will give you a valuable skill set for many industries
-and applications.
+By the end of this learning plan, you will have a solid foundation in SQL and the ability to write SQL queries to manipulate and manage data in a variety of contexts. With SQL being such an essential tool for data management and analysis, mastering it will give you a valuable skill set for many industries and applications.
 
 ## #checkoutTheDocs 🔍
 
 Here are some free online resources that you can use to learn SQL:
 
-- **Free Code Camp**:
-  [Relational Databases](https://www.freecodecamp.org/learn/relational-database/)
+- **Free Code Camp**: [Relational Databases](https://www.freecodecamp.org/learn/relational-database/)
 - **Codecademy**: [Learn SQL](https://www.codecademy.com/learn/learn-sql)
 - **W3Schools**: [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
-- **Khan Academy**:
-  [Intro to SQL](https://www.khanacademy.org/computing/computer-programming/sql#further-learning-in-sql)
-- **SQLBolt**:
-  [Learn SQL with a series of interactive SQL tutorials](https://sqlbolt.com/)
-- **Stanford University**:
-  [Databases: Relational Databases and SQL](https://online.stanford.edu/courses/soe-ydatabases0005-databases-relational-databases-and-sql)
-- **Coursera**:
-  [SQL Courses](https://www.coursera.org/search?query=sql&specialization=ibm-data-analyst&utm_medium=sem&utm_source=gg&utm_campaign=B2C_NAMER_ibm-data-analyst_ibm_FTCOF_professional-certificates_country-US-country-CA&campaignid=19984826761&adgroupid=147671564346&device=c&keyword=&matchtype=&network=g&devicemodel=&adposition=&creativeid=655104109350&hide_mobile_promo=&gclid=Cj0KCQjwsIejBhDOARIsANYqkD1bqIZBW8RDuFNviWW22c2m4JH0EljUzrb5eVhyqXNkad_yJmO0tU0aAoh2EALw_wcB)
+- **Khan Academy**: [Intro to SQL](https://www.khanacademy.org/computing/computer-programming/sql#further-learning-in-sql)
+- **SQLBolt**: [Learn SQL with a series of interactive SQL tutorials](https://sqlbolt.com/)
+- **Stanford University**: [Databases: Relational Databases and SQL](https://online.stanford.edu/courses/soe-ydatabases0005-databases-relational-databases-and-sql)
+- **Coursera**: [SQL Courses](https://www.coursera.org/search?query=sql&specialization=ibm-data-analyst&utm_medium=sem&utm_source=gg&utm_campaign=B2C_NAMER_ibm-data-analyst_ibm_FTCOF_professional-certificates_country-US-country-CA&campaignid=19984826761&adgroupid=147671564346&device=c&keyword=&matchtype=&network=g&devicemodel=&adposition=&creativeid=655104109350&hide_mobile_promo=&gclid=Cj0KCQjwsIejBhDOARIsANYqkD1bqIZBW8RDuFNviWW22c2m4JH0EljUzrb5eVhyqXNkad_yJmO0tU0aAoh2EALw_wcB)
 
 ## 1. Introduction to SQL
 
@@ -50,10 +31,7 @@ This section covers the following topics:
 - Understand basic concepts such as tables, rows, columns, and databases
 - Learn how to write basic queries using `SELECT`, `FROM`, and `WHERE` clauses
 
-By completing these tasks you should have a basic understanding of SQL and be
-able to write simple queries to retrieve data from a database. You can continue
-to practice and reinforce your understanding by working through practice
-exercises and applying what you have learned in real-world scenarios.
+By completing these tasks you should have a basic understanding of SQL and be able to write simple queries to retrieve data from a database. You can continue to practice and reinforce your understanding by working through practice exercises and applying what you have learned in real-world scenarios.
 
 ### Tasks
 
@@ -246,23 +224,11 @@ practice exercises and applying what you have learned in real-world scenarios.
 
 Here are a few project ideas that you can work on to practice your SQL skills:
 
-- **Movie or Book Database**: Create a database of your favorite movies or books
-  with details such as title, author/ director, release year, genre, and rating.
-  Write SQL queries to retrieve specific data, such as all the movies released
-  in a particular year or all the books in a specific genre.
-- **E-Commerce Database**: Build a simple e-commerce website database that
-  stores information about customers, orders, and products. Write SQL queries to
-  retrieve customer order history or to track inventory levels.
-- **News Database**: Design a database for a blog or news website that stores
-  articles, authors, and comments. Write SQL queries to display the most popular
-  articles, show recent comments, or retrieve articles by a specific author.
-- **Social Media Member Management**: Create a social media database that stores
-  information about users, posts, and comments. Write SQL queries to display a
-  user's posts, retrieve all comments on a post, or show the most active users.
-- **Sports Information Database**: Build a database for a sports team or league
-  that stores information about players, games, and scores. Write SQL queries to
-  retrieve information about a specific game, show the top-scoring players, or
-  display a team's win-loss record.
+- **Movie or Book Database**: Create a database of your favorite movies or books with details such as title, author/ director, release year, genre, and rating. Write SQL queries to retrieve specific data, such as all the movies released in a particular year or all the books in a specific genre.
+- **E-Commerce Database**: Build a simple e-commerce website database that stores information about customers, orders, and products. Write SQL queries to retrieve customer order history or to track inventory levels.
+- **News Database**: Design a database for a blog or news website that stores articles, authors, and comments. Write SQL queries to display the most popular articles, show recent comments, or retrieve articles by a specific author.
+- **Social Media Member Management**: Create a social media database that stores information about users, posts, and comments. Write SQL queries to display a user's posts, retrieve all comments on a post, or show the most active users.
+- **Sports Information Database**: Build a database for a sports team or league that stores information about players, games, and scores. Write SQL queries to retrieve information about a specific game, show the top-scoring players, or display a team's win-loss record.
 
 ## Next Steps
 
